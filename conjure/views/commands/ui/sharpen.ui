@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="SharpenCommands" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+        <child>
+          <object class="GtkDropDown" id="sharpen_dropdown">
+            <property name="valign">center</property>
+            <!-- <property name="selected">0</property> -->
+            <property name="model">
+              <object class="GtkStringList">
+                <items>
+                  <item>Normal</item>
+                  <item>Adaptive</item>
+                  <item>Unsharp Mask</item>
+                </items>
+              </object>
+            </property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwBin" id="parameters_bin">
+            <!-- <property name="hexpand">true</property> -->
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <property name="halign">fill</property>
+            <property name="valign">fill</property>
+
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+</interface>

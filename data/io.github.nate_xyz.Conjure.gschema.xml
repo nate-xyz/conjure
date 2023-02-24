@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="conjure">
+	<schema id="io.github.nate_xyz.Conjure" path="/io/github/nate_xyz/Conjure/">
+	</schema>
+</schemalist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Posterize" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Dither</property>
+            <property name="subtitle" translatable="yes">Dither method to apply.</property>
+            <property name="activatable-widget">dropdown</property>
+  
+            <child>
+              <object class="GtkDropDown" id="dropdown">
+                <property name="valign">center</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Undefined</item>
+                      <item>No</item>
+                      <item>Riemersma</item>
+                      <item>Floyd Steinberg</item>
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Levels</property>
+            <property name="activatable-widget">levels_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="levels_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">levels_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+        
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="levels_adj">
+    <property name="lower">0</property>
+    <property name="upper">1000</property>
+    <property name="value">32</property>
+    <property name="step_increment">4</property>
+  </object>
+
+</interface>

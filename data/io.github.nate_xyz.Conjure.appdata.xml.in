@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>io.github.nate_xyz.Conjure.desktop</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>GPL-3.0-or-later</project_license>
+	<name>Conjure</name>
+	<summary>Magically transform images</summary>
+  <developer_name>nate-xyz</developer_name>
+	<description>
+	  <p>Apply various ImageMagick commands to your images, including resizing, cropping, rotating, flipping, and applying filters and effects.</p>
+	</description>
+
+	<provides>io.github.nate_xyz.Conjure.desktop</provides>
+  <launchable type="desktop-id">io.github.nate_xyz.Conjure.desktop</launchable>
+
+  <url type="homepage">https://github.com/nate-xyz/conjure</url>
+  <url type="bugtracker">https://github.com/nate-xyz/conjure/issues</url>
+  <url type="donation">https://ko-fi.com/natexyz</url>
+
+	<releases>
+    <release version="0.1.0" date="2023-02-24"/>
+  </releases>
+
+	<translation type="gettext">conjure</translation>
+  <kudos>
+    <kudo>ModernToolkit</kudo>
+    <kudo>HiDpiIcon</kudo>
+  </kudos>
+  <custom>
+    <value key="Purism::form_factor">workstation</value>
+  </custom>
+  <content_rating type="oars-1.1"/>
+
+	<categories>
+    <category>Graphics</category>
+    <category>ImageProcessing</category>
+  </categories>
+	
+</component>

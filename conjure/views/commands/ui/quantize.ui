@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Quantize" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="spacing">5</property>
+
+        <child>
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="spacing">10</property>
+            <child>
+              <object class="AdwActionRow">
+                <property name="title" translatable="yes">Dither</property>
+                <property name="subtitle" translatable="yes">Perform dither operation between neighboring pixel values.</property>
+                <property name="activatable-widget">dither_dropdown</property>
+      
+                <child>
+                  <object class="GtkDropDown" id="dither_dropdown">
+                    <property name="valign">center</property>
+                    <property name="model">
+                      <object class="GtkStringList">
+                        <items>
+                          <item>Undefined</item>
+                          <item>No</item>
+                          <item>Riemersma</item>
+                          <item>Floyd Steinberg</item>
+                        </items>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+    
+      
+              </object>
+            </child>
+    
+            <child>
+              <object class="AdwActionRow">
+                <property name="title" translatable="yes">Color Space</property>
+
+                <property name="activatable-widget">colorspace_dropdown</property>
+      
+                <child>
+                  <object class="GtkDropDown" id="colorspace_dropdown">
+                    <property name="valign">center</property>
+                    <property name="model">
+                      <object class="GtkStringList">
+                        <items>
+                          <item>Undefined</item>
+                          <item>RGB</item>
+                          <item>Grayscale</item>
+                          <item>Transparent</item>
+                          <item>Ohta</item>
+                          <item>LAB</item>
+                          <item>XYZ</item>
+                          <item>YCbCr</item>
+                          <item>YCC</item>
+                          <item>YIQ</item>
+                          <item>YPbPr</item>
+                          <item>YUV</item>
+                          <item>CMYK</item>
+                          <item>sRGB</item>
+                          <item>HSB</item>
+                          <item>HSL</item>
+                          <item>HWB</item>
+                          <item>Rec.601 YCbCr</item>
+                          <item>Rec.709 YCbCr</item>
+                          <item>Log</item>
+                          <item>CMY</item>
+                          <item>Luv</item>
+                          <item>HCL</item>
+                          <item>LCH</item>
+                          <item>LMS</item>
+                          <item>LCHab</item>
+                          <item>LCHuv</item>
+                          <item>scRGB</item>
+                          <item>HSI</item>
+                          <item>HSV</item>
+                          <item>HCLp</item>
+                          <item>xyY</item>
+                          <item>YDbDr</item>
+                        </items>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+      
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+        <child>
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="spacing">10</property>
+
+            <child>
+              <object class="AdwActionRow">
+                <property name="title" translatable="yes">Number of Colors</property>
+                <property name="subtitle" translatable="yes">The target number of colors to reduce the image to.</property>
+
+                <property name="activatable-widget">levels_spin</property>
+      
+                <child>
+                  <object class="GtkSpinButton" id="levels_spin">
+                    <property name="valign">center</property>
+                    <property name="adjustment">levels_adj</property>
+                    <property name="numeric">true</property>
+                    <property name="digits">0</property>
+                    <property name="wrap">true</property>
+                  </object>
+                </child>
+      
+              </object>
+            </child>
+    
+            <child>
+              <object class="AdwActionRow">
+                <property name="title" translatable="yes">Tree Depth</property>
+                <property name="subtitle" translatable="yes">A value between 0 and 8 where 0 will allow ImageMagick to calculate the optimal depth with Log4(number_colors)</property>
+
+                <property name="activatable-widget">tree_depth_spin</property>
+      
+                <child>
+                  <object class="GtkSpinButton" id="tree_depth_spin">
+                    <property name="valign">center</property>
+                    <property name="adjustment">tree_depth_adj</property>
+                    <property name="numeric">true</property>
+                    <property name="digits">0</property>
+                    <property name="wrap">true</property>
+                  </object>
+                </child>
+      
+              </object>
+            </child>
+            
+
+        <!-- <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Measure Error</property>
+            <property name="subtitle" translatable="yes">Include total quantization error of all pixels in an image and quantized value.</property>
+            <property name="activatable-widget">error_check</property>
+  
+            <child>
+              <object class="GtkCheckButton" id="error_check">
+                <property name="valign">center</property>
+              </object>
+            </child>
+  
+          </object>
+        </child> -->
+
+          </object>
+        </child>
+
+
+
+        
+
+
+        
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="levels_adj">
+    <property name="lower">0</property>
+    <property name="upper">1000</property>
+    <property name="value">8</property>
+    <property name="step_increment">1</property>
+  </object>
+
+  <object class="GtkAdjustment" id="tree_depth_adj">
+    <property name="lower">0</property>
+    <property name="upper">8</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+  </object>
+
+</interface>

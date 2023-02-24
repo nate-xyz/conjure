@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="WidthHeightOffset" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Width</property>
+            <property name="subtitle" translatable="yes">Size of neighboring pixels on the X-axis.</property>
+            <property name="activatable-widget">width_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="width_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">width_adj</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Height</property>
+            <property name="subtitle" translatable="yes">Size of neighboring pixels on the Y-axis.</property>
+            <property name="activatable-widget">height_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="height_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">height_adj</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Offset</property>
+            <property name="subtitle" translatable="yes">Forces the pixels to black if values are below offset.</property>
+            <property name="activatable-widget">offset_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="offset_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">offset_adj</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="width_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">16</property>
+    <property name="step_increment">2</property>
+  </object>
+
+  <object class="GtkAdjustment" id="height_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">16</property>
+    <property name="step_increment">2</property>
+  </object>
+
+  <object class="GtkAdjustment" id="offset_adj">
+    <property name="lower">-1.0</property>
+    <property name="upper">1.0</property>
+    <property name="value">-0.03</property>
+    <property name="step_increment">0.01</property>
+  </object>
+  
+</interface>

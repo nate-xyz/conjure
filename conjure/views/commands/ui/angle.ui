@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Angle" parent="AdwBin">
+    <property name="halign">fill</property>
+    <property name="child">
+      <object class="AdwActionRow">
+        <property name="title" translatable="yes">Angle</property>
+        <property name="subtitle" translatable="yes"></property>
+        <property name="activatable-widget">angle_spin</property>
+
+        <child>
+          <object class="GtkSpinButton" id="angle_spin">
+            <property name="valign">center</property>
+            <property name="adjustment">angle_adj</property>
+            <property name="numeric">true</property>
+            <property name="digits">1</property>
+            <property name="wrap">true</property>
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="angle_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">0</property>
+    <property name="step_increment">5</property>
+  </object>
+
+</interface>

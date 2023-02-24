@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="OrderedDither" parent="AdwBin">
+    <property name="child">
+      <object class="GtkDropDown" id="dropdown">
+        <property name="valign">center</property>
+        <property name="model">
+          <object class="GtkStringList">
+            <items>
+              <item translatable="yes">Threshold 1x1 (non-dither)</item>
+              <item translatable="yes">Checkerboard 2x1 (dither)</item>
+              <item translatable="yes">Ordered 2x2 (dispersed)</item>
+              <item translatable="yes">Ordered 3x3 (dispersed)</item>
+              <item translatable="yes">Ordered 4x4 (dispersed)</item>
+              <item translatable="yes">Ordered 8x8 (dispersed)</item>
+              <item translatable="yes">Halftone 4x4 (angled)</item>
+              <item translatable="yes">Halftone 6x6 (angled)</item>
+              <item translatable="yes">Halftone 8x8 (angled)</item>
+              <item translatable="yes">Halftone 4x4 (orthogonal)</item>
+              <item translatable="yes">Halftone 6x6 (orthogonal)</item>
+              <item translatable="yes">Halftone 8x8 (orthogonal)</item>
+              <item translatable="yes">Halftone 16x16 (orthogonal)</item>
+              <item translatable="yes">Circles 5x5 (black)</item>
+              <item translatable="yes">Circles 5x5 (white)</item>
+              <item translatable="yes">Circles 6x6 (black)</item>
+              <item translatable="yes">Circles 6x6 (white)</item>
+              <item translatable="yes">Circles 7x7 (black)</item>
+              <item translatable="yes">Circles 7x7 (white)</item>
+            </items>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+</interface>

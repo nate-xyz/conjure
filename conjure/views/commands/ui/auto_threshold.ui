@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="AutoThreshold" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="halign">fill</property>
+        <property name="hexpand">true</property>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Threshold Method</property>
+            <property name="activatable-widget">dropdown</property>
+  
+            <child>
+              <object class="GtkDropDown" id="dropdown">
+                <property name="valign">center</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Undefined</item>
+                      <item>Kapur</item>
+                      <item>Otsu</item>
+                      <item>Triangle</item>
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+
+  
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+</interface>

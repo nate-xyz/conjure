@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="AmountMethod" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwActionRow" id="radius_row">
+            <property name="title" translatable="yes">Method</property>
+            <property name="subtitle" translatable="yes">Which interpolate method to apply to effected pixels.</property>
+            <property name="activatable-widget">dropdown</property>
+  
+            <child>
+              <object class="GtkDropDown" id="dropdown">
+                <property name="valign">center</property>
+                <!-- <property name="selected">0</property> -->
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Undefined</item>
+                      <item>Average</item>
+                      <item>Average9</item>
+                      <item>Average16</item>
+                      <item>Background</item>
+                      <item>Bilinear</item>
+                      <item>Blend</item>
+                      <item>Catrom</item>
+                      <item>Integer</item>
+                      <item>Mesh</item>
+                      <item>Nearest</item>
+                      <item>Spline</item>
+            
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+
+
+        <child>
+          <object class="AdwActionRow" id="amount_row">
+            <property name="title" translatable="yes">Amount</property>
+            <property name="subtitle" translatable="yes">Normalized degree of effect.</property>
+            <property name="activatable-widget">amount_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="amount_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">amount_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="amount_adj">
+    <property name="lower">0</property>
+    <property name="upper">1.0</property>
+    <property name="value">0.35</property>
+    <property name="step_increment">0.05</property>
+  </object>
+
+</interface>

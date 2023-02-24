@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="Window" parent="AdwApplicationWindow">
+    <property name="handle-menubar-accel">true</property>
+    <property name="default-width">1500</property>
+    <property name="default-height">1100</property>
+    <child>
+      <object class="AdwToastOverlay" id="toast_overlay">
+        <property name="child">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+
+            <child>
+              <object class="AdwHeaderBar">
+                <property name="title-widget">
+                  <object class="AdwWindowTitle">
+                    <property name="title" translatable="yes">Conjure 🪄</property>
+                  </object>
+                </property>
+
+                <child type="start">
+                  <object class="GtkButton" id="open_image_button">
+                    <property name="icon-name">image-round-symbolic</property>
+                    <property name="tooltip-text" translatable="yes">Open Image</property>
+                  </object>
+                </child>
+
+                <child type="end">
+                  <object class="GtkMenuButton">
+                    <property name="icon-name">open-menu-symbolic</property>
+                    <property name="menu-model">primary_menu</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+
+            <!-- MAIN PAGE -->
+            <child>
+              <object class="ImageDropPage" id="image_drop_page"></object>
+            </child>
+
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <!-- <item>
+        <attribute name="label" translatable="yes">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item> -->
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About Conjure</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

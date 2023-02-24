@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="ResizeCommand" parent="AdwBin">
+    <property name="halign">fill</property>
+    <property name="child">
+
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="halign">fill</property>
+
+        <child>
+          <object class="AdwEntryRow" id="width_row">
+            <property name="title" translatable="yes">Width (px)</property>
+            <property name="input-purpose">2</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwEntryRow" id="height_row">
+            <property name="title" translatable="yes">Height (px)</property>
+            <property name="input-purpose">2</property>
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+</interface>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/nate_xyz/Conjure">
+    <!-- VIEWS -->
+    <file alias="image_drop_page.ui" preprocess="xml-stripblanks">views/ui/image_drop_page.ui</file>
+    <file alias="command_panel.ui" preprocess="xml-stripblanks">views/ui/command_panel.ui</file>
+    <file alias="display_image.ui" preprocess="xml-stripblanks">views/ui/display_image.ui</file>
+    <file alias="history_panel.ui" preprocess="xml-stripblanks">views/ui/history_panel.ui</file>
+    <file alias="image_card.ui" preprocess="xml-stripblanks">views/ui/image_card.ui</file>
+    <file alias="save_dialog.ui" preprocess="xml-stripblanks">views/ui/save_dialog.ui</file>
+
+    <!-- COMMANDS -->
+    <file alias="resize.ui" preprocess="xml-stripblanks">views/commands/ui/resize.ui</file>
+    <file alias="crop.ui" preprocess="xml-stripblanks">views/commands/ui/crop.ui</file>
+    <file alias="radius_sigma.ui" preprocess="xml-stripblanks">views/commands/ui/radius_sigma.ui</file>
+    <file alias="radius_sigma_angle.ui" preprocess="xml-stripblanks">views/commands/ui/radius_sigma_angle.ui</file>
+    <file alias="radius_sigma_threshold.ui" preprocess="xml-stripblanks">views/commands/ui/radius_sigma_threshold.ui</file>
+    <file alias="angle.ui" preprocess="xml-stripblanks">views/commands/ui/angle.ui</file>
+    <file alias="blur.ui" preprocess="xml-stripblanks">views/commands/ui/blur.ui</file>
+    <file alias="radius.ui" preprocess="xml-stripblanks">views/commands/ui/radius.ui</file>
+    <file alias="shade.ui" preprocess="xml-stripblanks">views/commands/ui/shade.ui</file>
+    <file alias="sharpen.ui" preprocess="xml-stripblanks">views/commands/ui/sharpen.ui</file>
+    <file alias="radius_sigma_amount_threshold.ui" preprocess="xml-stripblanks">views/commands/ui/radius_sigma_amount_threshold.ui</file>
+    <file alias="factor.ui" preprocess="xml-stripblanks">views/commands/ui/factor.ui</file>
+    <file alias="color_alpha.ui" preprocess="xml-stripblanks">views/commands/ui/color_alpha.ui</file>
+    <file alias="threshold.ui" preprocess="xml-stripblanks">views/commands/ui/threshold.ui</file>
+    <file alias="amount_method.ui" preprocess="xml-stripblanks">views/commands/ui/amount_method.ui</file>
+    <file alias="polaroid.ui" preprocess="xml-stripblanks">views/commands/ui/polaroid.ui</file>
+    <file alias="noise.ui" preprocess="xml-stripblanks">views/commands/ui/noise.ui</file>
+    <file alias="radius_sigma_xy.ui" preprocess="xml-stripblanks">views/commands/ui/radius_sigma_xy.ui</file>
+    <file alias="wave.ui" preprocess="xml-stripblanks">views/commands/ui/wave.ui</file>
+    <file alias="threshold_softness.ui" preprocess="xml-stripblanks">views/commands/ui/threshold_softness.ui</file>
+    <file alias="rotate.ui" preprocess="xml-stripblanks">views/commands/ui/rotate.ui</file>
+    <file alias="statistic.ui" preprocess="xml-stripblanks">views/commands/ui/statistic.ui</file>
+    <file alias="kmeans.ui" preprocess="xml-stripblanks">views/commands/ui/kmeans.ui</file>
+    <file alias="posterize.ui" preprocess="xml-stripblanks">views/commands/ui/posterize.ui</file>
+    <file alias="quantize.ui" preprocess="xml-stripblanks">views/commands/ui/quantize.ui</file>
+    <file alias="width_height_offset.ui" preprocess="xml-stripblanks">views/commands/ui/width_height_offset.ui</file>
+    <file alias="auto_threshold.ui" preprocess="xml-stripblanks">views/commands/ui/auto_threshold.ui</file>
+    <file alias="thresholds.ui" preprocess="xml-stripblanks">views/commands/ui/thresholds.ui</file>
+    <file alias="color_threshold.ui" preprocess="xml-stripblanks">views/commands/ui/color_threshold.ui</file>
+    <file alias="color_threshold_start_stop.ui" preprocess="xml-stripblanks">views/commands/ui/color_threshold_start_stop.ui</file>
+    <file alias="ordered_dither.ui" preprocess="xml-stripblanks">views/commands/ui/ordered_dither.ui</file>
+    <file alias="low_high.ui" preprocess="xml-stripblanks">views/commands/ui/low_high.ui</file>
+    <file alias="low_high_white_black.ui" preprocess="xml-stripblanks">views/commands/ui/low_high_white_black.ui</file>
+    <file alias="fx.ui" preprocess="xml-stripblanks">views/commands/ui/fx.ui</file>
+
+    <!-- MAIN -->
+    <file alias="window.ui" preprocess="xml-stripblanks">ui/window.ui</file>
+    <file alias="help-overlay.ui" preprocess="xml-stripblanks">ui/help-overlay.ui</file>
+    <file>style.css</file>
+  </gresource>
+  <gresource prefix="/io/github/nate_xyz/Conjure/icons/scalable/actions/">
+    <file alias="arrow-into-box-symbolic.svg">assets/icons/arrow-into-box-symbolic.svg</file>  
+    <file alias="document-save-symbolic.svg">assets/icons/document-save-symbolic.svg</file>  
+    <file alias="image-missing-symbolic.svg">assets/icons/image-missing-symbolic.svg</file>
+    <file alias="image-round-symbolic.svg">assets/icons/image-round-symbolic.svg</file>
+    <file alias="magic-wand-symbolic.svg">assets/icons/magic-wand-symbolic.svg</file>      
+  </gresource>
+</gresources>

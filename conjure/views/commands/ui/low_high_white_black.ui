@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="LowHighWhiteBlack" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Low Black</property>
+            <property name="activatable-widget">low_black_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="low_black_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">low_black_adj</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Low White</property>
+            <property name="activatable-widget">low_white_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="low_white_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">low_white_adj</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">High White</property>
+            <property name="activatable-widget">high_white_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="high_white_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">high_white_adj</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">High Black</property>
+            <property name="activatable-widget">high_black_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="high_black_spin">
+                <property name="valign">center</property>
+                <property name="numeric">true</property>
+                <property name="adjustment">high_black_adj</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="low_black_adj">
+    <property name="lower">0</property>
+    <property name="upper">1</property>
+    <property name="value">0.3</property>
+    <property name="step_increment">0.01</property>
+  </object>
+
+  <object class="GtkAdjustment" id="low_white_adj">
+    <property name="lower">0</property>
+    <property name="upper">1</property>
+    <property name="value">0.6</property>
+    <property name="step_increment">0.01</property>
+  </object>
+
+  <object class="GtkAdjustment" id="high_white_adj">
+    <property name="lower">0</property>
+    <property name="upper">1</property>
+    <property name="value">0.3</property>
+    <property name="step_increment">0.01</property>
+  </object>
+
+  <object class="GtkAdjustment" id="high_black_adj">
+    <property name="lower">0</property>
+    <property name="upper">1</property>
+    <property name="value">0.6</property>
+    <property name="step_increment">0.01</property>
+  </object>
+
+  
+</interface>

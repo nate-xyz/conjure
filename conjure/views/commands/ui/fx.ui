@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="FXExpression" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwEntryRow" id="entry_row">
+            <property name="title" translatable="yes">FX Expression</property>
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+</interface>

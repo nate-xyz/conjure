@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Radius" parent="AdwBin">
+    <property name="halign">fill</property>
+    <property name="child">
+      <object class="AdwActionRow" id="radius_row">
+        <property name="title" translatable="yes">Radius</property>
+        <property name="subtitle" translatable="yes">The size of the Gaussian operator.</property>
+        <property name="activatable-widget">radius_spin</property>
+
+        <child>
+          <object class="GtkSpinButton" id="radius_spin">
+            <property name="valign">center</property>
+            <property name="adjustment">radius_adj</property>
+            <property name="numeric">true</property>
+            <property name="digits">1</property>
+            <property name="wrap">true</property>
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+
+  <object class="GtkAdjustment" id="radius_adj">
+    <property name="lower">0</property>
+    <property name="upper">100</property>
+    <property name="value">1.5</property>
+    <property name="step_increment">0.1</property>
+  </object>
+
+</interface>

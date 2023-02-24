@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="DisplayImage" parent="AdwBin">
+    <property name="hexpand">true</property>
+    <property name="vexpand">true</property>
+    <property name="halign">fill</property>
+    <property name="valign">fill</property>
+    <property name="child">
+      <object class="GtkOverlay" id="overlay">
+        <property name="hexpand">true</property>
+        <property name="vexpand">true</property>
+        <property name="halign">fill</property>
+        <property name="valign">fill</property>
+
+        <property name="child">
+          <object class="GtkBox">
+            <property name="homogeneous">true</property>
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <property name="halign">fill</property>
+            <property name="valign">fill</property>
+    
+            <child>
+              <object class="AdwBin" id="image_bin">
+                <!-- <property name="hexpand">true</property> -->
+                <property name="hexpand">true</property>
+                <property name="vexpand">true</property>
+                <property name="halign">fill</property>
+                <property name="valign">fill</property>
+    
+              </object>
+            </child>
+    
+            <child>
+              <object class="AdwBin" id="new_image_bin">
+                <property name="visible">false</property>
+                <!-- <property name="hexpand">true</property> -->
+                <property name="hexpand">true</property>
+                <property name="vexpand">true</property>
+                <property name="halign">fill</property>
+                <property name="valign">fill</property>
+    
+              </object>
+            </child>
+    
+          </object>
+        </property>
+
+        <child type="overlay">
+          <object class="GtkBox" id="overlay_box">
+            <property name="hexpand">true</property>
+            <property name="vexpand">true</property>
+            <property name="halign">fill</property>
+            <property name="valign">fill</property>
+            
+            <style>
+              <class name="darken-mas"/>
+            </style>
+
+            <child>
+              <object class="GtkSpinner" id="spinner">
+                <property name="hexpand">true</property>
+                <property name="vexpand">true</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="visible">false</property>
+                <property name="spinning">true</property>
+                <property name="can_focus">false</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+      </object>
+
+
+    </property>
+  </template>
+</interface>

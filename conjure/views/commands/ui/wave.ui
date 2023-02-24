@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Wave" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Amplitude</property>
+            <property name="subtitle" translatable="yes">Height of wave form.</property>
+            <property name="activatable-widget">amplitude_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="amplitude_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">amplitude_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Wave Length</property>
+            <property name="subtitle" translatable="yes">Width of wave form.</property>
+            <property name="activatable-widget">length_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="length_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">length_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Method</property>
+            <property name="subtitle" translatable="yes">Interpolation method.</property>
+            <property name="activatable-widget">dropdown</property>
+  
+            <child>
+              <object class="GtkDropDown" id="dropdown">
+                <property name="valign">center</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Undefined</item>
+                      <item>Average</item>
+                      <item>Average9</item>
+                      <item>Average16</item>
+                      <item>Background</item>
+                      <item>Bilinear</item>
+                      <item>Blend</item>
+                      <item>Catrom</item>
+                      <item>Integer</item>
+                      <item>Mesh</item>
+                      <item>Nearest</item>
+                      <item>Spline</item>
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+        
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="amplitude_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">32</property>
+    <property name="step_increment">1</property>
+  </object>
+
+  <object class="GtkAdjustment" id="length_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">4</property>
+    <property name="step_increment">1</property>
+  </object>
+
+</interface>

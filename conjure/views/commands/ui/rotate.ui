@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Rotate" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwEntryRow" id="color_entry_row">
+            <property name="title" translatable="yes">Background Color (optional)</property>
+          </object>
+        </child>
+
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Degree</property>
+            <property name="subtitle" translatable="yes">Degree to rotate.</property>
+            <property name="activatable-widget">angle_spin</property>
+
+            <child>
+              <object class="GtkSpinButton" id="angle_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">angle_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">0</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="angle_adj">
+    <property name="lower">0</property>
+    <property name="upper">360</property>
+    <property name="value">90</property>
+    <property name="step_increment">5</property>
+  </object>
+
+</interface>

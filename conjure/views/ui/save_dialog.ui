@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="SaveImageDialog" parent="AdwMessageDialog">
+    <property name="heading" translatable="yes">Save Image?</property>
+    <property name="destroy-with-parent">true</property>
+
+
+    <property name="width-request">500</property>
+    <property name="close-response">cancel</property>
+    <property name="default-response">save</property>
+
+    <signal name="response::save" handler="dialog_response"/>
+
+    <responses>
+      <response id="cancel" translatable="yes">_Cancel</response>
+      <response id="save" translatable="yes" appearance="suggested" enabled="true">_Save</response>
+    </responses>
+
+    <property name="extra-child">
+        <object class="AdwBin" id="image_bin">
+        
+        </object>
+    </property>
+  </template>
+</interface>

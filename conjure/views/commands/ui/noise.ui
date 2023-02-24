@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="adw" version="1.0" />
+  <template class="Noise" parent="AdwBin">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Noise</property>
+            <property name="subtitle" translatable="yes">Type of noise to apply</property>
+            <property name="activatable-widget">dropdown</property>
+  
+            <child>
+              <object class="GtkDropDown" id="dropdown">
+                <property name="valign">center</property>
+                <property name="selected">5</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Undefined</item>
+                      <item>Uniform</item>
+                      <item>Gaussian</item>
+                      <item>Multiplicative Gaussian</item>
+                      <item>Impulse</item>
+                      <item>Laplacian</item>
+                      <item>Poisson</item>
+                      <item>Random</item>
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+        
+        <child>
+          <object class="AdwActionRow" id="attenuate_row">
+            <property name="title" translatable="yes">Attenuate</property>
+            <property name="subtitle" translatable="yes">Rate of distribution.</property>
+            <property name="activatable-widget">attenuate_spin</property>
+  
+            <child>
+              <object class="GtkSpinButton" id="attenuate_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">attenuate_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">2</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+  
+          </object>
+        </child>
+
+
+
+
+
+
+
+      </object>
+    </property>
+  </template>
+
+  <object class="GtkAdjustment" id="attenuate_adj">
+    <property name="lower">-1000</property>
+    <property name="upper">1000</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+  </object>
+
+</interface>
