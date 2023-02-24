@@ -39,9 +39,9 @@ class SaveImageDialog(Adw.MessageDialog):
                                                             parent=self.window, 
                                                             accept_label=_("Save"))
 
-            folder = Gio.File.new_for_path(self.magic.folder)
+            #folder = Gio.File.new_for_path(self.magic.folder)
 
-            self.save_dialog.set_current_folder(folder)
+            #self.save_dialog.set_current_folder(folder)
 
             name, ext = os.path.splitext(self.magic.file_name)
 
@@ -53,13 +53,15 @@ class SaveImageDialog(Adw.MessageDialog):
     @Gtk.Template.Callback()
     def dialog_response(self, _dialog, response):
         logger.debug(response)
+        logger.debug(response)
         if response == 'save':
             self.save_dialog.show()
 
     def save_response(self, dialog, response):
         if response == Gtk.ResponseType.ACCEPT:
             try:
-                new_uri = os.path.join(dialog.get_current_folder().get_path(), dialog.get_current_name())
+                new_uri = dialog.get_file().get_path()
+                logger.debug(f"saving file to {new_uri}")
                 if self.magic.save(new_uri):
                     self.window.add_success_toast(_("Saved!"), _(f"New image: {dialog.get_current_name()}"))
                 else:
