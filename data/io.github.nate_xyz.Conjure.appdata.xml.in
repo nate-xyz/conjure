@@ -35,5 +35,11 @@
     <category>Graphics</category>
     <category>ImageProcessing</category>
   </categories>
-	
+
+	<screenshots>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/nate-xyz/conjure/main/data/screenshots/conjure-0.png</image>
+    </screenshot>
+  </screenshots>
+
 </component>

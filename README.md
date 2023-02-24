@@ -10,3 +10,5 @@ An intuitive tool for designers, artists, or just someone who wants to enhance t
 Built on top of the popular image processing library, ImageMagick.
 
 <br><br>
+
+![Screenshot 0](./data/screenshots/conjure-0.png)
