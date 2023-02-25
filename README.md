@@ -7,7 +7,7 @@ Magically transform your images with Conjure.
 Resize, crop, rotate, flip images, apply various filters and effects, adjust levels and brightness, and much more.
 An intuitive tool for designers, artists, or just someone who wants to enhance their images.
 
-Built on top of the popular image processing library, ImageMagick.
+Built on top of the popular image processing library, [ImageMagick](https://github.com/ImageMagick/ImageMagick) with python bindings from [Wand](https://github.com/emcconville/wand).
 
 <br><br>
 
