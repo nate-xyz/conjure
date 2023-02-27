@@ -13,112 +13,95 @@
     </style>
     
     <property name="child">
-      <object class="AdwClamp">
-        <property name="maximum-size">500</property>
-        <property name="child">
+      <object class="GtkBox" id="control_box">
+
+        <property name="halign">center</property>
+        <property name="hexpand">true</property>
+        <property name="vexpand">true</property>
+        <property name="valign">fill</property>
+
+        <property name="margin-start">10</property>
+        <property name="margin-end">10</property>
+        <property name="margin-top">10</property>
+        <property name="margin-bottom">10</property>
+
+        <child>
           <object class="GtkBox">
-            <property name="hexpand">true</property>
+            <!-- <property name="orientation">vertical</property> -->
             <property name="halign">fill</property>
-            <!-- <property name="width-request">100</property> -->
+            <property name="hexpand">true</property>
+            <property name="spacing">10</property>
 
 
             <child>
-              <object class="GtkBox" id="control_box">
+              <object class="GtkDropDown" id="command_dropdown">
+                <property name="enable-search">true</property>
+                <property name="valign">center</property>
+                <property name="expression">
+                  <lookup name="string" type="GtkStringObject"></lookup>
+                </property>
 
-                <property name="halign">fill</property>
-                <property name="hexpand">true</property>
-
-                <!-- <property name="orientation">vertical</property> -->
-                <!-- <property name="orientation">vertical</property> -->
-                <!-- <property name="hexpand">true</property>
-                <property name="vexpand">true</property>
-                <property name="halign">fill</property>
-                <property name="valign">fill</property> -->
-
-                <property name="margin-start">10</property>
-                <property name="margin-end">10</property>
-                <property name="margin-top">10</property>
-                <property name="margin-bottom">10</property>
-                <property name="spacing">10</property>
-
-                <child>
-                  <object class="GtkBox">
-                    <property name="orientation">vertical</property>
-                    <property name="spacing">10</property>
-                    <property name="halign">fill</property>
-                    <property name="hexpand">true</property>
-
-
-                    <child>
-                      <object class="GtkDropDown" id="command_dropdown">
-                        <property name="enable-search">true</property>
-                        <property name="valign">center</property>
-                        <property name="expression">
-                          <lookup name="string" type="GtkStringObject"></lookup>
-                        </property>
-
-                        <property name="model">
-                          <object class="GtkStringList">
-                            <items>
-                              <item>Select Command</item>                              <!-- 0 -->
-                              <item>Resize</item>                              <!-- 1 -->
-                              <item>Crop</item>                              <!-- 2 -->
-                              <!--<item translatable="yes">Transform</item>-->                              <!-- Commented Out -->
-                              <item>Seam Carving</item>                              <!-- 3 -->
-                              <item>Blur</item>                              <!-- 4 -->
-                              <item>Despeckle</item>                              <!-- 5 -->
-                              <item>Edge</item>                              <!-- 6 -->
-                              <item>Emboss</item>                              <!-- 7 -->
-                              <item>Kuwahara</item>                              <!-- 8 -->
-                              <item>Shade</item>                              <!-- 9 -->
-                              <item>Sharpen</item>                              <!-- 10 -->
-                              <item>Spread</item>                              <!-- 11 -->
-                              <item>Add Noise</item>                              <!-- 12 -->
-                              <item>Blueshift</item>                              <!-- 13 -->
-                              <item>Charcoal</item>                              <!-- 14 -->
-                              <!--<item translatable="yes">Color Matrix</item>-->                              <!-- Commented Out -->
-                              <item>Colorize</item>                              <!-- 15 -->
-                              <item>FX</item>                              <!-- 16 -->
-                              <item>Implode</item>                              <!-- 17 -->
-                              <item>Polaroid</item>                              <!-- 18 -->
-                              <item>Sepia Tone</item>                              <!-- 19 -->
-                              <item>Sketch</item>                              <!-- 20 -->
-                              <item>Solarize</item>                              <!-- 21 -->
-                              <!--<item translatable="yes">Stereogram</item>-->                              <!-- Commented Out -->
-                              <item>Swirl</item>                              <!-- 22 -->
-                              <item>Tint</item>                              <!-- 23 -->
-                              <item>Vignette</item>                              <!-- 24 -->
-                              <item>Wave</item>                              <!-- 25 -->
-                              <item>Wavelet Denoise</item>                              <!-- 26 -->
-                              <item>Enhance</item>                              <!-- 27 -->
-                              <item>Flip</item>                              <!-- 28 -->
-                              <item>Flop</item>                              <!-- 29 -->
-                              <item>Rotation</item>                              <!-- 30 -->
-                              <item>Statistic</item>                              <!-- 31 -->
-                              <item>KMeans</item>                              <!-- 32 -->
-                              <item>Posterize</item>                              <!-- 33 -->
-                              <item>Quantize</item>                              <!-- 34 -->
-                              <item>Ordered Dither</item>                         <!-- 35 -->
-                              <!--<item translatable="yes">Quantize Remap</item>-->                              <!-- Commented Out -->
-                              <item>Threshold</item>                              <!-- 36 -->
-                            </items>
-                          </object>
-                        </property>
-                      </object>
-                    </child>
-
-
-                    <child>
-                      <object class="AdwBin" id="parameters_bin"></object>
-                    </child>
-
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item>Select Command</item>                              <!-- 0 -->
+                      <item>Resize</item>                              <!-- 1 -->
+                      <item>Crop</item>                              <!-- 2 -->
+                      <!--<item translatable="yes">Transform</item>-->                              <!-- Commented Out -->
+                      <item>Seam Carving</item>                              <!-- 3 -->
+                      <item>Blur</item>                              <!-- 4 -->
+                      <item>Despeckle</item>                              <!-- 5 -->
+                      <item>Edge</item>                              <!-- 6 -->
+                      <item>Emboss</item>                              <!-- 7 -->
+                      <item>Kuwahara</item>                              <!-- 8 -->
+                      <item>Shade</item>                              <!-- 9 -->
+                      <item>Sharpen</item>                              <!-- 10 -->
+                      <item>Spread</item>                              <!-- 11 -->
+                      <item>Add Noise</item>                              <!-- 12 -->
+                      <item>Blueshift</item>                              <!-- 13 -->
+                      <item>Charcoal</item>                              <!-- 14 -->
+                      <!--<item translatable="yes">Color Matrix</item>-->                              <!-- Commented Out -->
+                      <item>Colorize</item>                              <!-- 15 -->
+                      <item>FX</item>                              <!-- 16 -->
+                      <item>Implode</item>                              <!-- 17 -->
+                      <item>Polaroid</item>                              <!-- 18 -->
+                      <item>Sepia Tone</item>                              <!-- 19 -->
+                      <item>Sketch</item>                              <!-- 20 -->
+                      <item>Solarize</item>                              <!-- 21 -->
+                      <!--<item translatable="yes">Stereogram</item>-->                              <!-- Commented Out -->
+                      <item>Swirl</item>                              <!-- 22 -->
+                      <item>Tint</item>                              <!-- 23 -->
+                      <item>Vignette</item>                              <!-- 24 -->
+                      <item>Wave</item>                              <!-- 25 -->
+                      <item>Wavelet Denoise</item>                              <!-- 26 -->
+                      <item>Enhance</item>                              <!-- 27 -->
+                      <item>Flip</item>                              <!-- 28 -->
+                      <item>Flop</item>                              <!-- 29 -->
+                      <item>Rotation</item>                              <!-- 30 -->
+                      <item>Statistic</item>                              <!-- 31 -->
+                      <item>KMeans</item>                              <!-- 32 -->
+                      <item>Posterize</item>                              <!-- 33 -->
+                      <item>Quantize</item>                              <!-- 34 -->
+                      <item>Ordered Dither</item>                         <!-- 35 -->
+                      <!--<item translatable="yes">Quantize Remap</item>-->                              <!-- Commented Out -->
+                      <item>Threshold</item>                              <!-- 36 -->
+                    </items>
                   </object>
-                </child>
-
+                </property>
               </object>
             </child>
+
+
+            <child>
+              <object class="AdwBin" id="parameters_bin">
+                <property name="halign">fill</property>
+                <property name="hexpand">true</property>
+              </object>
+            </child>
+
           </object>
-        </property>
+        </child>
+
       </object>
     </property>
   </template>

@@ -5,7 +5,6 @@
   <template class="AmountMethod" parent="AdwBin">
     <property name="child">
       <object class="GtkBox">
-        <property name="orientation">vertical</property>
         <property name="spacing">10</property>
 
         <child>

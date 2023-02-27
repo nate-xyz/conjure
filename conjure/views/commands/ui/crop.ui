@@ -7,7 +7,7 @@
       <object class="GtkBox">
         <child>
           <object class="GtkBox">
-            <property name="orientation">vertical</property>
+            <!-- <property name="orientation">vertical</property> -->
             <property name="halign">fill</property>
             
             <child>
@@ -49,7 +49,7 @@
         </child>
         <child>
           <object class="GtkBox">
-            <property name="orientation">vertical</property>
+            <!-- <property name="orientation">vertical</property> -->
             <property name="halign">fill</property>
       
             <child>

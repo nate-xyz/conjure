@@ -5,7 +5,7 @@
   <template class="LowHighWhiteBlack" parent="AdwBin">
     <property name="child">
       <object class="GtkBox">
-        <property name="orientation">vertical</property>
+        <!-- <property name="orientation">vertical</property> -->
         
         <child>
           <object class="AdwActionRow">
