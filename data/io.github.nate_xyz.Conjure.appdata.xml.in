@@ -18,6 +18,13 @@
   <url type="donation">https://ko-fi.com/natexyz</url>
 
 	<releases>
+    <release version="0.1.1" date="2023-02-27">
+      <description>
+        <ul>
+          <li>UI changes</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2023-02-24"/>
   </releases>
 
