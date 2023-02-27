@@ -98,8 +98,9 @@
                               <item>KMeans</item>                              <!-- 32 -->
                               <item>Posterize</item>                              <!-- 33 -->
                               <item>Quantize</item>                              <!-- 34 -->
+                              <item>Ordered Dither</item>                         <!-- 35 -->
                               <!--<item translatable="yes">Quantize Remap</item>-->                              <!-- Commented Out -->
-                              <item>Threshold</item>                              <!-- 35 -->
+                              <item>Threshold</item>                              <!-- 36 -->
                             </items>
                           </object>
                         </property>

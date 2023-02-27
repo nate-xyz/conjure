@@ -17,7 +17,7 @@
                   <item>Auto Threshold</item>
                   <item>Black Threshold</item>
                   <item>Color Threshold</item>
-                  <item>Ordered Threshold</item>
+                  <!-- <item>Ordered Threshold</item> -->
                   <item>Random Threshold</item>
                   <item>Range Threshold</item>
                   <item>White Threshold</item>

@@ -9,7 +9,7 @@ if TYPE_CHECKING:
     from conjure.window import Window
     from conjure.magic import Magic
 
-from .commands import ResizeCommand, RadiusSigma, CropCommand, BlurCommands, Radius, Shade, SharpenCommands, Factor, ColorAlpha, RadiusSigmaAngle, Threshold, Angle, AmountMethod, Polaroid, Noise, RadiusSigmaXY, Wave, ThresholdSoftness, Rotate, Statistic, KMeans, Posterize, Quantize, ThresholdCommands, FXExpression
+from .commands import ResizeCommand, RadiusSigma, CropCommand, BlurCommands, Radius, Shade, SharpenCommands, Factor, ColorAlpha, RadiusSigmaAngle, Threshold, Angle, AmountMethod, Polaroid, Noise, RadiusSigmaXY, Wave, ThresholdSoftness, Rotate, Statistic, KMeans, Posterize, Quantize, ThresholdCommands, FXExpression, OrderedDither
 
 @Gtk.Template(resource_path='/io/github/nate_xyz/Conjure/command_panel.ui')
 class CommandPanel(Adw.Bin):
@@ -110,7 +110,9 @@ class CommandPanel(Adw.Bin):
                     parameters = Posterize(lambda l, d: self.start_job(self.magic.posterize, (l, d)))
                 case 34: #QUANTIZE
                     parameters = Quantize(lambda nc, ct, td, d, me: self.start_job(self.magic.quantize, (nc, ct, td, d, me)))
-                case 35: #THRESHOLD COMMANDS
+                case 35: #ORDERED DITHER
+                    parameters = OrderedDither(lambda m: self.start_job(self.magic.ordered_dither, (m)))
+                case 36: #THRESHOLD COMMANDS
                     parameters = ThresholdCommands(lambda j, a: self.threshold_job(j, a))
 
             self.current_command = selected_command
@@ -155,13 +157,13 @@ class CommandPanel(Adw.Bin):
                 job = self.magic.black_threshold
             case 3: #color
                 job = self.magic.color_threshold
-            case 4: #ordered
-                job = self.magic.ordered_dither
-            case 5:
+            # case 4: #ordered
+            #     job = self.magic.ordered_dither
+            case 4:
                 job = self.magic.random_threshold
-            case 6:
+            case 5:
                 job = self.magic.range_threshold
-            case 7:
+            case 6:
                 job = self.magic.white_threshold
 
         self.start_job(job, args)

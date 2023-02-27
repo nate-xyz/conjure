@@ -23,3 +23,4 @@ from .posterize import Posterize
 from .quantize import Quantize
 from .thresholds import ThresholdCommands
 from .fx import FXExpression
+from .ordered_dither import OrderedDither

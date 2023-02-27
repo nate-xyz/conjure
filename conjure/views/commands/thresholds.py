@@ -6,7 +6,7 @@ from .width_height_offset import WidthHeightOffset
 from .auto_threshold import AutoThreshold
 from .color_threshold import ColorThreshold
 from .color_threshold_start_stop import ColorThresholdStartStop
-from .ordered_dither import OrderedDither
+# from .ordered_dither import OrderedDither
 from .low_high import LowHigh
 from .low_high_white_black import LowHighWhiteBlack
 
@@ -36,13 +36,13 @@ class ThresholdCommands(Adw.Bin):
                 parameters = ColorThreshold(lambda c: self.start_job(selected_command, (c)))
             case 3: #color
                 parameters = ColorThresholdStartStop(lambda start, stop: self.start_job(selected_command, (start, stop)))
-            case 4: #ordered dither
-                parameters = OrderedDither(lambda m: self.start_job(selected_command, (m)))
-            case 5: #random threshold
+            # case 4: #ordered dither
+            #     parameters = OrderedDither(lambda m: self.start_job(selected_command, (m)))
+            case 4: #random threshold
                 parameters = LowHigh(lambda l, h: self.start_job(selected_command, (l, h)))
-            case 6: #range threshold
+            case 5: #range threshold
                 parameters = LowHighWhiteBlack(lambda lb, lw, hw, hb: self.start_job(selected_command, (lb, lw, hw, hb)))
-            case 7: #white threshold
+            case 6: #white threshold
                 parameters = ColorThreshold(lambda c: self.start_job(selected_command, (c)))
         
         self.parameters_bin.set_child(parameters)
