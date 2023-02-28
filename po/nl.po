@@ -1,0 +1,673 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the conjure package.
+#
+# Heimen Stoffels <vistausss@fastmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: conjure\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 01:21-0500\n"
+"PO-Revision-Date: 2023-02-28 15:19+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.2\n"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:3
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:6
+msgid "Conjure"
+msgstr "Conjure"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:4
+msgid "Image Manipulation"
+msgstr "Bewerk afbeeldingen"
+
+#: data/io.github.nate_xyz.Conjure.desktop.in:5
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:7
+msgid "Magically transform images"
+msgstr "Bewerk afbeeldingen op magische wijze"
+
+#. Translators: Search terms to find this application. Do not translate or localize the semicolons! The list must also end with a semicolon.
+#: data/io.github.nate_xyz.Conjure.desktop.in:12
+msgid "image;magic;transform;"
+msgstr "afbeelding;magie;bewerken;"
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:8
+msgid "nate-xyz"
+msgstr "nate-xyz"
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:10
+msgid ""
+"Apply various ImageMagick commands to your images, including resizing, "
+"cropping, rotating, flipping, and applying filters and effects."
+msgstr ""
+"Pas verschillende soorten ImageMagick-opdrachten toe op uw afbeeldingen,"
+" waaronder bijsnijden, grootte aanpassen, draaien, spiegelen en filters en"
+" effecten."
+
+#: conjure/window.py:52
+msgid "Select an Image File"
+msgstr "Kies een afbeeldingsbestand"
+
+#: conjure/window.py:55 conjure/ui/window.ui:26
+#: conjure/views/ui/image_drop_page.ui:29
+msgid "Open Image"
+msgstr "Afbeelding openen"
+
+#: conjure/window.py:58
+msgid "Image files"
+msgstr "Afbeeldingsbestanden"
+
+#. Translators: Only replace "Error!"
+#: conjure/window.py:101
+msgid "<span foreground={ERROR_RED}>Error!</span> {html.escape(error)}"
+msgstr "<span foreground={ERROR_RED}>Foutmelding!</span> {html.escape(error)}"
+
+#: conjure/window.py:107
+msgid "Opened image:"
+msgstr "Geopende afbeelding:"
+
+#. Translators: Do not replace {}
+#: conjure/window.py:112
+msgid "Could not open image: {}"
+msgstr "De afbeelding kan niet worden geopend: {}"
+
+#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
+#. One name per line, please do not remove previous names.
+#: conjure/app.py:67
+msgid "translator-credits"
+msgstr "Heimen Stoffels <vistausss@fastmail.com>"
+
+#. Translators: just translate "Powered by"
+#: conjure/app.py:70
+msgid "Powered by ImageMagick"
+msgstr "Aangedreven door ImageMagick"
+
+#: conjure/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: conjure/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sneltoetsen tonen"
+
+#: conjure/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: conjure/ui/window.ui:19
+msgid "Conjure 🪄"
+msgstr "Conjure 🪄"
+
+#: conjure/ui/window.ui:56
+msgid "_Keyboard Shortcuts"
+msgstr "_Sneltoetsen"
+
+#: conjure/ui/window.ui:60
+msgid "_About Conjure"
+msgstr "_Over Conjure"
+
+#: conjure/views/command_panel.py:119
+msgid "Unable select command, no image loaded."
+msgstr ""
+"De opdracht kan niet worden uitgevoerd omdat er geen afbeelding geladen is."
+
+#: conjure/views/command_panel.py:196
+msgid "Unable to start conversion."
+msgstr "De conversie kan niet worden gestart."
+
+#: conjure/views/command_panel.py:199
+msgid "Unable to start conversion, no image loaded."
+msgstr ""
+"De conversie kan niet worden gestart omdat er geen afbeelding geladen is."
+
+#: conjure/views/command_panel.py:211
+msgid "Unable to complete conversion."
+msgstr "De conversie kan niet worden afgerond."
+
+#: conjure/views/image_drop_page.py:56
+msgid "Could not restore from history."
+msgstr "Het herstellen is mislukt."
+
+#: conjure/views/image_drop_page.py:65
+msgid "No transformation to apply."
+msgstr "Er is geen bewerking gekozen."
+
+#: conjure/views/image_drop_page.py:80 conjure/views/image_drop_page.py:168
+msgid "Unable to load converted image."
+msgstr "De geconverteerde afbeelding kan niet worden geladen."
+
+#: conjure/views/image_drop_page.py:112 conjure/views/image_drop_page.py:127
+msgid "Unable to read drop."
+msgstr "De afbeelding kan niet worden ingelezen."
+
+#: conjure/views/image_drop_page.py:117
+msgid ""
+"Unable to verify file on drop, try with the file chooser in the upper left "
+"corner."
+msgstr ""
+"De afbeelding kan niet worden geverifieerd. Kies een bestand met behulp van"
+" de bestandskiezer (linksboven)."
+
+#: conjure/views/save_dialog.py:37
+msgid "Save Image"
+msgstr "Afbeelding opslaan"
+
+#: conjure/views/save_dialog.py:40 conjure/views/ui/image_drop_page.ui:97
+msgid "Save"
+msgstr "Opslaan"
+
+#: conjure/views/save_dialog.py:64
+msgid "Saved!"
+msgstr "Opgeslagen!"
+
+#: conjure/views/save_dialog.py:64
+msgid "New image: {dialog.get_current_name()}"
+msgstr "Nieuwe afbeelding: {dialog.get_current_name()}"
+
+#: conjure/views/save_dialog.py:66
+msgid "Unable to save image {dialog.get_current_name()}."
+msgstr "De afbeelding kan niet worden opgeslagen: {dialog.get_current_name()}."
+
+#: conjure/views/save_dialog.py:69
+msgid "Unable to save image."
+msgstr "De afbeelding kan niet worden opgeslagen."
+
+#: conjure/views/commands/ui/radius_sigma.ui:14
+#: conjure/views/commands/ui/radius_sigma_angle.ui:13
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:13
+#: conjure/views/commands/ui/radius.ui:9
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:19
+#: conjure/views/commands/ui/radius_sigma_xy.ui:18
+msgid "Radius"
+msgstr "Straal"
+
+#: conjure/views/commands/ui/radius_sigma.ui:15
+#: conjure/views/commands/ui/radius_sigma_angle.ui:14
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:14
+#: conjure/views/commands/ui/radius.ui:10
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:20
+#: conjure/views/commands/ui/radius_sigma_xy.ui:19
+msgid "The size of the Gaussian operator."
+msgstr "De omvang van de Gaussiaanse actie."
+
+#: conjure/views/commands/ui/radius_sigma.ui:33
+#: conjure/views/commands/ui/radius_sigma_angle.ui:32
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:32
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:38
+#: conjure/views/commands/ui/radius_sigma_xy.ui:37
+msgid "Sigma"
+msgstr "Sigma"
+
+#: conjure/views/commands/ui/radius_sigma.ui:34
+#: conjure/views/commands/ui/radius_sigma_angle.ui:33
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:33
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:39
+#: conjure/views/commands/ui/radius_sigma_xy.ui:38
+msgid "The standard deviation of the Gaussian."
+msgstr "De standaard afgeleide van de Gaussiaanse actie."
+
+#: conjure/views/commands/ui/resize.ui:15
+msgid "Width (px)"
+msgstr "Breedte (in px)"
+
+#: conjure/views/commands/ui/resize.ui:22
+msgid "Height (px)"
+msgstr "Hoogte in (px)"
+
+#: conjure/views/commands/ui/crop.ui:15
+#: conjure/views/commands/ui/statistic.ui:43
+#: conjure/views/commands/ui/width_height_offset.ui:11
+msgid "Width"
+msgstr "Breedte"
+
+#: conjure/views/commands/ui/crop.ui:16
+msgid "Width of Crop"
+msgstr "Bijsnijdbreedte"
+
+#: conjure/views/commands/ui/crop.ui:33
+#: conjure/views/commands/ui/statistic.ui:61
+#: conjure/views/commands/ui/width_height_offset.ui:30
+msgid "Height"
+msgstr "Hoogte"
+
+#: conjure/views/commands/ui/crop.ui:34
+msgid "Height of Crop"
+msgstr "Bijsnijdhoogte"
+
+#: conjure/views/commands/ui/crop.ui:57
+msgid "Left"
+msgstr "Links"
+
+#: conjure/views/commands/ui/crop.ui:58
+msgid "Horizontal Start Position"
+msgstr "Horizontale beginpositie"
+
+#: conjure/views/commands/ui/crop.ui:75
+msgid "Top"
+msgstr "Bovenaan"
+
+#: conjure/views/commands/ui/crop.ui:76
+msgid "Vertical Start Position"
+msgstr "Verticale beginpositie"
+
+#: conjure/views/commands/ui/radius_sigma_angle.ui:51
+#: conjure/views/commands/ui/angle.ui:9
+#: conjure/views/commands/ui/polaroid.ui:31
+msgid "Angle"
+msgstr "Hoek"
+
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:51
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:85
+#: conjure/views/commands/ui/threshold.ui:9
+#: conjure/views/commands/ui/threshold_softness.ui:13
+msgid "Threshold"
+msgstr "Drempelwaarde"
+
+#: conjure/views/commands/ui/shade.ui:15
+msgid "Gray"
+msgstr "Grijs"
+
+#: conjure/views/commands/ui/shade.ui:16
+msgid "Isolate the effect on pixel intensity. Default is False."
+msgstr "Beperk het effect van de pixelintensiteit. Standaard: uit."
+
+#: conjure/views/commands/ui/shade.ui:30
+msgid "Azimuth"
+msgstr "Azimuth"
+
+#: conjure/views/commands/ui/shade.ui:31
+msgid "Angle from x-axis."
+msgstr "Hoek van de x-as."
+
+#: conjure/views/commands/ui/shade.ui:49
+msgid "Elevation"
+msgstr "Hoogte"
+
+#: conjure/views/commands/ui/shade.ui:50
+msgid "Amount of pixels from the z-axis."
+msgstr "Het aantal pixels van de z-as."
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:66
+#: conjure/views/commands/ui/amount_method.ui:50
+msgid "Amount"
+msgstr "Hoeveelheid"
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:67
+msgid ""
+"The percentage of the difference between the original and the blur image "
+"that is added back into the original"
+msgstr ""
+"Het percentage van het verschil tussen het origineel en de vervaagde"
+" afbeelding die bovenop het origineel wordt geplaatst."
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:86
+msgid ""
+"The threshold in pixels needed to apply the difference amount. Values for "
+"threshold over 0.0 reduce the sharpens."
+msgstr ""
+"De drempelwaarde, in pixels, die benodigd is om het verschil toe te passen."
+" Waarden boven 0,0 maken de afbeelding minder scherp."
+
+#: conjure/views/commands/ui/factor.ui:9
+msgid "Factor"
+msgstr "Factor"
+
+#: conjure/views/commands/ui/factor.ui:10
+msgid "Amount to adjust values."
+msgstr "De aan te passen hoeveelheid."
+
+#: conjure/views/commands/ui/color_alpha.ui:13
+msgid "Color"
+msgstr "Kleur"
+
+#: conjure/views/commands/ui/amount_method.ui:13
+#: conjure/views/commands/ui/polaroid.ui:50
+#: conjure/views/commands/ui/wave.ui:51
+msgid "Method"
+msgstr "Methode"
+
+#: conjure/views/commands/ui/amount_method.ui:14
+msgid "Which interpolate method to apply to effected pixels."
+msgstr ""
+"Welke interpolatiemethode dient te worden toegepast op de pixels in kwestie."
+
+#: conjure/views/commands/ui/amount_method.ui:51
+msgid "Normalized degree of effect."
+msgstr "Genormaliseerde hoeveelheid van het effect."
+
+#: conjure/views/commands/ui/polaroid.ui:13
+msgid "Caption"
+msgstr "Bijschrift"
+
+#: conjure/views/commands/ui/polaroid.ui:19
+msgid "Font"
+msgstr "Lettertype"
+
+#: conjure/views/commands/ui/polaroid.ui:32
+msgid "Apply a shadow effect along this angle."
+msgstr "Pas een schaduweffect op deze hoek toe."
+
+#: conjure/views/commands/ui/polaroid.ui:51
+#: conjure/views/commands/ui/wave.ui:52
+msgid "Interpolation method."
+msgstr "Interpolatiemethode"
+
+#: conjure/views/commands/ui/noise.ui:13
+msgid "Noise"
+msgstr "Ruis"
+
+#: conjure/views/commands/ui/noise.ui:14
+msgid "Type of noise to apply"
+msgstr "Het soort toe te passen ruis"
+
+#: conjure/views/commands/ui/noise.ui:43
+msgid "Attenuate"
+msgstr "Afzwakken"
+
+#: conjure/views/commands/ui/noise.ui:44
+msgid "Rate of distribution."
+msgstr "Het verspreidingsgebied."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:66
+msgid "X"
+msgstr "X"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:67
+msgid ""
+"Number of pixels to offset inward from the top and bottom of the image "
+"before drawing effect."
+msgstr ""
+"Het aantal pixels inwaarts vanaf de boven- en onderkant van de afbeelding dat"
+" niet moet worden meegenomen bij het toepassen van het effect."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:84
+msgid "Y"
+msgstr "Y"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:85
+msgid ""
+"Number of pixels to offset inward from the left and right of the image "
+"before drawing effect."
+msgstr ""
+"Het aantal pixels inwaarts vanaf de linker- en rechterkant van de afbeelding"
+" dat niet moet worden meegenomen bij het toepassen van het effect."
+
+#: conjure/views/commands/ui/wave.ui:13
+msgid "Amplitude"
+msgstr "Omvang"
+
+#: conjure/views/commands/ui/wave.ui:14
+msgid "Height of wave form."
+msgstr "De hoogte van de golfvorm."
+
+#: conjure/views/commands/ui/wave.ui:32
+msgid "Wave Length"
+msgstr "Golflengte"
+
+#: conjure/views/commands/ui/wave.ui:33
+msgid "Width of wave form."
+msgstr "De breedte van de golfvorm."
+
+#: conjure/views/commands/ui/threshold_softness.ui:14
+msgid "Smoothing limit."
+msgstr "Het vlakmaaklimiet."
+
+#: conjure/views/commands/ui/threshold_softness.ui:32
+msgid "Softnesss"
+msgstr "Vlakmaken"
+
+#: conjure/views/commands/ui/threshold_softness.ui:33
+msgid "Attenuate of the smoothing threshold."
+msgstr "De afzwakking van de vlakmaakwaarde."
+
+#: conjure/views/commands/ui/rotate.ui:13
+msgid "Background Color (optional)"
+msgstr "Achtergrondkleur (optioneel)"
+
+#: conjure/views/commands/ui/rotate.ui:20
+msgid "Degree"
+msgstr "Graden"
+
+#: conjure/views/commands/ui/rotate.ui:21
+msgid "Degree to rotate."
+msgstr "Het aantal graden waarmee gedraaid dient te worden."
+
+#: conjure/views/commands/ui/statistic.ui:13
+msgid "Statistic"
+msgstr "Statistiek"
+
+#: conjure/views/commands/ui/statistic.ui:14
+msgid "The type of statistic to calculate."
+msgstr "Het soort te berekenen statistiek."
+
+#: conjure/views/commands/ui/kmeans.ui:13
+#: conjure/views/commands/ui/quantize.ui:104
+msgid "Number of Colors"
+msgstr "Aantal kleuren"
+
+#: conjure/views/commands/ui/kmeans.ui:14
+msgid "Target number of colors to use as seeds."
+msgstr "Het aantal kleuren dat dient te worden gebruikt als hoofdaanvoer."
+
+#: conjure/views/commands/ui/kmeans.ui:32
+msgid "Max Iterations"
+msgstr "Maximumaantal herhalingen"
+
+#: conjure/views/commands/ui/kmeans.ui:33
+msgid "Maximum number of iterations needed until convergence."
+msgstr "Het maximumaantal herhalingen totdat eenheid wordt bereikt."
+
+#: conjure/views/commands/ui/kmeans.ui:51
+msgid "Tolerance"
+msgstr "Tolerantie"
+
+#: conjure/views/commands/ui/kmeans.ui:52
+msgid "Maximum tolerance between distortion iterations."
+msgstr "De maximumtolerantie tussen ruisdeeltjes."
+
+#: conjure/views/commands/ui/posterize.ui:13
+#: conjure/views/commands/ui/quantize.ui:16
+msgid "Dither"
+msgstr "Dither"
+
+#: conjure/views/commands/ui/posterize.ui:14
+msgid "Dither method to apply."
+msgstr "De te gebruiken dithermethode."
+
+#: conjure/views/commands/ui/posterize.ui:38
+msgid "Levels"
+msgstr "Niveaus"
+
+#: conjure/views/commands/ui/quantize.ui:17
+msgid "Perform dither operation between neighboring pixel values."
+msgstr "Voer ditheracties uit tussen nabijgelegen pixelwaarden."
+
+#: conjure/views/commands/ui/quantize.ui:42
+msgid "Color Space"
+msgstr "Kleurruimte"
+
+#: conjure/views/commands/ui/quantize.ui:105
+msgid "The target number of colors to reduce the image to."
+msgstr "Het maximumaantal kleuren dat dient te worden gebruikt."
+
+#: conjure/views/commands/ui/quantize.ui:124
+msgid "Tree Depth"
+msgstr "Boomdiepte"
+
+#: conjure/views/commands/ui/quantize.ui:125
+msgid ""
+"A value between 0 and 8 where 0 will allow ImageMagick to calculate the "
+"optimal depth with Log4(number_colors)"
+msgstr ""
+"Een waarde tussen 0 en 8, waar 0 betekent dat ImageMagick de optimale diepte"
+" op basis van Log4(number_colors) berekent."
+
+#: conjure/views/commands/ui/width_height_offset.ui:12
+msgid "Size of neighboring pixels on the X-axis."
+msgstr "Het aantal nabijgelegen pixels van de x-as."
+
+#: conjure/views/commands/ui/width_height_offset.ui:31
+msgid "Size of neighboring pixels on the Y-axis."
+msgstr "Het aantal nabijgelegen pixels van de y-as."
+
+#: conjure/views/commands/ui/width_height_offset.ui:49
+msgid "Offset"
+msgstr "Verschuiving"
+
+#: conjure/views/commands/ui/width_height_offset.ui:50
+msgid "Forces the pixels to black if values are below offset."
+msgstr ""
+"Dwingt de pixels op zwart te gaan als de waarden onder de verschuivingswaarde"
+" liggen."
+
+#: conjure/views/commands/ui/auto_threshold.ui:13
+msgid "Threshold Method"
+msgstr "Drempelwaardemethode"
+
+#: conjure/views/commands/ui/color_threshold.ui:13
+msgid "Color Threshold"
+msgstr "Kleurdrempelwaarde"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:13
+msgid "Start Color"
+msgstr "Beginkleur"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:19
+msgid "Stop Color"
+msgstr "Eindkleur"
+
+#: conjure/views/commands/ui/ordered_dither.ui:12
+msgid "Threshold 1x1 (non-dither)"
+msgstr "Drempelwaarde 1x1 (zonder dither)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:13
+msgid "Checkerboard 2x1 (dither)"
+msgstr "Schaakbord 2x1 (met dither)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:14
+msgid "Ordered 2x2 (dispersed)"
+msgstr "Geordend 2x2 (verspreid)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:15
+msgid "Ordered 3x3 (dispersed)"
+msgstr "Geordend 3x3 (verspreid)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:16
+msgid "Ordered 4x4 (dispersed)"
+msgstr "Geordend 4x4 (verspreid)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:17
+msgid "Ordered 8x8 (dispersed)"
+msgstr "Geordend 8x8 (verspreid)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:18
+msgid "Halftone 4x4 (angled)"
+msgstr "Halftoon 4x4 (met hoek)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:19
+msgid "Halftone 6x6 (angled)"
+msgstr "Halftoon 6x6 (met hoek)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:20
+msgid "Halftone 8x8 (angled)"
+msgstr "Halftoon 8x8 (met hoek)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:21
+msgid "Halftone 4x4 (orthogonal)"
+msgstr "Halftoon 4x4 (met orthogonaal)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:22
+msgid "Halftone 6x6 (orthogonal)"
+msgstr "Halftoon 6x6 (met orthogonaal)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:23
+msgid "Halftone 8x8 (orthogonal)"
+msgstr "Halftoon 8x8 (met orthogonaal)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:24
+msgid "Halftone 16x16 (orthogonal)"
+msgstr "Halftoon 16x16 (met orthogonaal)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:25
+msgid "Circles 5x5 (black)"
+msgstr "Cirkels 5x5 (zwart)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:26
+msgid "Circles 5x5 (white)"
+msgstr "Cirkels 5x5 (wit)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:27
+msgid "Circles 6x6 (black)"
+msgstr "Circles 6x6 (zwart)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:28
+msgid "Circles 6x6 (white)"
+msgstr "Circles 6x6 (wit)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:29
+msgid "Circles 7x7 (black)"
+msgstr "Circles 7x7 (zwart)"
+
+#: conjure/views/commands/ui/ordered_dither.ui:30
+msgid "Circles 7x7 (white)"
+msgstr "Circles 7x7 (wit)"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:12
+msgid "Low Black"
+msgstr "Weinig zwart"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:30
+msgid "Low White"
+msgstr "Weinig wit"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:49
+msgid "High White"
+msgstr "Veel wit"
+
+#: conjure/views/commands/ui/low_high_white_black.ui:68
+msgid "High Black"
+msgstr "Veel zwart"
+
+#: conjure/views/commands/ui/low_high.ui:11
+msgid "Low"
+msgstr "Weinig"
+
+#: conjure/views/commands/ui/low_high.ui:29
+msgid "High"
+msgstr "Veel"
+
+#: conjure/views/commands/ui/fx.ui:13
+msgid "FX Expression"
+msgstr "FX-uitdrukking"
+
+#: conjure/views/ui/image_drop_page.ui:14
+msgid "Drop Image"
+msgstr "Sleep een afbeelding hierheen"
+
+#: conjure/views/ui/image_drop_page.ui:15
+msgid "Drag an image here or click the button below."
+msgstr "Sleep een afbeelding hierheen of klik op onderstaande knop."
+
+#: conjure/views/ui/image_drop_page.ui:84
+msgid "Apply"
+msgstr "Toepassen"
+
+#: conjure/views/ui/save_dialog.ui:6
+msgid "Save Image?"
+msgstr "Wilt u de afbeelding opslaan?"
+
+#: conjure/views/ui/save_dialog.ui:17
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: conjure/views/ui/save_dialog.ui:18
+msgid "_Save"
+msgstr "Op_slaan"
