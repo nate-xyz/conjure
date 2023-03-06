@@ -1,4 +1,4 @@
-<img src="/data/icons/hicolor/scalable/apps/io.github.nate_xyz.Conjure.svg" align="left" height="157px" vspace="20px">
+<img src="/data/icons/icon.svg" align="left" height="250px" vspace="10px">
 
 Conjure
 ======
