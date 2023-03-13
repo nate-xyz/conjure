@@ -14,6 +14,11 @@
 
             <child>
               <object class="AdwHeaderBar">
+
+                <style>
+                  <class name="flat"/>
+                </style>
+
                 <property name="title-widget">
                   <object class="AdwWindowTitle">
                     <property name="title" translatable="yes">Conjure 🪄</property>
@@ -24,6 +29,14 @@
                   <object class="GtkButton" id="open_image_button">
                     <property name="icon-name">image-round-symbolic</property>
                     <property name="tooltip-text" translatable="yes">Open Image</property>
+
+                    <!-- <property name="child">
+                      <object class="AdwButtonContent">
+                        <property name="icon-name">image-round-symbolic</property>
+                        <property name="label" translatable="yes">Open</property>
+                      </object>
+                    </property> -->
+
                   </object>
                 </child>
 

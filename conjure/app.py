@@ -30,6 +30,7 @@ class App(Adw.Application):
     def __init__(self):
         super().__init__(application_id='io.github.nate_xyz.Conjure',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
+        Adw.StyleManager.get_default().set_color_scheme(Adw.ColorScheme.FORCE_DARK)
         self.setup_actions()
         self.magic = Magic()
 
