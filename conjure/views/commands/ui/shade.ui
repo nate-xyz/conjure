@@ -3,68 +3,71 @@
   <requires lib="gtk" version="4.0"/>
   <requires lib="adw" version="1.0" />
   <template class="Shade" parent="AdwBin">
-      <property name="halign">fill</property>
-      <property name="child">
-        <object class="GtkBox">
-          <!-- <property name="orientation">vertical</property> -->
-          <property name="halign">fill</property>
+    <property name="halign">fill</property>
+    <property name="child">
+      <object class="GtkBox">
+        <!-- <property name="orientation">vertical</property> -->
+        <property name="halign">fill</property>
 
 
-          <child>
-            <object class="AdwActionRow">
-              <property name="title" translatable="yes">Gray</property>
-              <property name="subtitle" translatable="yes">Isolate the effect on pixel intensity. Default is False.</property>
-              <property name="activatable-widget">gray_check</property>
-    
-              <child>
-                <object class="GtkCheckButton" id="gray_check">
-                  <property name="valign">center</property>
-                </object>
-              </child>
-    
-            </object>
-          </child>
-    
-          <child>
-            <object class="AdwActionRow">
-              <property name="title" translatable="yes">Azimuth</property>
-              <property name="subtitle" translatable="yes">Angle from x-axis.</property>
-              <property name="activatable-widget">azimuth_spin</property>
-    
-              <child>
-                <object class="GtkSpinButton" id="azimuth_spin">
-                  <property name="valign">center</property>
-                  <property name="adjustment">azimuth_adj</property>
-                  <property name="numeric">true</property>
-                  <property name="digits">1</property>
-                  <property name="wrap">true</property>
-                </object>
-              </child>
-    
-            </object>
-          </child>
-    
-          <child>
-            <object class="AdwActionRow">
-              <property name="title" translatable="yes">Elevation</property>
-              <property name="subtitle" translatable="yes">Amount of pixels from the z-axis.</property>
-              <property name="activatable-widget">elevation_spin</property>
-    
-              <child>
-                <object class="GtkSpinButton" id="elevation_spin">
-                  <property name="valign">center</property>
-                  <property name="adjustment">elevation_adj</property>
-                  <property name="numeric">true</property>
-                  <property name="digits">1</property>
-                  <property name="wrap">true</property>
-                </object>
-              </child>
-    
-            </object>
-          </child>
-    
-        </object>
-      </property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="width_request">200</property>
+            <property name="title" translatable="yes">Gray</property>
+            <property name="subtitle" translatable="yes">Isolate the effect on pixel intensity. Default is False.</property>
+            <property name="activatable-widget">gray_check</property>
+
+            <child>
+              <object class="GtkCheckButton" id="gray_check">
+                <property name="valign">center</property>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="width_request">200</property>
+            <property name="title" translatable="yes">Azimuth</property>
+            <property name="subtitle" translatable="yes">Angle from x-axis.</property>
+            <property name="activatable-widget">azimuth_spin</property>
+
+            <child>
+              <object class="GtkSpinButton" id="azimuth_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">azimuth_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">1</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="width_request">200</property>
+            <property name="title" translatable="yes">Elevation</property>
+            <property name="subtitle" translatable="yes">Amount of pixels from the z-axis.</property>
+            <property name="activatable-widget">elevation_spin</property>
+
+            <child>
+              <object class="GtkSpinButton" id="elevation_spin">
+                <property name="valign">center</property>
+                <property name="adjustment">elevation_adj</property>
+                <property name="numeric">true</property>
+                <property name="digits">1</property>
+                <property name="wrap">true</property>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+      </object>
+    </property>
   </template>
 
   <object class="GtkAdjustment" id="azimuth_adj">

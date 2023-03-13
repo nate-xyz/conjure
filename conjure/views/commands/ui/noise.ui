@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Noise</property>
             <property name="subtitle" translatable="yes">Type of noise to apply</property>
             <property name="activatable-widget">dropdown</property>
@@ -40,6 +41,7 @@
         
         <child>
           <object class="AdwActionRow" id="attenuate_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Attenuate</property>
             <property name="subtitle" translatable="yes">Rate of distribution.</property>
             <property name="activatable-widget">attenuate_spin</property>

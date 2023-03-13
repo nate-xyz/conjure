@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Amplitude</property>
             <property name="subtitle" translatable="yes">Height of wave form.</property>
             <property name="activatable-widget">amplitude_spin</property>
@@ -29,6 +30,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Wave Length</property>
             <property name="subtitle" translatable="yes">Width of wave form.</property>
             <property name="activatable-widget">length_spin</property>
@@ -48,6 +50,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Method</property>
             <property name="subtitle" translatable="yes">Interpolation method.</property>
             <property name="activatable-widget">dropdown</property>

@@ -91,6 +91,13 @@
               </object>
             </child>
 
+            <child>
+              <object class="GtkSeparator" id="separator">
+                <property name="visible">false</property>
+                <property name="orientation">vertical</property>
+              </object>
+            </child>
+
 
             <child>
               <object class="AdwBin" id="parameters_bin">

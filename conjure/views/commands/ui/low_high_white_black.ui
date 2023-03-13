@@ -9,6 +9,7 @@
         
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Low Black</property>
             <property name="activatable-widget">low_black_spin</property>
   
@@ -27,6 +28,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Low White</property>
             <property name="activatable-widget">low_white_spin</property>
   
@@ -46,6 +48,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">High White</property>
             <property name="activatable-widget">high_white_spin</property>
   
@@ -65,6 +68,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">High Black</property>
             <property name="activatable-widget">high_black_spin</property>
   

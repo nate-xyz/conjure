@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwEntryRow" id="color_entry_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Color</property>
             <!-- <property name="subtitle" translatable="yes">Color to paint image with.</property> -->
           </object>
@@ -23,6 +24,7 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title">R</property>
                 <property name="activatable-widget">red_spin</property>
 
@@ -41,6 +43,7 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title">G</property>
                 <property name="activatable-widget">green_spin</property>
 
@@ -59,6 +62,7 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title">B</property>
                 <property name="activatable-widget">blue_spin</property>
 

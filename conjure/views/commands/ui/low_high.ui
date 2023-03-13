@@ -8,6 +8,7 @@
         <!-- <property name="orientation">vertical</property> -->
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Low</property>
             <property name="activatable-widget">low_spin</property>
   
@@ -26,6 +27,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">High</property>
             <property name="activatable-widget">high_spin</property>
   

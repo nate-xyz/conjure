@@ -6,6 +6,7 @@
     <property name="halign">fill</property>
     <property name="child">
       <object class="AdwActionRow" id="radius_row">
+        <property name="width_request">200</property>
         <property name="title" translatable="yes">Radius</property>
         <property name="subtitle" translatable="yes">The size of the Gaussian operator.</property>
         <property name="activatable-widget">radius_spin</property>

@@ -6,6 +6,7 @@
     <property name="halign">fill</property>
     <property name="child">
       <object class="AdwActionRow">
+        <property name="width_request">200</property>
         <property name="title" translatable="yes">Angle</property>
         <property name="subtitle" translatable="yes"></property>
         <property name="activatable-widget">angle_spin</property>

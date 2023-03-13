@@ -16,10 +16,11 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Radius</property>
                 <property name="subtitle" translatable="yes">The size of the Gaussian operator.</property>
                 <property name="activatable-widget">radius_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="radius_spin">
                     <property name="valign">center</property>
@@ -29,16 +30,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Sigma</property>
                 <property name="subtitle" translatable="yes">The standard deviation of the Gaussian.</property>
                 <property name="activatable-widget">sigma_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="sigma_spin">
                     <property name="valign">center</property>
@@ -48,10 +50,10 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
-            
+
           </object>
         </child>
 
@@ -63,10 +65,11 @@
             <property name="halign">fill</property>
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Amount</property>
                 <property name="subtitle" translatable="yes">The percentage of the difference between the original and the blur image that is added back into the original</property>
                 <property name="activatable-widget">amount_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="amount_spin">
                     <property name="valign">center</property>
@@ -76,16 +79,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Threshold</property>
                 <property name="subtitle" translatable="yes">The threshold in pixels needed to apply the difference amount. Values for threshold over 0.0 reduce the sharpens.</property>
                 <property name="activatable-widget">threshold_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="threshold_spin">
                     <property name="valign">center</property>
@@ -95,7 +99,7 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
 

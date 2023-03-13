@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Statistic</property>
             <property name="subtitle" translatable="yes">The type of statistic to calculate.</property>
             <property name="activatable-widget">dropdown</property>
@@ -40,6 +41,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Width</property>
             <property name="activatable-widget">width_spin</property>
   
@@ -58,6 +60,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Height</property>
             <property name="activatable-widget">height_spin</property>
   

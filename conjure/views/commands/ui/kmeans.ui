@@ -10,6 +10,7 @@
         <property name="halign">fill</property>
         <child>
           <object class="AdwActionRow">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Number of Colors</property>
             <property name="subtitle" translatable="yes">Target number of colors to use as seeds.</property>
             <property name="activatable-widget">colors_spin</property>
@@ -29,6 +30,7 @@
 
         <child>
           <object class="AdwActionRow">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Max Iterations</property>
             <property name="subtitle" translatable="yes">Maximum number of iterations needed until convergence.</property>
             <property name="activatable-widget">iterations_spin</property>
@@ -48,6 +50,7 @@
 
         <child>
           <object class="AdwActionRow">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Tolerance</property>
             <property name="subtitle" translatable="yes">Maximum tolerance between distortion iterations.</property>
             <property name="activatable-widget">tolerance_spin</property>

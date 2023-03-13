@@ -13,10 +13,11 @@
             <property name="spacing">10</property>
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Dither</property>
                 <property name="subtitle" translatable="yes">Perform dither operation between neighboring pixel values.</property>
                 <property name="activatable-widget">dither_dropdown</property>
-      
+
                 <child>
                   <object class="GtkDropDown" id="dither_dropdown">
                     <property name="valign">center</property>
@@ -32,17 +33,17 @@
                     </property>
                   </object>
                 </child>
-    
-      
+
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Color Space</property>
-
                 <property name="activatable-widget">colorspace_dropdown</property>
-      
+
                 <child>
                   <object class="GtkDropDown" id="colorspace_dropdown">
                     <property name="valign">center</property>
@@ -87,7 +88,7 @@
                     </property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
 
@@ -101,11 +102,12 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Number of Colors</property>
                 <property name="subtitle" translatable="yes">The target number of colors to reduce the image to.</property>
 
                 <property name="activatable-widget">levels_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="levels_spin">
                     <property name="valign">center</property>
@@ -115,17 +117,18 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Tree Depth</property>
                 <property name="subtitle" translatable="yes">A value between 0 and 8 where 0 will allow ImageMagick to calculate the optimal depth with Log4(number_colors)</property>
 
                 <property name="activatable-widget">tree_depth_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="tree_depth_spin">
                     <property name="valign">center</property>
@@ -135,13 +138,14 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
-            
 
-        <!-- <child>
+
+            <!-- <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Measure Error</property>
             <property name="subtitle" translatable="yes">Include total quantization error of all pixels in an image and quantized value.</property>
             <property name="activatable-widget">error_check</property>
@@ -160,10 +164,10 @@
 
 
 
-        
 
 
-        
+
+
       </object>
     </property>
   </template>

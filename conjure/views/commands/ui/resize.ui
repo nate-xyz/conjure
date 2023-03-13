@@ -12,6 +12,7 @@
 
         <child>
           <object class="AdwEntryRow" id="width_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Width (px)</property>
             <property name="input-purpose">2</property>
           </object>
@@ -19,6 +20,7 @@
 
         <child>
           <object class="AdwEntryRow" id="height_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Height (px)</property>
             <property name="input-purpose">2</property>
           </object>

@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Threshold Method</property>
             <property name="activatable-widget">dropdown</property>
   

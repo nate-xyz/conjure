@@ -7,15 +7,15 @@
       <object class="GtkBox">
         <child>
           <object class="GtkBox">
-            <!-- <property name="orientation">vertical</property> -->
             <property name="halign">fill</property>
-            
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Width</property>
                 <property name="subtitle" translatable="yes">Width of Crop</property>
                 <property name="activatable-widget">width_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="width_spin">
                     <property name="valign">center</property>
@@ -24,16 +24,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
-      
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Height</property>
                 <property name="subtitle" translatable="yes">Height of Crop</property>
                 <property name="activatable-widget">height_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="height_spin">
                     <property name="valign">center</property>
@@ -42,22 +43,22 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
           </object>
         </child>
         <child>
           <object class="GtkBox">
-            <!-- <property name="orientation">vertical</property> -->
             <property name="halign">fill</property>
-      
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Left</property>
                 <property name="subtitle" translatable="yes">Horizontal Start Position</property>
                 <property name="activatable-widget">left_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="left_spin">
                     <property name="valign">center</property>
@@ -66,16 +67,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
-      
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Top</property>
                 <property name="subtitle" translatable="yes">Vertical Start Position</property>
                 <property name="activatable-widget">top_spin</property>
-      
+
                 <child>
                   <object class="GtkSpinButton" id="top_spin">
                     <property name="valign">center</property>
@@ -84,7 +86,7 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-      
+
               </object>
             </child>
           </object>

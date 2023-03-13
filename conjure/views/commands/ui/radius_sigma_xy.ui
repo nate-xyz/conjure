@@ -15,10 +15,11 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Radius</property>
                 <property name="subtitle" translatable="yes">The size of the Gaussian operator.</property>
                 <property name="activatable-widget">radius_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="radius_spin">
                     <property name="valign">center</property>
@@ -28,16 +29,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Sigma</property>
                 <property name="subtitle" translatable="yes">The standard deviation of the Gaussian.</property>
                 <property name="activatable-widget">sigma_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="sigma_spin">
                     <property name="valign">center</property>
@@ -47,7 +49,7 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
 
@@ -63,10 +65,11 @@
 
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">X</property>
                 <property name="subtitle" translatable="yes">Number of pixels to offset inward from the top and bottom of the image before drawing effect.</property>
                 <property name="activatable-widget">x_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="x_spin">
                     <property name="valign">center</property>
@@ -75,16 +78,17 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
-    
+
             <child>
               <object class="AdwActionRow">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Y</property>
                 <property name="subtitle" translatable="yes">Number of pixels to offset inward from the left and right of the image before drawing effect.</property>
                 <property name="activatable-widget">y_spin</property>
-    
+
                 <child>
                   <object class="GtkSpinButton" id="y_spin">
                     <property name="valign">center</property>
@@ -93,7 +97,7 @@
                     <property name="wrap">true</property>
                   </object>
                 </child>
-    
+
               </object>
             </child>
 

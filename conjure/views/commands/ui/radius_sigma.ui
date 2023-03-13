@@ -11,6 +11,7 @@
 
         <child>
           <object class="AdwActionRow" id="radius_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Radius</property>
             <property name="subtitle" translatable="yes">The size of the Gaussian operator.</property>
             <property name="activatable-widget">radius_spin</property>
@@ -30,6 +31,7 @@
 
         <child>
           <object class="AdwActionRow" id="sigma_row">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Sigma</property>
             <property name="subtitle" translatable="yes">The standard deviation of the Gaussian.</property>
             <property name="activatable-widget">sigma_spin</property>

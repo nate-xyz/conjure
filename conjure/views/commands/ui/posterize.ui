@@ -10,6 +10,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Dither</property>
             <property name="subtitle" translatable="yes">Dither method to apply.</property>
             <property name="activatable-widget">dropdown</property>
@@ -35,6 +36,7 @@
 
         <child>
           <object class="AdwActionRow">
+          <property name="width_request">200</property>
             <property name="title" translatable="yes">Levels</property>
             <property name="activatable-widget">levels_spin</property>
   

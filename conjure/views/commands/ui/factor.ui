@@ -6,6 +6,7 @@
     <property name="halign">fill</property>
     <property name="child">
       <object class="AdwActionRow">
+        <property name="width_request">200</property>
         <property name="title" translatable="yes">Factor</property>
         <property name="subtitle" translatable="yes">Amount to adjust values.</property>
         <property name="activatable-widget">factor_spin</property>

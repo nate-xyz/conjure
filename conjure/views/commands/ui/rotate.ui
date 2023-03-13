@@ -17,6 +17,7 @@
 
         <child>
           <object class="AdwActionRow">
+            <property name="width_request">200</property>
             <property name="title" translatable="yes">Degree</property>
             <property name="subtitle" translatable="yes">Degree to rotate.</property>
             <property name="activatable-widget">angle_spin</property>

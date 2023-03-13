@@ -17,6 +17,7 @@ class CommandPanel(Adw.Bin):
 
     command_dropdown = Gtk.Template.Child('command_dropdown')
     parameters_bin = Gtk.Template.Child('parameters_bin')
+    separator = Gtk.Template.Child('separator')
 
     def __init__(self) -> None:
         super().__init__()
@@ -117,6 +118,10 @@ class CommandPanel(Adw.Bin):
 
             self.current_command = selected_command
             self.parameters_bin.set_child(parameters)
+            if parameters != None:
+                self.separator.show()
+            else:
+                self.separator.hide()
         else:
             self.window.add_error_toast(_("Unable select command, no image loaded."))
 

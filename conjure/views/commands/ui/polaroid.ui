@@ -7,15 +7,16 @@
       <object class="GtkBox">
         <child>
           <object class="GtkBox">
-            <!-- <property name="orientation">vertical</property> -->
             <child>
               <object class="AdwEntryRow" id="caption_row">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Caption</property>
               </object>
             </child>
       
             <child>
               <object class="AdwEntryRow" id="font_row">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Font</property>
               </object>
             </child>
@@ -28,6 +29,7 @@
             <!-- <property name="orientation">vertical</property> -->
             <child>
               <object class="AdwActionRow" id="angle_row">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Angle</property>
                 <property name="subtitle" translatable="yes">Apply a shadow effect along this angle.</property>
                 <property name="activatable-widget">angle_spin</property>
@@ -47,6 +49,7 @@
     
             <child>
               <object class="AdwActionRow" id="radius_row">
+                <property name="width_request">200</property>
                 <property name="title" translatable="yes">Method</property>
                 <property name="subtitle" translatable="yes">Interpolation method.</property>
                 <property name="activatable-widget">dropdown</property>
