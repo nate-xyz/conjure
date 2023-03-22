@@ -22,14 +22,14 @@
                 <property name="model">
                   <object class="GtkStringList">
                     <items>
-                      <item>Undefined</item>
-                      <item>Uniform</item>
-                      <item>Gaussian</item>
-                      <item>Multiplicative Gaussian</item>
-                      <item>Impulse</item>
-                      <item>Laplacian</item>
-                      <item>Poisson</item>
-                      <item>Random</item>
+                      <item translatable="yes">Undefined</item>
+                      <item translatable="yes">Uniform</item>
+                      <item translatable="yes">Gaussian</item>
+                      <item translatable="yes">Multiplicative Gaussian</item>
+                      <item translatable="yes">Impulse</item>
+                      <item translatable="yes">Laplacian</item>
+                      <item translatable="yes">Poisson</item>
+                      <item translatable="yes">Random</item>
                     </items>
                   </object>
                 </property>

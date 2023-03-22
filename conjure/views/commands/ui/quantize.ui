@@ -24,10 +24,10 @@
                     <property name="model">
                       <object class="GtkStringList">
                         <items>
-                          <item>Undefined</item>
-                          <item>No</item>
-                          <item>Riemersma</item>
-                          <item>Floyd Steinberg</item>
+                          <item translatable="yes">Undefined</item>
+                          <item translatable="yes">No</item>
+                          <item translatable="yes">Riemersma</item>
+                          <item translatable="yes">Floyd Steinberg</item>
                         </items>
                       </object>
                     </property>
@@ -50,39 +50,39 @@
                     <property name="model">
                       <object class="GtkStringList">
                         <items>
-                          <item>Undefined</item>
-                          <item>RGB</item>
-                          <item>Grayscale</item>
-                          <item>Transparent</item>
-                          <item>Ohta</item>
-                          <item>LAB</item>
-                          <item>XYZ</item>
-                          <item>YCbCr</item>
-                          <item>YCC</item>
-                          <item>YIQ</item>
-                          <item>YPbPr</item>
-                          <item>YUV</item>
-                          <item>CMYK</item>
-                          <item>sRGB</item>
-                          <item>HSB</item>
-                          <item>HSL</item>
-                          <item>HWB</item>
-                          <item>Rec.601 YCbCr</item>
-                          <item>Rec.709 YCbCr</item>
-                          <item>Log</item>
-                          <item>CMY</item>
-                          <item>Luv</item>
-                          <item>HCL</item>
-                          <item>LCH</item>
-                          <item>LMS</item>
-                          <item>LCHab</item>
-                          <item>LCHuv</item>
-                          <item>scRGB</item>
-                          <item>HSI</item>
-                          <item>HSV</item>
-                          <item>HCLp</item>
-                          <item>xyY</item>
-                          <item>YDbDr</item>
+                          <item translatable="yes">Undefined</item>
+                          <item translatable="yes">RGB</item>
+                          <item translatable="yes">Grayscale</item>
+                          <item translatable="yes">Transparent</item>
+                          <item translatable="yes">Ohta</item>
+                          <item translatable="yes">LAB</item>
+                          <item translatable="yes">XYZ</item>
+                          <item translatable="yes">YCbCr</item>
+                          <item translatable="yes">YCC</item>
+                          <item translatable="yes">YIQ</item>
+                          <item translatable="yes">YPbPr</item>
+                          <item translatable="yes">YUV</item>
+                          <item translatable="yes">CMYK</item>
+                          <item translatable="yes">sRGB</item>
+                          <item translatable="yes">HSB</item>
+                          <item translatable="yes">HSL</item>
+                          <item translatable="yes">HWB</item>
+                          <item translatable="yes">Rec.601 YCbCr</item>
+                          <item translatable="yes">Rec.709 YCbCr</item>
+                          <item translatable="yes">Log</item>
+                          <item translatable="yes">CMY</item>
+                          <item translatable="yes">Luv</item>
+                          <item translatable="yes">HCL</item>
+                          <item translatable="yes">LCH</item>
+                          <item translatable="yes">LMS</item>
+                          <item translatable="yes">LCHab</item>
+                          <item translatable="yes">LCHuv</item>
+                          <item translatable="yes">scRGB</item>
+                          <item translatable="yes">HSI</item>
+                          <item translatable="yes">HSV</item>
+                          <item translatable="yes">HCLp</item>
+                          <item translatable="yes">xyY</item>
+                          <item translatable="yes">YDbDr</item>
                         </items>
                       </object>
                     </property>

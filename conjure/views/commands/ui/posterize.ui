@@ -21,10 +21,10 @@
                 <property name="model">
                   <object class="GtkStringList">
                     <items>
-                      <item>Undefined</item>
-                      <item>No</item>
-                      <item>Riemersma</item>
-                      <item>Floyd Steinberg</item>
+                      <item translatable="yes">Undefined</item>
+                      <item translatable="yes">No</item>
+                      <item translatable="yes">Riemersma</item>
+                      <item translatable="yes">Floyd Steinberg</item>
                     </items>
                   </object>
                 </property>

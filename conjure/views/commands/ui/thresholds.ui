@@ -13,14 +13,14 @@
             <property name="model">
               <object class="GtkStringList">
                 <items>
-                  <item>Adaptive Threshold</item>
-                  <item>Auto Threshold</item>
-                  <item>Black Threshold</item>
-                  <item>Color Threshold</item>
-                  <!-- <item>Ordered Threshold</item> -->
-                  <item>Random Threshold</item>
-                  <item>Range Threshold</item>
-                  <item>White Threshold</item>
+                  <item translatable="yes">Adaptive Threshold</item>
+                  <item translatable="yes">Auto Threshold</item>
+                  <item translatable="yes">Black Threshold</item>
+                  <item translatable="yes">Color Threshold</item>
+                  <!-- <item translatable="yes">Ordered Threshold</item> -->
+                  <item translatable="yes">Random Threshold</item>
+                  <item translatable="yes">Range Threshold</item>
+                  <item translatable="yes">White Threshold</item>
                 </items>
               </object>
             </property>

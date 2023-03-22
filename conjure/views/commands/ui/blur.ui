@@ -14,12 +14,12 @@
             <property name="model">
               <object class="GtkStringList">
                 <items>
-                  <item>Normal</item>
-                  <item>Adaptive</item>
-                  <item>Gaussian</item>
-                  <item>Motion</item>
-                  <item>Rotational</item>
-                  <item>Selective</item>
+                  <item translatable="yes">Normal</item>
+                  <item translatable="yes">Adaptive</item>
+                  <item translatable="yes">Gaussian</item>
+                  <item translatable="yes">Motion</item>
+                  <item translatable="yes">Rotational</item>
+                  <item translatable="yes">Selective</item>
                 </items>
               </object>
             </property>
