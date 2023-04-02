@@ -55,7 +55,7 @@ class App(Adw.Application):
                                 application_name='Conjure',
                                 application_icon='io.github.nate_xyz.Conjure',
                                 developer_name='nate-xyz',
-                                version='0.1.1',
+                                version='0.1.2',
                                 developers=['nate-xyz'],
                                 copyright='© 2023 nate-xyz',
                                 license_type=Gtk.License.GPL_3_0_ONLY,
