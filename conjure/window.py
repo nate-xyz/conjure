@@ -104,7 +104,7 @@ class Window(Adw.ApplicationWindow):
 
     def open_image_toast(self, uri):
         base_name = html.escape(os.path.basename(uri))
-        self.add_success_toast(_("Opened image:"), os.path.basename(uri))
+        self.add_success_toast(_("Opened image:"), base_name)
 
     def error_image_toast(self, uri):
         base_name = os.path.basename(uri)
