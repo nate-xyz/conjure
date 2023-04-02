@@ -44,47 +44,47 @@
                 <property name="model">
                   <object class="GtkStringList">
                     <items>
-                      <item>Select Command</item>                              <!-- 0 -->
-                      <item>Resize</item>                              <!-- 1 -->
-                      <item>Crop</item>                              <!-- 2 -->
+                      <item translatable="yes">Select Command</item>                              <!-- 0 -->
+                      <item translatable="yes">Resize</item>                              <!-- 1 -->
+                      <item translatable="yes">Crop</item>                              <!-- 2 -->
                       <!--<item translatable="yes">Transform</item>-->                              <!-- Commented Out -->
-                      <item>Seam Carving</item>                              <!-- 3 -->
-                      <item>Blur</item>                              <!-- 4 -->
-                      <item>Despeckle</item>                              <!-- 5 -->
-                      <item>Edge</item>                              <!-- 6 -->
-                      <item>Emboss</item>                              <!-- 7 -->
-                      <item>Kuwahara</item>                              <!-- 8 -->
-                      <item>Shade</item>                              <!-- 9 -->
-                      <item>Sharpen</item>                              <!-- 10 -->
-                      <item>Spread</item>                              <!-- 11 -->
-                      <item>Add Noise</item>                              <!-- 12 -->
-                      <item>Blueshift</item>                              <!-- 13 -->
-                      <item>Charcoal</item>                              <!-- 14 -->
+                      <item translatable="yes">Seam Carving</item>                              <!-- 3 -->
+                      <item translatable="yes">Blur</item>                              <!-- 4 -->
+                      <item translatable="yes">Despeckle</item>                              <!-- 5 -->
+                      <item translatable="yes">Edge</item>                              <!-- 6 -->
+                      <item translatable="yes">Emboss</item>                              <!-- 7 -->
+                      <item translatable="yes">Kuwahara</item>                              <!-- 8 -->
+                      <item translatable="yes">Shade</item>                              <!-- 9 -->
+                      <item translatable="yes">Sharpen</item>                              <!-- 10 -->
+                      <item translatable="yes">Spread</item>                              <!-- 11 -->
+                      <item translatable="yes">Add Noise</item>                              <!-- 12 -->
+                      <item translatable="yes">Blueshift</item>                              <!-- 13 -->
+                      <item translatable="yes">Charcoal</item>                              <!-- 14 -->
                       <!--<item translatable="yes">Color Matrix</item>-->                              <!-- Commented Out -->
-                      <item>Colorize</item>                              <!-- 15 -->
-                      <item>FX</item>                              <!-- 16 -->
-                      <item>Implode</item>                              <!-- 17 -->
-                      <item>Polaroid</item>                              <!-- 18 -->
-                      <item>Sepia Tone</item>                              <!-- 19 -->
-                      <item>Sketch</item>                              <!-- 20 -->
-                      <item>Solarize</item>                              <!-- 21 -->
+                      <item translatable="yes">Colorize</item>                              <!-- 15 -->
+                      <item translatable="yes">FX</item>                              <!-- 16 -->
+                      <item translatable="yes">Implode</item>                              <!-- 17 -->
+                      <item translatable="yes">Polaroid</item>                              <!-- 18 -->
+                      <item translatable="yes">Sepia Tone</item>                              <!-- 19 -->
+                      <item translatable="yes">Sketch</item>                              <!-- 20 -->
+                      <item translatable="yes">Solarize</item>                              <!-- 21 -->
                       <!--<item translatable="yes">Stereogram</item>-->                              <!-- Commented Out -->
-                      <item>Swirl</item>                              <!-- 22 -->
-                      <item>Tint</item>                              <!-- 23 -->
-                      <item>Vignette</item>                              <!-- 24 -->
-                      <item>Wave</item>                              <!-- 25 -->
-                      <item>Wavelet Denoise</item>                              <!-- 26 -->
-                      <item>Enhance</item>                              <!-- 27 -->
-                      <item>Flip</item>                              <!-- 28 -->
-                      <item>Flop</item>                              <!-- 29 -->
-                      <item>Rotation</item>                              <!-- 30 -->
-                      <item>Statistic</item>                              <!-- 31 -->
-                      <item>KMeans</item>                              <!-- 32 -->
-                      <item>Posterize</item>                              <!-- 33 -->
-                      <item>Quantize</item>                              <!-- 34 -->
-                      <item>Ordered Dither</item>                         <!-- 35 -->
+                      <item translatable="yes">Swirl</item>                              <!-- 22 -->
+                      <item translatable="yes">Tint</item>                              <!-- 23 -->
+                      <item translatable="yes">Vignette</item>                              <!-- 24 -->
+                      <item translatable="yes">Wave</item>                              <!-- 25 -->
+                      <item translatable="yes">Wavelet Denoise</item>                              <!-- 26 -->
+                      <item translatable="yes">Enhance</item>                              <!-- 27 -->
+                      <item translatable="yes">Flip</item>                              <!-- 28 -->
+                      <item translatable="yes">Flop</item>                              <!-- 29 -->
+                      <item translatable="yes">Rotation</item>                              <!-- 30 -->
+                      <item translatable="yes">Statistic</item>                              <!-- 31 -->
+                      <item translatable="yes">KMeans</item>                              <!-- 32 -->
+                      <item translatable="yes">Posterize</item>                              <!-- 33 -->
+                      <item translatable="yes">Quantize</item>                              <!-- 34 -->
+                      <item translatable="yes">Ordered Dither</item>                         <!-- 35 -->
                       <!--<item translatable="yes">Quantize Remap</item>-->                              <!-- Commented Out -->
-                      <item>Threshold</item>                              <!-- 36 -->
+                      <item translatable="yes">Threshold</item>                              <!-- 36 -->
                     </items>
                   </object>
                 </property>

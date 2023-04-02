@@ -14,9 +14,9 @@
             <property name="model">
               <object class="GtkStringList">
                 <items>
-                  <item>Normal</item>
-                  <item>Adaptive</item>
-                  <item>Unsharp Mask</item>
+                  <item translatable="yes">Normal</item>
+                  <item translatable="yes">Adaptive</item>
+                  <item translatable="yes">Unsharp Mask</item>
                 </items>
               </object>
             </property>

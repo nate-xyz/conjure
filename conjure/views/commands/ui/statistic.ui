@@ -21,15 +21,15 @@
                 <property name="model">
                   <object class="GtkStringList">
                     <items>
-                      <item>Gradient</item>
-                      <item>Maximum</item>
-                      <item>Mean</item>
-                      <item>Median</item>
-                      <item>Minimum</item>
-                      <item>Mode</item>
-                      <item>Nonpeak</item>
-                      <item>Root Mean Square</item>
-                      <item>Standard Deviation</item>
+                      <item translatable="yes">Gradient</item>
+                      <item translatable="yes">Maximum</item>
+                      <item translatable="yes">Mean</item>
+                      <item translatable="yes">Median</item>
+                      <item translatable="yes">Minimum</item>
+                      <item translatable="yes">Mode</item>
+                      <item translatable="yes">Nonpeak</item>
+                      <item translatable="yes">Root Mean Square</item>
+                      <item translatable="yes">Standard Deviation</item>
                     </items>
                   </object>
                 </property>
