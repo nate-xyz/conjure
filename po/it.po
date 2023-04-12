@@ -49,11 +49,23 @@ msgstr ""
 "ridimensionamento, ritaglio, rotazione, capovolgimento e applicazione di "
 "filtri ed effetti."
 
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:24
+msgid "Add Italian, Dutch, and Turkish Translations"
+msgstr ""
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:25
+msgid "UI improvements"
+msgstr ""
+
+#: data/io.github.nate_xyz.Conjure.appdata.xml.in:32
+msgid "UI changes"
+msgstr ""
+
 #: conjure/window.py:52
 msgid "Select an Image File"
 msgstr "Seleziona un file immagine"
 
-#: conjure/window.py:55 conjure/ui/window.ui:26
+#: conjure/window.py:55 conjure/ui/window.ui:31
 #: conjure/views/ui/image_drop_page.ui:29
 msgid "Open Image"
 msgstr "Apri immagine"
@@ -78,12 +90,11 @@ msgstr "Impossibile aprire l'immagine: {}"
 
 #. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
 #. One name per line, please do not remove previous names.
-#: conjure/app.py:67
+#: conjure/app.py:68
 msgid "translator-credits"
 msgstr "Albano Battistella"
 
-#. Translators: just translate "Powered by"
-#: conjure/app.py:70
+#: conjure/app.py:71
 msgid "Powered by ImageMagick"
 msgstr "Offerto da ImageMagick"
 
@@ -102,31 +113,31 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Esci"
 
-#: conjure/ui/window.ui:19
+#: conjure/ui/window.ui:24
 msgid "Conjure 🪄"
 msgstr "Conjure"
 
-#: conjure/ui/window.ui:56
+#: conjure/ui/window.ui:69
 msgid "_Keyboard Shortcuts"
 msgstr "_Scorciatoie da tastiera"
 
-#: conjure/ui/window.ui:60
+#: conjure/ui/window.ui:73
 msgid "_About Conjure"
 msgstr "_Informazioni su Conjure"
 
-#: conjure/views/command_panel.py:119
+#: conjure/views/command_panel.py:126
 msgid "Unable select command, no image loaded."
 msgstr "Impossibile selezionare il comando, nessuna immagine caricata."
 
-#: conjure/views/command_panel.py:196
+#: conjure/views/command_panel.py:203
 msgid "Unable to start conversion."
 msgstr "Impossibile avviare la conversione."
 
-#: conjure/views/command_panel.py:199
+#: conjure/views/command_panel.py:206
 msgid "Unable to start conversion, no image loaded."
 msgstr "Impossibile avviare la conversione, nessuna immagine caricata."
 
-#: conjure/views/command_panel.py:211
+#: conjure/views/command_panel.py:218
 msgid "Unable to complete conversion."
 msgstr "Impossibile completare la conversione."
 
@@ -162,30 +173,21 @@ msgstr "Salva immagine"
 msgid "Save"
 msgstr "Salva"
 
-#: conjure/views/save_dialog.py:64
+#: conjure/views/save_dialog.py:66
 msgid "Saved!"
 msgstr "Salvato!"
 
-#: conjure/views/save_dialog.py:64
+#: conjure/views/save_dialog.py:66
 msgid "New image: {dialog.get_current_name()}"
 msgstr "Nuova immagine: {dialog.get_current_name()}"
 
-#: conjure/views/save_dialog.py:66
+#: conjure/views/save_dialog.py:68
 msgid "Unable to save image {dialog.get_current_name()}."
 msgstr "Impossibile salvare l'immagine {dialog.get_current_name()}."
 
-#: conjure/views/save_dialog.py:69
+#: conjure/views/save_dialog.py:71
 msgid "Unable to save image."
 msgstr "Impossibile salvare l'immagine."
-
-#: conjure/views/commands/ui/radius_sigma.ui:14
-#: conjure/views/commands/ui/radius_sigma_angle.ui:13
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:13
-#: conjure/views/commands/ui/radius.ui:9
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:19
-#: conjure/views/commands/ui/radius_sigma_xy.ui:18
-msgid "Radius"
-msgstr "Raggio"
 
 #: conjure/views/commands/ui/radius_sigma.ui:15
 #: conjure/views/commands/ui/radius_sigma_angle.ui:14
@@ -193,36 +195,45 @@ msgstr "Raggio"
 #: conjure/views/commands/ui/radius.ui:10
 #: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:20
 #: conjure/views/commands/ui/radius_sigma_xy.ui:19
+msgid "Radius"
+msgstr "Raggio"
+
+#: conjure/views/commands/ui/radius_sigma.ui:16
+#: conjure/views/commands/ui/radius_sigma_angle.ui:15
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:15
+#: conjure/views/commands/ui/radius.ui:11
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:21
+#: conjure/views/commands/ui/radius_sigma_xy.ui:20
 msgid "The size of the Gaussian operator."
 msgstr "La dimensione dell'operatore gaussiano."
 
-#: conjure/views/commands/ui/radius_sigma.ui:33
-#: conjure/views/commands/ui/radius_sigma_angle.ui:32
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:32
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:38
-#: conjure/views/commands/ui/radius_sigma_xy.ui:37
+#: conjure/views/commands/ui/radius_sigma.ui:35
+#: conjure/views/commands/ui/radius_sigma_angle.ui:34
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:34
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:40
+#: conjure/views/commands/ui/radius_sigma_xy.ui:39
 msgid "Sigma"
 msgstr "Sigma"
 
-#: conjure/views/commands/ui/radius_sigma.ui:34
-#: conjure/views/commands/ui/radius_sigma_angle.ui:33
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:33
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:39
-#: conjure/views/commands/ui/radius_sigma_xy.ui:38
+#: conjure/views/commands/ui/radius_sigma.ui:36
+#: conjure/views/commands/ui/radius_sigma_angle.ui:35
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:35
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:41
+#: conjure/views/commands/ui/radius_sigma_xy.ui:40
 msgid "The standard deviation of the Gaussian."
 msgstr "La deviazione standard della gaussiana."
 
-#: conjure/views/commands/ui/resize.ui:15
+#: conjure/views/commands/ui/resize.ui:16
 msgid "Width (px)"
 msgstr "Larghezza (px)"
 
-#: conjure/views/commands/ui/resize.ui:22
+#: conjure/views/commands/ui/resize.ui:24
 msgid "Height (px)"
 msgstr "Altezza (px)"
 
 #: conjure/views/commands/ui/crop.ui:15
-#: conjure/views/commands/ui/statistic.ui:43
-#: conjure/views/commands/ui/width_height_offset.ui:11
+#: conjure/views/commands/ui/statistic.ui:45
+#: conjure/views/commands/ui/width_height_offset.ui:12
 msgid "Width"
 msgstr "Altezza"
 
@@ -230,77 +241,111 @@ msgstr "Altezza"
 msgid "Width of Crop"
 msgstr "Larghezza di ritaglio"
 
-#: conjure/views/commands/ui/crop.ui:33
-#: conjure/views/commands/ui/statistic.ui:61
-#: conjure/views/commands/ui/width_height_offset.ui:30
+#: conjure/views/commands/ui/crop.ui:34
+#: conjure/views/commands/ui/statistic.ui:64
+#: conjure/views/commands/ui/width_height_offset.ui:32
 msgid "Height"
 msgstr "Altezza"
 
-#: conjure/views/commands/ui/crop.ui:34
+#: conjure/views/commands/ui/crop.ui:35
 msgid "Height of Crop"
 msgstr "Altezza di ritaglio"
 
-#: conjure/views/commands/ui/crop.ui:57
+#: conjure/views/commands/ui/crop.ui:58
 msgid "Left"
 msgstr "Sinistra"
 
-#: conjure/views/commands/ui/crop.ui:58
+#: conjure/views/commands/ui/crop.ui:59
 msgid "Horizontal Start Position"
 msgstr "Posizione iniziale orizzontale"
 
-#: conjure/views/commands/ui/crop.ui:75
+#: conjure/views/commands/ui/crop.ui:77
 msgid "Top"
 msgstr "Sopra"
 
-#: conjure/views/commands/ui/crop.ui:76
+#: conjure/views/commands/ui/crop.ui:78
 msgid "Vertical Start Position"
 msgstr "Posizione iniziale verticale"
 
-#: conjure/views/commands/ui/radius_sigma_angle.ui:51
-#: conjure/views/commands/ui/angle.ui:9
-#: conjure/views/commands/ui/polaroid.ui:31
+#: conjure/views/commands/ui/blur.ui:17 conjure/views/commands/ui/sharpen.ui:17
+msgid "Normal"
+msgstr ""
+
+#: conjure/views/commands/ui/blur.ui:18 conjure/views/commands/ui/sharpen.ui:18
+msgid "Adaptive"
+msgstr ""
+
+#: conjure/views/commands/ui/blur.ui:19 conjure/views/commands/ui/noise.ui:27
+msgid "Gaussian"
+msgstr ""
+
+#: conjure/views/commands/ui/blur.ui:20
+#, fuzzy
+#| msgid "Caption"
+msgid "Motion"
+msgstr "Didascalia"
+
+#: conjure/views/commands/ui/blur.ui:21
+msgid "Rotational"
+msgstr ""
+
+#: conjure/views/commands/ui/blur.ui:22
+msgid "Selective"
+msgstr ""
+
+#: conjure/views/commands/ui/radius_sigma_angle.ui:54
+#: conjure/views/commands/ui/angle.ui:10
+#: conjure/views/commands/ui/polaroid.ui:33
 msgid "Angle"
 msgstr "Angolo"
 
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:51
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:85
-#: conjure/views/commands/ui/threshold.ui:9
+#. 35
+#. <item translatable="yes">Quantize Remap</item>
+#. Commented Out
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:54
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:89
+#: conjure/views/commands/ui/threshold.ui:10
 #: conjure/views/commands/ui/threshold_softness.ui:13
+#: conjure/views/ui/command_panel.ui:87
 msgid "Threshold"
 msgstr "Soglia"
 
-#: conjure/views/commands/ui/shade.ui:15
+#: conjure/views/commands/ui/sharpen.ui:19
+msgid "Unsharp Mask"
+msgstr ""
+
+#: conjure/views/commands/ui/shade.ui:16
 msgid "Gray"
 msgstr "Grigio"
 
-#: conjure/views/commands/ui/shade.ui:16
+#: conjure/views/commands/ui/shade.ui:17
 msgid "Isolate the effect on pixel intensity. Default is False."
 msgstr ""
 "Isolare l'effetto sull'intensità dei pixel. L'impostazione predefinita è "
 "Falso."
 
-#: conjure/views/commands/ui/shade.ui:30
+#: conjure/views/commands/ui/shade.ui:32
 msgid "Azimuth"
 msgstr "Azimut"
 
-#: conjure/views/commands/ui/shade.ui:31
+#: conjure/views/commands/ui/shade.ui:33
 msgid "Angle from x-axis."
 msgstr "Angolo dall'asse x."
 
-#: conjure/views/commands/ui/shade.ui:49
+#: conjure/views/commands/ui/shade.ui:52
 msgid "Elevation"
 msgstr "Elevazione"
 
-#: conjure/views/commands/ui/shade.ui:50
+#: conjure/views/commands/ui/shade.ui:53
 msgid "Amount of pixels from the z-axis."
 msgstr "Quantità di pixel dall'asse z."
 
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:66
-#: conjure/views/commands/ui/amount_method.ui:50
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:69
+#: conjure/views/commands/ui/amount_method.ui:49
 msgid "Amount"
 msgstr "Quantità"
 
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:67
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:70
 msgid ""
 "The percentage of the difference between the original and the blur image "
 "that is added back into the original"
@@ -308,7 +353,7 @@ msgstr ""
 "La percentuale della differenza tra l'originale e l'immagine sfocata che "
 "viene aggiunta nuovamente all'originale"
 
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:86
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:90
 msgid ""
 "The threshold in pixels needed to apply the difference amount. Values for "
 "threshold over 0.0 reduce the sharpens."
@@ -316,29 +361,29 @@ msgstr ""
 "La soglia in pixel necessaria per applicare la quantità di differenza. I "
 "valori per la soglia superiori a 0.0 riducono la nitidezza."
 
-#: conjure/views/commands/ui/factor.ui:9
+#: conjure/views/commands/ui/factor.ui:10
 msgid "Factor"
 msgstr "Fattore"
 
-#: conjure/views/commands/ui/factor.ui:10
+#: conjure/views/commands/ui/factor.ui:11
 msgid "Amount to adjust values."
 msgstr "Importo per regolare i valori."
 
-#: conjure/views/commands/ui/color_alpha.ui:13
+#: conjure/views/commands/ui/color_alpha.ui:14
 msgid "Color"
 msgstr "Colore"
 
-#: conjure/views/commands/ui/amount_method.ui:13
-#: conjure/views/commands/ui/polaroid.ui:50
-#: conjure/views/commands/ui/wave.ui:51
+#: conjure/views/commands/ui/amount_method.ui:12
+#: conjure/views/commands/ui/polaroid.ui:53
+#: conjure/views/commands/ui/wave.ui:54
 msgid "Method"
 msgstr "Metodo"
 
-#: conjure/views/commands/ui/amount_method.ui:14
+#: conjure/views/commands/ui/amount_method.ui:13
 msgid "Which interpolate method to apply to effected pixels."
 msgstr "Quale metodo di interpolazione applicare ai pixel interessati."
 
-#: conjure/views/commands/ui/amount_method.ui:51
+#: conjure/views/commands/ui/amount_method.ui:50
 msgid "Normalized degree of effect."
 msgstr "Grado di effetto normalizzato."
 
@@ -346,40 +391,128 @@ msgstr "Grado di effetto normalizzato."
 msgid "Caption"
 msgstr "Didascalia"
 
-#: conjure/views/commands/ui/polaroid.ui:19
+#: conjure/views/commands/ui/polaroid.ui:20
 msgid "Font"
 msgstr "Font"
 
-#: conjure/views/commands/ui/polaroid.ui:32
+#: conjure/views/commands/ui/polaroid.ui:34
 msgid "Apply a shadow effect along this angle."
 msgstr "Applica un effetto ombra lungo questo angolo."
 
-#: conjure/views/commands/ui/polaroid.ui:51
-#: conjure/views/commands/ui/wave.ui:52
+#: conjure/views/commands/ui/polaroid.ui:54
+#: conjure/views/commands/ui/wave.ui:55
 msgid "Interpolation method."
 msgstr "Metodo di interpolazione."
 
-#: conjure/views/commands/ui/noise.ui:13
+#: conjure/views/commands/ui/polaroid.ui:64
+#: conjure/views/commands/ui/noise.ui:25 conjure/views/commands/ui/wave.ui:64
+#: conjure/views/commands/ui/posterize.ui:24
+#: conjure/views/commands/ui/quantize.ui:27
+#: conjure/views/commands/ui/quantize.ui:53
+#: conjure/views/commands/ui/auto_threshold.ui:23
+msgid "Undefined"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:65
+#: conjure/views/commands/ui/wave.ui:65
+msgid "Average"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:66
+#: conjure/views/commands/ui/wave.ui:66
+msgid "Average9"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:67
+#: conjure/views/commands/ui/wave.ui:67
+msgid "Average16"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:68
+#: conjure/views/commands/ui/wave.ui:68
+msgid "Background"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:69
+#: conjure/views/commands/ui/wave.ui:69
+msgid "Bilinear"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:70
+#: conjure/views/commands/ui/wave.ui:70
+msgid "Blend"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:71
+#: conjure/views/commands/ui/wave.ui:71
+msgid "Catrom"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:72
+#: conjure/views/commands/ui/wave.ui:72
+msgid "Integer"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:73
+#: conjure/views/commands/ui/wave.ui:73
+msgid "Mesh"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:74
+#: conjure/views/commands/ui/wave.ui:74
+msgid "Nearest"
+msgstr ""
+
+#: conjure/views/commands/ui/polaroid.ui:75
+#: conjure/views/commands/ui/wave.ui:75
+msgid "Spline"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:14
 msgid "Noise"
 msgstr "Rumore"
 
-#: conjure/views/commands/ui/noise.ui:14
+#: conjure/views/commands/ui/noise.ui:15
 msgid "Type of noise to apply"
 msgstr "Tipo di rumore da applicare"
 
-#: conjure/views/commands/ui/noise.ui:43
+#: conjure/views/commands/ui/noise.ui:26
+msgid "Uniform"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:28
+msgid "Multiplicative Gaussian"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:29
+msgid "Impulse"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:30
+msgid "Laplacian"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:31
+msgid "Poisson"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:32
+msgid "Random"
+msgstr ""
+
+#: conjure/views/commands/ui/noise.ui:45
 msgid "Attenuate"
 msgstr "Attenuato"
 
-#: conjure/views/commands/ui/noise.ui:44
+#: conjure/views/commands/ui/noise.ui:46
 msgid "Rate of distribution."
 msgstr "Velocità di distribuzione."
 
-#: conjure/views/commands/ui/radius_sigma_xy.ui:66
+#: conjure/views/commands/ui/radius_sigma_xy.ui:69
 msgid "X"
 msgstr "X"
 
-#: conjure/views/commands/ui/radius_sigma_xy.ui:67
+#: conjure/views/commands/ui/radius_sigma_xy.ui:70
 msgid ""
 "Number of pixels to offset inward from the top and bottom of the image "
 "before drawing effect."
@@ -387,11 +520,11 @@ msgstr ""
 "Numero di pixel di cui eseguire l'offset verso l'interno dalla parte "
 "superiore e inferiore dell'immagine prima dell'effetto di disegno."
 
-#: conjure/views/commands/ui/radius_sigma_xy.ui:84
+#: conjure/views/commands/ui/radius_sigma_xy.ui:88
 msgid "Y"
 msgstr "Y"
 
-#: conjure/views/commands/ui/radius_sigma_xy.ui:85
+#: conjure/views/commands/ui/radius_sigma_xy.ui:89
 msgid ""
 "Number of pixels to offset inward from the left and right of the image "
 "before drawing effect."
@@ -399,19 +532,19 @@ msgstr ""
 "Numero di pixel di cui eseguire l'offset verso l'interno dalla sinistra e "
 "dalla destra dell'immagine prima dell'effetto di disegno."
 
-#: conjure/views/commands/ui/wave.ui:13
+#: conjure/views/commands/ui/wave.ui:14
 msgid "Amplitude"
 msgstr "Ampiezza"
 
-#: conjure/views/commands/ui/wave.ui:14
+#: conjure/views/commands/ui/wave.ui:15
 msgid "Height of wave form."
 msgstr "Altezza della forma d'onda."
 
-#: conjure/views/commands/ui/wave.ui:32
+#: conjure/views/commands/ui/wave.ui:34
 msgid "Wave Length"
 msgstr "Lunghezza d'onda"
 
-#: conjure/views/commands/ui/wave.ui:33
+#: conjure/views/commands/ui/wave.ui:35
 msgid "Width of wave form."
 msgstr "Larghezza della forma d'onda."
 
@@ -431,107 +564,344 @@ msgstr "Attenuazione della soglia di livellamento."
 msgid "Background Color (optional)"
 msgstr "Colore di sfondo (facoltativo)"
 
-#: conjure/views/commands/ui/rotate.ui:20
+#: conjure/views/commands/ui/rotate.ui:21
 msgid "Degree"
 msgstr "Gradi"
 
-#: conjure/views/commands/ui/rotate.ui:21
+#: conjure/views/commands/ui/rotate.ui:22
 msgid "Degree to rotate."
 msgstr "Grado di rotazione."
 
-#: conjure/views/commands/ui/statistic.ui:13
+#. 30
+#: conjure/views/commands/ui/statistic.ui:14
+#: conjure/views/ui/command_panel.ui:81
 msgid "Statistic"
 msgstr "Statistiche"
 
-#: conjure/views/commands/ui/statistic.ui:14
+#: conjure/views/commands/ui/statistic.ui:15
 msgid "The type of statistic to calculate."
 msgstr "Il tipo di statistica da calcolare."
 
-#: conjure/views/commands/ui/kmeans.ui:13
-#: conjure/views/commands/ui/quantize.ui:104
+#: conjure/views/commands/ui/statistic.ui:24
+msgid "Gradient"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:25
+msgid "Maximum"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:26
+msgid "Mean"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:27
+msgid "Median"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:28
+msgid "Minimum"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:29
+msgid "Mode"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:30
+msgid "Nonpeak"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:31
+msgid "Root Mean Square"
+msgstr ""
+
+#: conjure/views/commands/ui/statistic.ui:32
+msgid "Standard Deviation"
+msgstr ""
+
+#: conjure/views/commands/ui/kmeans.ui:14
+#: conjure/views/commands/ui/quantize.ui:106
 msgid "Number of Colors"
 msgstr "Numero di colori"
 
-#: conjure/views/commands/ui/kmeans.ui:14
+#: conjure/views/commands/ui/kmeans.ui:15
 msgid "Target number of colors to use as seeds."
 msgstr "Numero target di colori da utilizzare come semi."
 
-#: conjure/views/commands/ui/kmeans.ui:32
+#: conjure/views/commands/ui/kmeans.ui:34
 msgid "Max Iterations"
 msgstr "Numero massimo di iterazioni"
 
-#: conjure/views/commands/ui/kmeans.ui:33
+#: conjure/views/commands/ui/kmeans.ui:35
 msgid "Maximum number of iterations needed until convergence."
 msgstr "Numero massimo di iterazioni necessarie fino alla convergenza."
 
-#: conjure/views/commands/ui/kmeans.ui:51
+#: conjure/views/commands/ui/kmeans.ui:54
 msgid "Tolerance"
 msgstr "Tolleranza"
 
-#: conjure/views/commands/ui/kmeans.ui:52
+#: conjure/views/commands/ui/kmeans.ui:55
 msgid "Maximum tolerance between distortion iterations."
 msgstr "Tolleranza massima tra le iterazioni di distorsione."
 
-#: conjure/views/commands/ui/posterize.ui:13
-#: conjure/views/commands/ui/quantize.ui:16
+#: conjure/views/commands/ui/posterize.ui:14
+#: conjure/views/commands/ui/quantize.ui:17
 msgid "Dither"
 msgstr ""
 
-#: conjure/views/commands/ui/posterize.ui:14
+#: conjure/views/commands/ui/posterize.ui:15
 msgid "Dither method to apply."
 msgstr "Il metodo di dithering da utilizzare."
 
-#: conjure/views/commands/ui/posterize.ui:38
+#: conjure/views/commands/ui/posterize.ui:25
+#: conjure/views/commands/ui/quantize.ui:28
+msgid "No"
+msgstr ""
+
+#: conjure/views/commands/ui/posterize.ui:26
+#: conjure/views/commands/ui/quantize.ui:29
+msgid "Riemersma"
+msgstr ""
+
+#: conjure/views/commands/ui/posterize.ui:27
+#: conjure/views/commands/ui/quantize.ui:30
+msgid "Floyd Steinberg"
+msgstr ""
+
+#: conjure/views/commands/ui/posterize.ui:40
 msgid "Levels"
 msgstr "Livelli"
 
-#: conjure/views/commands/ui/quantize.ui:17
+#: conjure/views/commands/ui/quantize.ui:18
 msgid "Perform dither operation between neighboring pixel values."
 msgstr "Eseguire operazioni di dithering tra valori di pixel vicini."
 
-#: conjure/views/commands/ui/quantize.ui:42
+#: conjure/views/commands/ui/quantize.ui:44
 msgid "Color Space"
 msgstr "Spazio colore"
 
-#: conjure/views/commands/ui/quantize.ui:105
+#: conjure/views/commands/ui/quantize.ui:54
+msgid "RGB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:55
+#, fuzzy
+#| msgid "Gray"
+msgid "Grayscale"
+msgstr "Grigio"
+
+#: conjure/views/commands/ui/quantize.ui:56
+msgid "Transparent"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:57
+msgid "Ohta"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:58
+msgid "LAB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:59
+msgid "XYZ"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:60
+msgid "YCbCr"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:61
+msgid "YCC"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:62
+msgid "YIQ"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:63
+msgid "YPbPr"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:64
+msgid "YUV"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:65
+msgid "CMYK"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:66
+msgid "sRGB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:67
+msgid "HSB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:68
+msgid "HSL"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:69
+msgid "HWB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:70
+msgid "Rec.601 YCbCr"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:71
+msgid "Rec.709 YCbCr"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:72
+#, fuzzy
+#| msgid "Low"
+msgid "Log"
+msgstr "Basso"
+
+#: conjure/views/commands/ui/quantize.ui:73
+msgid "CMY"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:74
+msgid "Luv"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:75
+msgid "HCL"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:76
+msgid "LCH"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:77
+msgid "LMS"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:78
+msgid "LCHab"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:79
+msgid "LCHuv"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:80
+msgid "scRGB"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:81
+msgid "HSI"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:82
+msgid "HSV"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:83
+msgid "HCLp"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:84
+msgid "xyY"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:85
+msgid "YDbDr"
+msgstr ""
+
+#: conjure/views/commands/ui/quantize.ui:107
 msgid "The target number of colors to reduce the image to."
 msgstr "Il numero di colori di destinazione a cui ridurre l'immagine."
 
-#: conjure/views/commands/ui/quantize.ui:124
+#: conjure/views/commands/ui/quantize.ui:127
 msgid "Tree Depth"
 msgstr "Profondità Albero"
 
-#: conjure/views/commands/ui/quantize.ui:125
+#: conjure/views/commands/ui/quantize.ui:128
 msgid ""
 "A value between 0 and 8 where 0 will allow ImageMagick to calculate the "
 "optimal depth with Log4(number_colors)"
 msgstr ""
-"Un valore compreso tra 0 e 8 dove 0 consentirà a ImageMagick di calcolare "
-"la profondità ottimale con Log4(number_colors)"
+"Un valore compreso tra 0 e 8 dove 0 consentirà a ImageMagick di calcolare la "
+"profondità ottimale con Log4(number_colors)"
 
-#: conjure/views/commands/ui/width_height_offset.ui:12
+#: conjure/views/commands/ui/width_height_offset.ui:13
 msgid "Size of neighboring pixels on the X-axis."
 msgstr "Dimensione dei pixel adiacenti sull'asse X."
 
-#: conjure/views/commands/ui/width_height_offset.ui:31
+#: conjure/views/commands/ui/width_height_offset.ui:33
 msgid "Size of neighboring pixels on the Y-axis."
 msgstr "Dimensione dei pixel adiacenti sull'asse Y."
 
-#: conjure/views/commands/ui/width_height_offset.ui:49
+#: conjure/views/commands/ui/width_height_offset.ui:52
 msgid "Offset"
 msgstr "Compensazione"
 
-#: conjure/views/commands/ui/width_height_offset.ui:50
+#: conjure/views/commands/ui/width_height_offset.ui:53
 msgid "Forces the pixels to black if values are below offset."
 msgstr "Forza i pixel al nero se i valori sono inferiori all'offset."
 
-#: conjure/views/commands/ui/auto_threshold.ui:13
+#: conjure/views/commands/ui/auto_threshold.ui:14
 msgid "Threshold Method"
 msgstr "Metodo Soglia"
 
+#: conjure/views/commands/ui/auto_threshold.ui:24
+msgid "Kapur"
+msgstr ""
+
+#: conjure/views/commands/ui/auto_threshold.ui:25
+msgid "Otsu"
+msgstr ""
+
+#: conjure/views/commands/ui/auto_threshold.ui:26
+#, fuzzy
+#| msgid "Angle"
+msgid "Triangle"
+msgstr "Angolo"
+
+#: conjure/views/commands/ui/thresholds.ui:16
+#, fuzzy
+#| msgid "Threshold"
+msgid "Adaptive Threshold"
+msgstr "Soglia"
+
+#: conjure/views/commands/ui/thresholds.ui:17
+#, fuzzy
+#| msgid "Threshold"
+msgid "Auto Threshold"
+msgstr "Soglia"
+
+#: conjure/views/commands/ui/thresholds.ui:18
+#, fuzzy
+#| msgid "Threshold"
+msgid "Black Threshold"
+msgstr "Soglia"
+
+#: conjure/views/commands/ui/thresholds.ui:19
 #: conjure/views/commands/ui/color_threshold.ui:13
 msgid "Color Threshold"
 msgstr "Soglia Colore"
+
+#. <item translatable="yes">Ordered Threshold</item>
+#: conjure/views/commands/ui/thresholds.ui:21
+#, fuzzy
+#| msgid "Threshold"
+msgid "Random Threshold"
+msgstr "Soglia"
+
+#: conjure/views/commands/ui/thresholds.ui:22
+#, fuzzy
+#| msgid "Threshold"
+msgid "Range Threshold"
+msgstr "Soglia"
+
+#: conjure/views/commands/ui/thresholds.ui:23
+#, fuzzy
+#| msgid "Threshold"
+msgid "White Threshold"
+msgstr "Soglia"
 
 #: conjure/views/commands/ui/color_threshold_start_stop.ui:13
 msgid "Start Color"
@@ -541,107 +911,107 @@ msgstr "Avvia colore"
 msgid "Stop Color"
 msgstr "Ferma colore"
 
-#: conjure/views/commands/ui/ordered_dither.ui:12
+#: conjure/views/commands/ui/ordered_dither.ui:13
 msgid "Threshold 1x1 (non-dither)"
 msgstr "Soglia 1x1 (senza dithering)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:13
+#: conjure/views/commands/ui/ordered_dither.ui:14
 msgid "Checkerboard 2x1 (dither)"
 msgstr "Scacchiera 2x1 (dithering)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:14
+#: conjure/views/commands/ui/ordered_dither.ui:15
 msgid "Ordered 2x2 (dispersed)"
 msgstr "Ordinato 2x2 (distribuito)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:15
+#: conjure/views/commands/ui/ordered_dither.ui:16
 msgid "Ordered 3x3 (dispersed)"
 msgstr "Ordinato 3x3 (distribuito)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:16
+#: conjure/views/commands/ui/ordered_dither.ui:17
 msgid "Ordered 4x4 (dispersed)"
 msgstr "Ordinato 4x4 (distribuito)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:17
+#: conjure/views/commands/ui/ordered_dither.ui:18
 msgid "Ordered 8x8 (dispersed)"
 msgstr "Ordinato 8x8 (distribuito)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:18
+#: conjure/views/commands/ui/ordered_dither.ui:19
 msgid "Halftone 4x4 (angled)"
 msgstr "Mezzitoni 4x4 (angolato)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:19
+#: conjure/views/commands/ui/ordered_dither.ui:20
 msgid "Halftone 6x6 (angled)"
 msgstr "Mezzitoni 6x6 (angolato)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:20
+#: conjure/views/commands/ui/ordered_dither.ui:21
 msgid "Halftone 8x8 (angled)"
 msgstr "Mezzitoni 8x8 (angolato)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:21
+#: conjure/views/commands/ui/ordered_dither.ui:22
 msgid "Halftone 4x4 (orthogonal)"
 msgstr "Mezzitoni 4x4 (ortogonale)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:22
+#: conjure/views/commands/ui/ordered_dither.ui:23
 msgid "Halftone 6x6 (orthogonal)"
 msgstr "Mezzitoni 6x6 (ortogonale)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:23
+#: conjure/views/commands/ui/ordered_dither.ui:24
 msgid "Halftone 8x8 (orthogonal)"
 msgstr "Mezzitoni 8x8 (ortogonale)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:24
+#: conjure/views/commands/ui/ordered_dither.ui:25
 msgid "Halftone 16x16 (orthogonal)"
 msgstr "Mezzitoni 16x16 (ortogonale)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:25
+#: conjure/views/commands/ui/ordered_dither.ui:26
 msgid "Circles 5x5 (black)"
 msgstr "Cerchi 5x5 (nero)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:26
+#: conjure/views/commands/ui/ordered_dither.ui:27
 msgid "Circles 5x5 (white)"
 msgstr "Cerchi 5x5 (bianco)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:27
+#: conjure/views/commands/ui/ordered_dither.ui:28
 msgid "Circles 6x6 (black)"
 msgstr "Cerchi 6x6 (nero)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:28
+#: conjure/views/commands/ui/ordered_dither.ui:29
 msgid "Circles 6x6 (white)"
 msgstr "Cerchi 6x6 (bianco)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:29
+#: conjure/views/commands/ui/ordered_dither.ui:30
 msgid "Circles 7x7 (black)"
 msgstr "Cerchi 7x7 (nero)"
 
-#: conjure/views/commands/ui/ordered_dither.ui:30
+#: conjure/views/commands/ui/ordered_dither.ui:31
 msgid "Circles 7x7 (white)"
 msgstr "Cerchi 7x7 (bianco)"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:12
+#: conjure/views/commands/ui/low_high_white_black.ui:13
 msgid "Low Black"
 msgstr "Nero basso"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:30
+#: conjure/views/commands/ui/low_high_white_black.ui:32
 msgid "Low White"
 msgstr "Bianco basso"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:49
+#: conjure/views/commands/ui/low_high_white_black.ui:52
 msgid "High White"
 msgstr "Bianco alto"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:68
+#: conjure/views/commands/ui/low_high_white_black.ui:72
 msgid "High Black"
 msgstr "Nero alto"
 
-#: conjure/views/commands/ui/low_high.ui:11
+#: conjure/views/commands/ui/low_high.ui:12
 msgid "Low"
 msgstr "Basso"
 
-#: conjure/views/commands/ui/low_high.ui:29
+#: conjure/views/commands/ui/low_high.ui:31
 msgid "High"
 msgstr "Alto"
 
-#: conjure/views/commands/ui/fx.ui:13
+#: conjure/views/commands/ui/fx.ui:14
 msgid "FX Expression"
 msgstr "Espressione FX"
 
@@ -656,6 +1026,194 @@ msgstr "Trascina un'immagine qui o fai clic sul pulsante in basso."
 #: conjure/views/ui/image_drop_page.ui:84
 msgid "Apply"
 msgstr "Applica"
+
+#: conjure/views/ui/command_panel.ui:47
+msgid "Select Command"
+msgstr ""
+
+#. 0
+#: conjure/views/ui/command_panel.ui:48
+msgid "Resize"
+msgstr ""
+
+#. 1
+#: conjure/views/ui/command_panel.ui:49
+msgid "Crop"
+msgstr ""
+
+#. 2
+#. <item translatable="yes">Transform</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:51
+msgid "Seam Carving"
+msgstr ""
+
+#. 3
+#: conjure/views/ui/command_panel.ui:52
+msgid "Blur"
+msgstr ""
+
+#. 4
+#: conjure/views/ui/command_panel.ui:53
+msgid "Despeckle"
+msgstr ""
+
+#. 5
+#: conjure/views/ui/command_panel.ui:54
+msgid "Edge"
+msgstr ""
+
+#. 6
+#: conjure/views/ui/command_panel.ui:55
+msgid "Emboss"
+msgstr ""
+
+#. 7
+#: conjure/views/ui/command_panel.ui:56
+msgid "Kuwahara"
+msgstr ""
+
+#. 8
+#: conjure/views/ui/command_panel.ui:57
+msgid "Shade"
+msgstr ""
+
+#. 9
+#: conjure/views/ui/command_panel.ui:58
+msgid "Sharpen"
+msgstr ""
+
+#. 10
+#: conjure/views/ui/command_panel.ui:59
+msgid "Spread"
+msgstr ""
+
+#. 11
+#: conjure/views/ui/command_panel.ui:60
+#, fuzzy
+#| msgid "Noise"
+msgid "Add Noise"
+msgstr "Rumore"
+
+#. 12
+#: conjure/views/ui/command_panel.ui:61
+msgid "Blueshift"
+msgstr ""
+
+#. 13
+#: conjure/views/ui/command_panel.ui:62
+msgid "Charcoal"
+msgstr ""
+
+#. 14
+#. <item translatable="yes">Color Matrix</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:64
+#, fuzzy
+#| msgid "Color"
+msgid "Colorize"
+msgstr "Colore"
+
+#. 15
+#: conjure/views/ui/command_panel.ui:65
+#, fuzzy
+#| msgid "X"
+msgid "FX"
+msgstr "X"
+
+#. 16
+#: conjure/views/ui/command_panel.ui:66
+msgid "Implode"
+msgstr ""
+
+#. 17
+#: conjure/views/ui/command_panel.ui:67
+msgid "Polaroid"
+msgstr ""
+
+#. 18
+#: conjure/views/ui/command_panel.ui:68
+msgid "Sepia Tone"
+msgstr ""
+
+#. 19
+#: conjure/views/ui/command_panel.ui:69
+msgid "Sketch"
+msgstr ""
+
+#. 20
+#: conjure/views/ui/command_panel.ui:70
+msgid "Solarize"
+msgstr ""
+
+#. 21
+#. <item translatable="yes">Stereogram</item>
+#. Commented Out
+#: conjure/views/ui/command_panel.ui:72
+msgid "Swirl"
+msgstr ""
+
+#. 22
+#: conjure/views/ui/command_panel.ui:73
+msgid "Tint"
+msgstr ""
+
+#. 23
+#: conjure/views/ui/command_panel.ui:74
+msgid "Vignette"
+msgstr ""
+
+#. 24
+#: conjure/views/ui/command_panel.ui:75
+msgid "Wave"
+msgstr ""
+
+#. 25
+#: conjure/views/ui/command_panel.ui:76
+msgid "Wavelet Denoise"
+msgstr ""
+
+#. 26
+#: conjure/views/ui/command_panel.ui:77
+msgid "Enhance"
+msgstr ""
+
+#. 27
+#: conjure/views/ui/command_panel.ui:78
+msgid "Flip"
+msgstr ""
+
+#. 28
+#: conjure/views/ui/command_panel.ui:79
+msgid "Flop"
+msgstr ""
+
+#. 29
+#: conjure/views/ui/command_panel.ui:80
+#, fuzzy
+#| msgid "Caption"
+msgid "Rotation"
+msgstr "Didascalia"
+
+#. 31
+#: conjure/views/ui/command_panel.ui:82
+msgid "KMeans"
+msgstr ""
+
+#. 32
+#: conjure/views/ui/command_panel.ui:83
+msgid "Posterize"
+msgstr ""
+
+#. 33
+#: conjure/views/ui/command_panel.ui:84
+msgid "Quantize"
+msgstr ""
+
+#. 34
+#: conjure/views/ui/command_panel.ui:85
+msgid "Ordered Dither"
+msgstr ""
 
 #: conjure/views/ui/save_dialog.ui:6
 msgid "Save Image?"
