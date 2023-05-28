@@ -1056,7 +1056,7 @@ msgstr "Bordo"
 #. 6
 #: conjure/views/ui/command_panel.ui:55
 msgid "Emboss"
-msgstr Rilievo""
+msgstr ""
 
 #. 7
 #: conjure/views/ui/command_panel.ui:56
