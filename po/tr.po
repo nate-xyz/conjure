@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.nate_xyz.Conjure\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-13 01:57+0300\n"
-"PO-Revision-Date: 2023-04-13 01:59+0300\n"
+"POT-Creation-Date: 2023-05-28 20:20+0300\n"
+"PO-Revision-Date: 2023-05-28 20:20+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -34,7 +34,6 @@ msgstr "Görüntü İşleme"
 msgid "Magically transform images"
 msgstr "Görüntüleri sihirli bir şekilde dönüştürün"
 
-#. Translators: Search terms to find this application. Do not translate or localize the semicolons! The list must also end with a semicolon.
 #: data/io.github.nate_xyz.Conjure.desktop.in:12
 msgid "image;magic;transform;"
 msgstr "görüntü;resim;büyü;dönüşüm;değişim;"
@@ -53,15 +52,23 @@ msgstr ""
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:24
 msgid "Add Italian, Dutch, and Turkish Translations"
-msgstr ""
+msgstr "İtalyanca, Felemenkçe ve Türkçe Çeviriler Eklendi"
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:25
 msgid "UI improvements"
-msgstr ""
+msgstr "Arayüz iyileştirmeleri"
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:32
 msgid "UI changes"
-msgstr ""
+msgstr "Arayüz değişiklikleri"
+
+#: conjure/app.py:68
+msgid "translator-credits"
+msgstr "Sabri Ünal <libreajans@gmail.com>"
+
+#: conjure/app.py:71
+msgid "Powered by ImageMagick"
+msgstr "ImageMagick ile Güçlendirildi"
 
 #: conjure/window.py:52
 msgid "Select an Image File"
@@ -76,7 +83,6 @@ msgstr "Görüntü Aç"
 msgid "Image files"
 msgstr "Görüntü dosyaları"
 
-#. Translators: Only replace "Error!"
 #: conjure/window.py:101
 msgid "<span foreground={ERROR_RED}>Error!</span> {html.escape(error)}"
 msgstr "<span foreground={ERROR_RED}>Hata!</span> {html.escape(error)}"
@@ -85,20 +91,9 @@ msgstr "<span foreground={ERROR_RED}>Hata!</span> {html.escape(error)}"
 msgid "Opened image:"
 msgstr "Açılan görüntü:"
 
-#. Translators: Do not replace {}
 #: conjure/window.py:112
 msgid "Could not open image: {}"
 msgstr "Görüntü açılamadı: {}"
-
-#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
-#. One name per line, please do not remove previous names.
-#: conjure/app.py:68
-msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>"
-
-#: conjure/app.py:71
-msgid "Powered by ImageMagick"
-msgstr "ImageMagick ile Güçlendirildi"
 
 #: conjure/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -191,47 +186,164 @@ msgstr "{dialog.get_current_name()} görüntüsü kaydedilemedi."
 msgid "Unable to save image."
 msgstr "Görüntü kaydedilemedi."
 
-#: conjure/views/commands/ui/radius_sigma.ui:15
-#: conjure/views/commands/ui/radius_sigma_angle.ui:14
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:14
-#: conjure/views/commands/ui/radius.ui:10
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:20
-#: conjure/views/commands/ui/radius_sigma_xy.ui:19
-msgid "Radius"
-msgstr "Yarıçap"
+#: conjure/views/commands/ui/amount_method.ui:12
+#: conjure/views/commands/ui/polaroid.ui:53
+#: conjure/views/commands/ui/wave.ui:54
+msgid "Method"
+msgstr "Yöntem"
 
-#: conjure/views/commands/ui/radius_sigma.ui:16
-#: conjure/views/commands/ui/radius_sigma_angle.ui:15
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:15
-#: conjure/views/commands/ui/radius.ui:11
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:21
-#: conjure/views/commands/ui/radius_sigma_xy.ui:20
-msgid "The size of the Gaussian operator."
-msgstr "Gaussian operatörünün boyutu."
+#: conjure/views/commands/ui/amount_method.ui:13
+msgid "Which interpolate method to apply to effected pixels."
+msgstr "Etkilenen piksellere hangi yarı değerleme yönteminin uygulanacağı."
 
-#: conjure/views/commands/ui/radius_sigma.ui:35
-#: conjure/views/commands/ui/radius_sigma_angle.ui:34
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:34
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:40
-#: conjure/views/commands/ui/radius_sigma_xy.ui:39
-msgid "Sigma"
-msgstr "Sigma"
+#: conjure/views/commands/ui/amount_method.ui:23
+#: conjure/views/commands/ui/auto_threshold.ui:23
+#: conjure/views/commands/ui/noise.ui:25
+#: conjure/views/commands/ui/polaroid.ui:64
+#: conjure/views/commands/ui/posterize.ui:24
+#: conjure/views/commands/ui/quantize.ui:27
+#: conjure/views/commands/ui/quantize.ui:53
+#: conjure/views/commands/ui/wave.ui:64
+msgid "Undefined"
+msgstr "Tanımsız"
 
-#: conjure/views/commands/ui/radius_sigma.ui:36
-#: conjure/views/commands/ui/radius_sigma_angle.ui:35
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:35
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:41
-#: conjure/views/commands/ui/radius_sigma_xy.ui:40
-msgid "The standard deviation of the Gaussian."
-msgstr "Gaussian standart sapması."
+#: conjure/views/commands/ui/amount_method.ui:24
+#: conjure/views/commands/ui/polaroid.ui:65
+#: conjure/views/commands/ui/wave.ui:65
+msgid "Average"
+msgstr "Ortalama"
 
-#: conjure/views/commands/ui/resize.ui:16
-msgid "Width (px)"
-msgstr "Genişlik (px)"
+#: conjure/views/commands/ui/amount_method.ui:25
+#: conjure/views/commands/ui/polaroid.ui:66
+#: conjure/views/commands/ui/wave.ui:66
+msgid "Average9"
+msgstr "Average9"
 
-#: conjure/views/commands/ui/resize.ui:24
-msgid "Height (px)"
-msgstr "Yükseklik (px)"
+#: conjure/views/commands/ui/amount_method.ui:26
+#: conjure/views/commands/ui/polaroid.ui:67
+#: conjure/views/commands/ui/wave.ui:67
+msgid "Average16"
+msgstr "Average16"
+
+#: conjure/views/commands/ui/amount_method.ui:27
+#: conjure/views/commands/ui/polaroid.ui:68
+#: conjure/views/commands/ui/wave.ui:68
+msgid "Background"
+msgstr "Arka plan"
+
+#: conjure/views/commands/ui/amount_method.ui:28
+#: conjure/views/commands/ui/polaroid.ui:69
+#: conjure/views/commands/ui/wave.ui:69
+msgid "Bilinear"
+msgstr "Çift doğrusal"
+
+#: conjure/views/commands/ui/amount_method.ui:29
+#: conjure/views/commands/ui/polaroid.ui:70
+#: conjure/views/commands/ui/wave.ui:70
+msgid "Blend"
+msgstr "Harmanlama"
+
+#: conjure/views/commands/ui/amount_method.ui:30
+#: conjure/views/commands/ui/polaroid.ui:71
+#: conjure/views/commands/ui/wave.ui:71
+msgid "Catrom"
+msgstr "Catrom"
+
+#: conjure/views/commands/ui/amount_method.ui:31
+#: conjure/views/commands/ui/polaroid.ui:72
+#: conjure/views/commands/ui/wave.ui:72
+msgid "Integer"
+msgstr "Tamsayı"
+
+#: conjure/views/commands/ui/amount_method.ui:32
+#: conjure/views/commands/ui/polaroid.ui:73
+#: conjure/views/commands/ui/wave.ui:73
+msgid "Mesh"
+msgstr "Mesh"
+
+#: conjure/views/commands/ui/amount_method.ui:33
+#: conjure/views/commands/ui/polaroid.ui:74
+#: conjure/views/commands/ui/wave.ui:74
+msgid "Nearest"
+msgstr "En yakın"
+
+#: conjure/views/commands/ui/amount_method.ui:34
+#: conjure/views/commands/ui/polaroid.ui:75
+#: conjure/views/commands/ui/wave.ui:75
+msgid "Spline"
+msgstr "Şerit"
+
+#: conjure/views/commands/ui/amount_method.ui:48
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:69
+msgid "Amount"
+msgstr "Miktar"
+
+#: conjure/views/commands/ui/amount_method.ui:49
+msgid "Normalized degree of effect."
+msgstr "Efektin normalleştirilme derecesi."
+
+#: conjure/views/commands/ui/angle.ui:10
+#: conjure/views/commands/ui/polaroid.ui:33
+#: conjure/views/commands/ui/radius_sigma_angle.ui:54
+msgid "Angle"
+msgstr "Açı"
+
+#: conjure/views/commands/ui/auto_threshold.ui:14
+msgid "Threshold Method"
+msgstr "Eşik Yöntemi"
+
+#: conjure/views/commands/ui/auto_threshold.ui:24
+msgid "Kapur"
+msgstr "Kapur"
+
+#: conjure/views/commands/ui/auto_threshold.ui:25
+msgid "Otsu"
+msgstr "Otsu"
+
+#: conjure/views/commands/ui/auto_threshold.ui:26
+msgid "Triangle"
+msgstr "Üçgen"
+
+#: conjure/views/commands/ui/blur.ui:17 conjure/views/commands/ui/sharpen.ui:17
+msgid "Normal"
+msgstr "Normal"
+
+#: conjure/views/commands/ui/blur.ui:18 conjure/views/commands/ui/sharpen.ui:18
+msgid "Adaptive"
+msgstr "Uyarlanabilir"
+
+#: conjure/views/commands/ui/blur.ui:19 conjure/views/commands/ui/noise.ui:27
+msgid "Gaussian"
+msgstr "Gaussian"
+
+#: conjure/views/commands/ui/blur.ui:20
+msgid "Motion"
+msgstr "Hareket"
+
+#: conjure/views/commands/ui/blur.ui:21
+msgid "Rotational"
+msgstr "Dönüşümsel"
+
+#: conjure/views/commands/ui/blur.ui:22
+msgid "Selective"
+msgstr "Seçilebilir"
+
+#: conjure/views/commands/ui/color_alpha.ui:14
+msgid "Color"
+msgstr "Renk"
+
+#: conjure/views/commands/ui/color_threshold.ui:13
+#: conjure/views/commands/ui/thresholds.ui:19
+msgid "Color Threshold"
+msgstr "Renk Eşiği"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:13
+msgid "Start Color"
+msgstr "Başlangıç Rengi"
+
+#: conjure/views/commands/ui/color_threshold_start_stop.ui:19
+msgid "Stop Color"
+msgstr "Bitiş Rengi"
 
 #: conjure/views/commands/ui/crop.ui:15
 #: conjure/views/commands/ui/statistic.ui:45
@@ -269,97 +381,6 @@ msgstr "Üst"
 msgid "Vertical Start Position"
 msgstr "Dikey Başlangıç Konumu"
 
-#: conjure/views/commands/ui/blur.ui:17 conjure/views/commands/ui/sharpen.ui:17
-msgid "Normal"
-msgstr ""
-
-#: conjure/views/commands/ui/blur.ui:18 conjure/views/commands/ui/sharpen.ui:18
-msgid "Adaptive"
-msgstr ""
-
-#: conjure/views/commands/ui/blur.ui:19 conjure/views/commands/ui/noise.ui:27
-msgid "Gaussian"
-msgstr ""
-
-#: conjure/views/commands/ui/blur.ui:20
-#, fuzzy
-#| msgid "Caption"
-msgid "Motion"
-msgstr "Başlık"
-
-#: conjure/views/commands/ui/blur.ui:21
-msgid "Rotational"
-msgstr ""
-
-#: conjure/views/commands/ui/blur.ui:22
-msgid "Selective"
-msgstr ""
-
-#: conjure/views/commands/ui/radius_sigma_angle.ui:54
-#: conjure/views/commands/ui/angle.ui:10
-#: conjure/views/commands/ui/polaroid.ui:33
-msgid "Angle"
-msgstr "Açı"
-
-#. 35
-#. <item translatable="yes">Quantize Remap</item>
-#. Commented Out
-#: conjure/views/commands/ui/radius_sigma_threshold.ui:54
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:89
-#: conjure/views/commands/ui/threshold.ui:10
-#: conjure/views/commands/ui/threshold_softness.ui:13
-#: conjure/views/ui/command_panel.ui:87
-msgid "Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/sharpen.ui:19
-msgid "Unsharp Mask"
-msgstr ""
-
-#: conjure/views/commands/ui/shade.ui:16
-msgid "Gray"
-msgstr "Gri"
-
-#: conjure/views/commands/ui/shade.ui:17
-msgid "Isolate the effect on pixel intensity. Default is False."
-msgstr "Piksel yoğunluğu üzerindeki etkiyi izole et. Kapalı öntanımlıdır."
-
-#: conjure/views/commands/ui/shade.ui:32
-msgid "Azimuth"
-msgstr "Azimut"
-
-#: conjure/views/commands/ui/shade.ui:33
-msgid "Angle from x-axis."
-msgstr "X ekseninden açı."
-
-#: conjure/views/commands/ui/shade.ui:52
-msgid "Elevation"
-msgstr "Yükselme"
-
-#: conjure/views/commands/ui/shade.ui:53
-msgid "Amount of pixels from the z-axis."
-msgstr "Z eksenindeki piksel miktarı."
-
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:69
-#: conjure/views/commands/ui/amount_method.ui:49
-msgid "Amount"
-msgstr "Miktar"
-
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:70
-msgid ""
-"The percentage of the difference between the original and the blur image "
-"that is added back into the original"
-msgstr ""
-"Özgün ile özgüne geri eklenen bulanık görüntü arasındaki farkın yüzdesi"
-
-#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:90
-msgid ""
-"The threshold in pixels needed to apply the difference amount. Values for "
-"threshold over 0.0 reduce the sharpens."
-msgstr ""
-"Fark miktarını uygulamak için gereken piksel cinsinden eşik. 0.0'ın "
-"üzerindeki eşik değerleri keskinliği azaltır."
-
 #: conjure/views/commands/ui/factor.ui:10
 msgid "Factor"
 msgstr "Katsayı"
@@ -368,254 +389,9 @@ msgstr "Katsayı"
 msgid "Amount to adjust values."
 msgstr "Ayarlama değerlerinin miktarı."
 
-#: conjure/views/commands/ui/color_alpha.ui:14
-msgid "Color"
-msgstr "Renk"
-
-#: conjure/views/commands/ui/amount_method.ui:12
-#: conjure/views/commands/ui/polaroid.ui:53
-#: conjure/views/commands/ui/wave.ui:54
-msgid "Method"
-msgstr "Yöntem"
-
-#: conjure/views/commands/ui/amount_method.ui:13
-msgid "Which interpolate method to apply to effected pixels."
-msgstr "Etkilenen piksellere hangi yarı değerleme yönteminin uygulanacağı."
-
-#: conjure/views/commands/ui/amount_method.ui:50
-msgid "Normalized degree of effect."
-msgstr "Efektin normalleştirilme derecesi."
-
-#: conjure/views/commands/ui/polaroid.ui:13
-msgid "Caption"
-msgstr "Başlık"
-
-#: conjure/views/commands/ui/polaroid.ui:20
-msgid "Font"
-msgstr "Yazı Tipi"
-
-#: conjure/views/commands/ui/polaroid.ui:34
-msgid "Apply a shadow effect along this angle."
-msgstr "Bu açı boyunca gölge efekti uygula."
-
-#: conjure/views/commands/ui/polaroid.ui:54
-#: conjure/views/commands/ui/wave.ui:55
-msgid "Interpolation method."
-msgstr "Aradeğerleme yöntemi."
-
-#: conjure/views/commands/ui/polaroid.ui:64
-#: conjure/views/commands/ui/noise.ui:25 conjure/views/commands/ui/wave.ui:64
-#: conjure/views/commands/ui/posterize.ui:24
-#: conjure/views/commands/ui/quantize.ui:27
-#: conjure/views/commands/ui/quantize.ui:53
-#: conjure/views/commands/ui/auto_threshold.ui:23
-msgid "Undefined"
-msgstr "Tanımsız"
-
-#: conjure/views/commands/ui/polaroid.ui:65
-#: conjure/views/commands/ui/wave.ui:65
-msgid "Average"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:66
-#: conjure/views/commands/ui/wave.ui:66
-msgid "Average9"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:67
-#: conjure/views/commands/ui/wave.ui:67
-msgid "Average16"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:68
-#: conjure/views/commands/ui/wave.ui:68
-msgid "Background"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:69
-#: conjure/views/commands/ui/wave.ui:69
-msgid "Bilinear"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:70
-#: conjure/views/commands/ui/wave.ui:70
-msgid "Blend"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:71
-#: conjure/views/commands/ui/wave.ui:71
-msgid "Catrom"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:72
-#: conjure/views/commands/ui/wave.ui:72
-msgid "Integer"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:73
-#: conjure/views/commands/ui/wave.ui:73
-msgid "Mesh"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:74
-#: conjure/views/commands/ui/wave.ui:74
-msgid "Nearest"
-msgstr ""
-
-#: conjure/views/commands/ui/polaroid.ui:75
-#: conjure/views/commands/ui/wave.ui:75
-msgid "Spline"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:14
-msgid "Noise"
-msgstr "Gürültü"
-
-#: conjure/views/commands/ui/noise.ui:15
-msgid "Type of noise to apply"
-msgstr "Uygulanacak gürültünün türü"
-
-#: conjure/views/commands/ui/noise.ui:26
-msgid "Uniform"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:28
-msgid "Multiplicative Gaussian"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:29
-msgid "Impulse"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:30
-msgid "Laplacian"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:31
-msgid "Poisson"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:32
-msgid "Random"
-msgstr ""
-
-#: conjure/views/commands/ui/noise.ui:45
-msgid "Attenuate"
-msgstr "Zayıflama"
-
-#: conjure/views/commands/ui/noise.ui:46
-msgid "Rate of distribution."
-msgstr "Dağıtım oranı."
-
-#: conjure/views/commands/ui/radius_sigma_xy.ui:69
-msgid "X"
-msgstr "X"
-
-#: conjure/views/commands/ui/radius_sigma_xy.ui:70
-msgid ""
-"Number of pixels to offset inward from the top and bottom of the image "
-"before drawing effect."
-msgstr ""
-"Çizim efektinden önce görüntünün üstünden ve altından içe konumlandırılacak "
-"piksel sayısı."
-
-#: conjure/views/commands/ui/radius_sigma_xy.ui:88
-msgid "Y"
-msgstr "Y"
-
-#: conjure/views/commands/ui/radius_sigma_xy.ui:89
-msgid ""
-"Number of pixels to offset inward from the left and right of the image "
-"before drawing effect."
-msgstr ""
-"Çizim efektinden önce görüntünün solundan ve sağından içe konumlandırılacak "
-"piksel sayısı."
-
-#: conjure/views/commands/ui/wave.ui:14
-msgid "Amplitude"
-msgstr "Boyut"
-
-#: conjure/views/commands/ui/wave.ui:15
-msgid "Height of wave form."
-msgstr "Dalga formunun yüksekliği."
-
-#: conjure/views/commands/ui/wave.ui:34
-msgid "Wave Length"
-msgstr "Dalga Uzunluğu"
-
-#: conjure/views/commands/ui/wave.ui:35
-msgid "Width of wave form."
-msgstr "Dalga formunun genişliği."
-
-#: conjure/views/commands/ui/threshold_softness.ui:14
-msgid "Smoothing limit."
-msgstr "Düzleştirme sınırı."
-
-#: conjure/views/commands/ui/threshold_softness.ui:32
-msgid "Softnesss"
-msgstr "Yumuşaklık"
-
-#: conjure/views/commands/ui/threshold_softness.ui:33
-msgid "Attenuate of the smoothing threshold."
-msgstr "Yumuşatma eşiğinin zayıflaması."
-
-#: conjure/views/commands/ui/rotate.ui:13
-msgid "Background Color (optional)"
-msgstr "Arka Plan Rengi (isteğe bağlı)"
-
-#: conjure/views/commands/ui/rotate.ui:21
-msgid "Degree"
-msgstr "Derece"
-
-#: conjure/views/commands/ui/rotate.ui:22
-msgid "Degree to rotate."
-msgstr "Döndürme derecesi."
-
-#. 30
-#: conjure/views/commands/ui/statistic.ui:14
-#: conjure/views/ui/command_panel.ui:81
-msgid "Statistic"
-msgstr "İstatistik"
-
-#: conjure/views/commands/ui/statistic.ui:15
-msgid "The type of statistic to calculate."
-msgstr "Hesaplanacak istatistik türü."
-
-#: conjure/views/commands/ui/statistic.ui:24
-msgid "Gradient"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:25
-msgid "Maximum"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:26
-msgid "Mean"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:27
-msgid "Median"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:28
-msgid "Minimum"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:29
-msgid "Mode"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:30
-msgid "Nonpeak"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:31
-msgid "Root Mean Square"
-msgstr ""
-
-#: conjure/views/commands/ui/statistic.ui:32
-msgid "Standard Deviation"
-msgstr ""
+#: conjure/views/commands/ui/fx.ui:14
+msgid "FX Expression"
+msgstr "FX İfadesi"
 
 #: conjure/views/commands/ui/kmeans.ui:14
 #: conjure/views/commands/ui/quantize.ui:106
@@ -642,273 +418,69 @@ msgstr "Tolerans"
 msgid "Maximum tolerance between distortion iterations."
 msgstr "Bozulma yinelemeleri arasındaki azami tolerans."
 
-#: conjure/views/commands/ui/posterize.ui:14
-#: conjure/views/commands/ui/quantize.ui:17
-msgid "Dither"
-msgstr "Titreme"
-
-#: conjure/views/commands/ui/posterize.ui:15
-msgid "Dither method to apply."
-msgstr "Uygulanacak titreme yöntemi."
-
-#: conjure/views/commands/ui/posterize.ui:25
-#: conjure/views/commands/ui/quantize.ui:28
-msgid "No"
-msgstr ""
-
-#: conjure/views/commands/ui/posterize.ui:26
-#: conjure/views/commands/ui/quantize.ui:29
-msgid "Riemersma"
-msgstr ""
-
-#: conjure/views/commands/ui/posterize.ui:27
-#: conjure/views/commands/ui/quantize.ui:30
-msgid "Floyd Steinberg"
-msgstr ""
-
-#: conjure/views/commands/ui/posterize.ui:40
-msgid "Levels"
-msgstr "Düzeyler"
-
-#: conjure/views/commands/ui/quantize.ui:18
-msgid "Perform dither operation between neighboring pixel values."
-msgstr "Komşu piksel değerleri arasında titreme işlemi gerçekleştir."
-
-#: conjure/views/commands/ui/quantize.ui:44
-msgid "Color Space"
-msgstr "Renk Uzayı"
-
-#: conjure/views/commands/ui/quantize.ui:54
-msgid "RGB"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:55
-#, fuzzy
-#| msgid "Gray"
-msgid "Grayscale"
-msgstr "Gri"
-
-#: conjure/views/commands/ui/quantize.ui:56
-msgid "Transparent"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:57
-msgid "Ohta"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:58
-msgid "LAB"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:59
-msgid "XYZ"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:60
-msgid "YCbCr"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:61
-msgid "YCC"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:62
-msgid "YIQ"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:63
-msgid "YPbPr"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:64
-msgid "YUV"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:65
-msgid "CMYK"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:66
-msgid "sRGB"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:67
-msgid "HSB"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:68
-msgid "HSL"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:69
-msgid "HWB"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:70
-msgid "Rec.601 YCbCr"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:71
-msgid "Rec.709 YCbCr"
-msgstr ""
-
-#: conjure/views/commands/ui/quantize.ui:72
-#, fuzzy
-#| msgid "Low"
-msgid "Log"
+#: conjure/views/commands/ui/low_high.ui:12
+msgid "Low"
 msgstr "Düşük"
 
-#: conjure/views/commands/ui/quantize.ui:73
-msgid "CMY"
-msgstr ""
+#: conjure/views/commands/ui/low_high.ui:31
+msgid "High"
+msgstr "Yüksek"
 
-#: conjure/views/commands/ui/quantize.ui:74
-msgid "Luv"
-msgstr ""
+#: conjure/views/commands/ui/low_high_white_black.ui:13
+msgid "Low Black"
+msgstr "Düşük Siyah"
 
-#: conjure/views/commands/ui/quantize.ui:75
-msgid "HCL"
-msgstr ""
+#: conjure/views/commands/ui/low_high_white_black.ui:32
+msgid "Low White"
+msgstr "Düşük Beyaz"
 
-#: conjure/views/commands/ui/quantize.ui:76
-msgid "LCH"
-msgstr ""
+#: conjure/views/commands/ui/low_high_white_black.ui:52
+msgid "High White"
+msgstr "Yüksek Beyaz"
 
-#: conjure/views/commands/ui/quantize.ui:77
-msgid "LMS"
-msgstr ""
+#: conjure/views/commands/ui/low_high_white_black.ui:72
+msgid "High Black"
+msgstr "Yüksek Siyah"
 
-#: conjure/views/commands/ui/quantize.ui:78
-msgid "LCHab"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:14
+msgid "Noise"
+msgstr "Gürültü"
 
-#: conjure/views/commands/ui/quantize.ui:79
-msgid "LCHuv"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:15
+msgid "Type of noise to apply"
+msgstr "Uygulanacak gürültünün türü"
 
-#: conjure/views/commands/ui/quantize.ui:80
-msgid "scRGB"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:26
+msgid "Uniform"
+msgstr "Birbiçimli"
 
-#: conjure/views/commands/ui/quantize.ui:81
-msgid "HSI"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:28
+msgid "Multiplicative Gaussian"
+msgstr "Çarpımsal Gauss"
 
-#: conjure/views/commands/ui/quantize.ui:82
-msgid "HSV"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:29
+msgid "Impulse"
+msgstr "Impulse"
 
-#: conjure/views/commands/ui/quantize.ui:83
-msgid "HCLp"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:30
+msgid "Laplacian"
+msgstr "Laplace"
 
-#: conjure/views/commands/ui/quantize.ui:84
-msgid "xyY"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:31
+msgid "Poisson"
+msgstr "Poisson"
 
-#: conjure/views/commands/ui/quantize.ui:85
-msgid "YDbDr"
-msgstr ""
+#: conjure/views/commands/ui/noise.ui:32
+msgid "Random"
+msgstr "Rastgele"
 
-#: conjure/views/commands/ui/quantize.ui:107
-msgid "The target number of colors to reduce the image to."
-msgstr "Görüntünün küçültüleceği hedef renk sayısı."
+#: conjure/views/commands/ui/noise.ui:45
+msgid "Attenuate"
+msgstr "Zayıflama"
 
-#: conjure/views/commands/ui/quantize.ui:127
-msgid "Tree Depth"
-msgstr "Ağaç Derinliği"
-
-#: conjure/views/commands/ui/quantize.ui:128
-msgid ""
-"A value between 0 and 8 where 0 will allow ImageMagick to calculate the "
-"optimal depth with Log4(number_colors)"
-msgstr ""
-"0 ile 8 arasında bir değer; burada 0, ImageMagick'in Log4(number_colors) ile "
-"en iyilenmiş derinliği hesaplamasını sağlar"
-
-#: conjure/views/commands/ui/width_height_offset.ui:13
-msgid "Size of neighboring pixels on the X-axis."
-msgstr "X eksenindeki komşu piksellerin boyutu."
-
-#: conjure/views/commands/ui/width_height_offset.ui:33
-msgid "Size of neighboring pixels on the Y-axis."
-msgstr "Y eksenindeki komşu piksellerin boyutu."
-
-#: conjure/views/commands/ui/width_height_offset.ui:52
-msgid "Offset"
-msgstr "Konum"
-
-#: conjure/views/commands/ui/width_height_offset.ui:53
-msgid "Forces the pixels to black if values are below offset."
-msgstr "Değerler konumun altındaysa pikselleri siyaha zorlar."
-
-#: conjure/views/commands/ui/auto_threshold.ui:14
-msgid "Threshold Method"
-msgstr "Eşik Yöntemi"
-
-#: conjure/views/commands/ui/auto_threshold.ui:24
-msgid "Kapur"
-msgstr ""
-
-#: conjure/views/commands/ui/auto_threshold.ui:25
-msgid "Otsu"
-msgstr ""
-
-#: conjure/views/commands/ui/auto_threshold.ui:26
-#, fuzzy
-#| msgid "Angle"
-msgid "Triangle"
-msgstr "Açı"
-
-#: conjure/views/commands/ui/thresholds.ui:16
-#, fuzzy
-#| msgid "Threshold"
-msgid "Adaptive Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/thresholds.ui:17
-#, fuzzy
-#| msgid "Threshold"
-msgid "Auto Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/thresholds.ui:18
-#, fuzzy
-#| msgid "Threshold"
-msgid "Black Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/thresholds.ui:19
-#: conjure/views/commands/ui/color_threshold.ui:13
-msgid "Color Threshold"
-msgstr "Renk Eşiği"
-
-#. <item translatable="yes">Ordered Threshold</item>
-#: conjure/views/commands/ui/thresholds.ui:21
-#, fuzzy
-#| msgid "Threshold"
-msgid "Random Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/thresholds.ui:22
-#, fuzzy
-#| msgid "Threshold"
-msgid "Range Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/thresholds.ui:23
-#, fuzzy
-#| msgid "Threshold"
-msgid "White Threshold"
-msgstr "Eşik"
-
-#: conjure/views/commands/ui/color_threshold_start_stop.ui:13
-msgid "Start Color"
-msgstr "Başlangıç Rengi"
-
-#: conjure/views/commands/ui/color_threshold_start_stop.ui:19
-msgid "Stop Color"
-msgstr "Bitiş Rengi"
+#: conjure/views/commands/ui/noise.ui:46
+msgid "Rate of distribution."
+msgstr "Dağıtım oranı."
 
 #: conjure/views/commands/ui/ordered_dither.ui:13
 msgid "Threshold 1x1 (non-dither)"
@@ -986,45 +558,450 @@ msgstr "Çember 7x7 (Siyah)"
 msgid "Circles 7x7 (white)"
 msgstr "Çember 7x7 (Beyaz)"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:13
-msgid "Low Black"
-msgstr "Düşük Siyah"
+#: conjure/views/commands/ui/polaroid.ui:13
+msgid "Caption"
+msgstr "Başlık"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:32
-msgid "Low White"
-msgstr "Düşük Beyaz"
+#: conjure/views/commands/ui/polaroid.ui:20
+msgid "Font"
+msgstr "Yazı Tipi"
 
-#: conjure/views/commands/ui/low_high_white_black.ui:52
-msgid "High White"
-msgstr "Yüksek Beyaz"
+#: conjure/views/commands/ui/polaroid.ui:34
+msgid "Apply a shadow effect along this angle."
+msgstr "Bu açı boyunca gölge efekti uygula."
 
-#: conjure/views/commands/ui/low_high_white_black.ui:72
-msgid "High Black"
-msgstr "Yüksek Siyah"
+#: conjure/views/commands/ui/polaroid.ui:54
+#: conjure/views/commands/ui/wave.ui:55
+msgid "Interpolation method."
+msgstr "Aradeğerleme yöntemi."
 
-#: conjure/views/commands/ui/low_high.ui:12
-msgid "Low"
-msgstr "Düşük"
+#: conjure/views/commands/ui/posterize.ui:14
+#: conjure/views/commands/ui/quantize.ui:17
+msgid "Dither"
+msgstr "Titreme"
 
-#: conjure/views/commands/ui/low_high.ui:31
-msgid "High"
-msgstr "Yüksek"
+#: conjure/views/commands/ui/posterize.ui:15
+msgid "Dither method to apply."
+msgstr "Uygulanacak titreme yöntemi."
 
-#: conjure/views/commands/ui/fx.ui:14
-msgid "FX Expression"
-msgstr "FX İfadesi"
+#: conjure/views/commands/ui/posterize.ui:25
+#: conjure/views/commands/ui/quantize.ui:28
+msgid "No"
+msgstr "Hayır"
 
-#: conjure/views/ui/image_drop_page.ui:14
-msgid "Drop Image"
-msgstr "Görüntü Bırak"
+#: conjure/views/commands/ui/posterize.ui:26
+#: conjure/views/commands/ui/quantize.ui:29
+msgid "Riemersma"
+msgstr "Riemersma"
 
-#: conjure/views/ui/image_drop_page.ui:15
-msgid "Drag an image here or click the button below."
-msgstr "Buraya bir görüntü sürükleyin ya da aşağıdaki düğmeye tıklayın."
+#: conjure/views/commands/ui/posterize.ui:27
+#: conjure/views/commands/ui/quantize.ui:30
+msgid "Floyd Steinberg"
+msgstr "Floyd Steinberg"
 
-#: conjure/views/ui/image_drop_page.ui:84
-msgid "Apply"
-msgstr "Uygula"
+#: conjure/views/commands/ui/posterize.ui:40
+msgid "Levels"
+msgstr "Düzeyler"
+
+#: conjure/views/commands/ui/radius.ui:10
+#: conjure/views/commands/ui/radius_sigma.ui:15
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:20
+#: conjure/views/commands/ui/radius_sigma_angle.ui:14
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:14
+#: conjure/views/commands/ui/radius_sigma_xy.ui:19
+msgid "Radius"
+msgstr "Yarıçap"
+
+#: conjure/views/commands/ui/radius.ui:11
+#: conjure/views/commands/ui/radius_sigma.ui:16
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:21
+#: conjure/views/commands/ui/radius_sigma_angle.ui:15
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:15
+#: conjure/views/commands/ui/radius_sigma_xy.ui:20
+msgid "The size of the Gaussian operator."
+msgstr "Gaussian operatörünün boyutu."
+
+#: conjure/views/commands/ui/radius_sigma.ui:35
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:40
+#: conjure/views/commands/ui/radius_sigma_angle.ui:34
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:34
+#: conjure/views/commands/ui/radius_sigma_xy.ui:39
+msgid "Sigma"
+msgstr "Sigma"
+
+#: conjure/views/commands/ui/radius_sigma.ui:36
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:41
+#: conjure/views/commands/ui/radius_sigma_angle.ui:35
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:35
+#: conjure/views/commands/ui/radius_sigma_xy.ui:40
+msgid "The standard deviation of the Gaussian."
+msgstr "Gaussian standart sapması."
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:70
+msgid ""
+"The percentage of the difference between the original and the blur image "
+"that is added back into the original"
+msgstr ""
+"Özgün ile özgüne geri eklenen bulanık görüntü arasındaki farkın yüzdesi"
+
+#. 35
+#. <item translatable="yes">Quantize Remap</item>
+#. Commented Out
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:89
+#: conjure/views/commands/ui/radius_sigma_threshold.ui:54
+#: conjure/views/commands/ui/threshold.ui:10
+#: conjure/views/commands/ui/threshold_softness.ui:13
+#: conjure/views/ui/command_panel.ui:91
+msgid "Threshold"
+msgstr "Eşik"
+
+#: conjure/views/commands/ui/radius_sigma_amount_threshold.ui:90
+msgid ""
+"The threshold in pixels needed to apply the difference amount. Values for "
+"threshold over 0.0 reduce the sharpens."
+msgstr ""
+"Fark miktarını uygulamak için gereken piksel cinsinden eşik. 0.0'ın "
+"üzerindeki eşik değerleri keskinliği azaltır."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:69
+msgid "X"
+msgstr "X"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:70
+msgid ""
+"Number of pixels to offset inward from the top and bottom of the image "
+"before drawing effect."
+msgstr ""
+"Çizim efektinden önce görüntünün üstünden ve altından içe konumlandırılacak "
+"piksel sayısı."
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:88
+msgid "Y"
+msgstr "Y"
+
+#: conjure/views/commands/ui/radius_sigma_xy.ui:89
+msgid ""
+"Number of pixels to offset inward from the left and right of the image "
+"before drawing effect."
+msgstr ""
+"Çizim efektinden önce görüntünün solundan ve sağından içe konumlandırılacak "
+"piksel sayısı."
+
+#: conjure/views/commands/ui/resize.ui:16
+msgid "Width (px)"
+msgstr "Genişlik (px)"
+
+#: conjure/views/commands/ui/resize.ui:24
+msgid "Height (px)"
+msgstr "Yükseklik (px)"
+
+#: conjure/views/commands/ui/rotate.ui:13
+msgid "Background Color (optional)"
+msgstr "Arka Plan Rengi (isteğe bağlı)"
+
+#: conjure/views/commands/ui/rotate.ui:21
+msgid "Degree"
+msgstr "Derece"
+
+#: conjure/views/commands/ui/rotate.ui:22
+msgid "Degree to rotate."
+msgstr "Döndürme derecesi."
+
+#: conjure/views/commands/ui/shade.ui:16
+msgid "Gray"
+msgstr "Gri"
+
+#: conjure/views/commands/ui/shade.ui:17
+msgid "Isolate the effect on pixel intensity. Default is False."
+msgstr "Piksel yoğunluğu üzerindeki etkiyi izole et. Kapalı öntanımlıdır."
+
+#: conjure/views/commands/ui/shade.ui:32
+msgid "Azimuth"
+msgstr "Azimut"
+
+#: conjure/views/commands/ui/shade.ui:33
+msgid "Angle from x-axis."
+msgstr "X ekseninden açı."
+
+#: conjure/views/commands/ui/shade.ui:52
+msgid "Elevation"
+msgstr "Yükselme"
+
+#: conjure/views/commands/ui/shade.ui:53
+msgid "Amount of pixels from the z-axis."
+msgstr "Z eksenindeki piksel miktarı."
+
+#: conjure/views/commands/ui/sharpen.ui:19
+msgid "Unsharp Mask"
+msgstr "Keskinliği Azaltma Maskesi"
+
+#. 30
+#: conjure/views/commands/ui/statistic.ui:14
+#: conjure/views/ui/command_panel.ui:84
+msgid "Statistic"
+msgstr "İstatistik"
+
+#: conjure/views/commands/ui/statistic.ui:15
+msgid "The type of statistic to calculate."
+msgstr "Hesaplanacak istatistik türü."
+
+#: conjure/views/commands/ui/statistic.ui:24
+msgid "Gradient"
+msgstr "Renk geçişi"
+
+#: conjure/views/commands/ui/statistic.ui:25
+msgid "Maximum"
+msgstr "En yüksek"
+
+#: conjure/views/commands/ui/statistic.ui:26
+msgid "Mean"
+msgstr "Ortalama"
+
+#: conjure/views/commands/ui/statistic.ui:27
+msgid "Median"
+msgstr "Ortanca"
+
+#: conjure/views/commands/ui/statistic.ui:28
+msgid "Minimum"
+msgstr "En düşük"
+
+#: conjure/views/commands/ui/statistic.ui:29
+msgid "Mode"
+msgstr "Kip"
+
+#: conjure/views/commands/ui/statistic.ui:30
+msgid "Nonpeak"
+msgstr "Zirve değil"
+
+#: conjure/views/commands/ui/statistic.ui:31
+msgid "Root Mean Square"
+msgstr "Kök Kare Ortalama"
+
+#: conjure/views/commands/ui/statistic.ui:32
+msgid "Standard Deviation"
+msgstr "Standart Sapma"
+
+#: conjure/views/commands/ui/thresholds.ui:16
+msgid "Adaptive Threshold"
+msgstr "Uyarlamalı Eşik"
+
+#: conjure/views/commands/ui/thresholds.ui:17
+msgid "Auto Threshold"
+msgstr "Otomatik Eşik"
+
+#: conjure/views/commands/ui/thresholds.ui:18
+msgid "Black Threshold"
+msgstr "Kara Eşik"
+
+#. <item translatable="yes">Ordered Threshold</item>
+#: conjure/views/commands/ui/thresholds.ui:22
+msgid "Random Threshold"
+msgstr "Rastgele Eşik"
+
+#: conjure/views/commands/ui/thresholds.ui:23
+msgid "Range Threshold"
+msgstr "Erim Eşiği"
+
+#: conjure/views/commands/ui/thresholds.ui:24
+msgid "White Threshold"
+msgstr "Beyaz Eşik"
+
+#: conjure/views/commands/ui/threshold_softness.ui:14
+msgid "Smoothing limit."
+msgstr "Düzleştirme sınırı."
+
+#: conjure/views/commands/ui/threshold_softness.ui:32
+msgid "Softnesss"
+msgstr "Yumuşaklık"
+
+#: conjure/views/commands/ui/threshold_softness.ui:33
+msgid "Attenuate of the smoothing threshold."
+msgstr "Yumuşatma eşiğinin zayıflaması."
+
+#: conjure/views/commands/ui/quantize.ui:18
+msgid "Perform dither operation between neighboring pixel values."
+msgstr "Komşu piksel değerleri arasında titreme işlemi gerçekleştir."
+
+#: conjure/views/commands/ui/quantize.ui:44
+msgid "Color Space"
+msgstr "Renk Uzayı"
+
+#: conjure/views/commands/ui/quantize.ui:54
+msgid "RGB"
+msgstr "RGB"
+
+#: conjure/views/commands/ui/quantize.ui:55
+msgid "Grayscale"
+msgstr "Gri tonlama"
+
+#: conjure/views/commands/ui/quantize.ui:56
+msgid "Transparent"
+msgstr "Saydam"
+
+#: conjure/views/commands/ui/quantize.ui:57
+msgid "Ohta"
+msgstr "Ohta"
+
+#: conjure/views/commands/ui/quantize.ui:58
+msgid "LAB"
+msgstr "LAB"
+
+#: conjure/views/commands/ui/quantize.ui:59
+msgid "XYZ"
+msgstr "XYZ"
+
+#: conjure/views/commands/ui/quantize.ui:60
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: conjure/views/commands/ui/quantize.ui:61
+msgid "YCC"
+msgstr "YCC"
+
+#: conjure/views/commands/ui/quantize.ui:62
+msgid "YIQ"
+msgstr "YIQ"
+
+#: conjure/views/commands/ui/quantize.ui:63
+msgid "YPbPr"
+msgstr "YPbPr"
+
+#: conjure/views/commands/ui/quantize.ui:64
+msgid "YUV"
+msgstr "YUV"
+
+#: conjure/views/commands/ui/quantize.ui:65
+msgid "CMYK"
+msgstr "CMYK"
+
+#: conjure/views/commands/ui/quantize.ui:66
+msgid "sRGB"
+msgstr "sRGB"
+
+#: conjure/views/commands/ui/quantize.ui:67
+msgid "HSB"
+msgstr "HSB"
+
+#: conjure/views/commands/ui/quantize.ui:68
+msgid "HSL"
+msgstr "HSL"
+
+#: conjure/views/commands/ui/quantize.ui:69
+msgid "HWB"
+msgstr "HWB"
+
+#: conjure/views/commands/ui/quantize.ui:70
+msgid "Rec.601 YCbCr"
+msgstr "Rec.601 YCbCr"
+
+#: conjure/views/commands/ui/quantize.ui:71
+msgid "Rec.709 YCbCr"
+msgstr "Rec.709 YCbCr"
+
+# Günlük olmayabilir!
+#: conjure/views/commands/ui/quantize.ui:72
+msgid "Log"
+msgstr "Log"
+
+#: conjure/views/commands/ui/quantize.ui:73
+msgid "CMY"
+msgstr "CMY"
+
+#: conjure/views/commands/ui/quantize.ui:74
+msgid "Luv"
+msgstr "Luv"
+
+#: conjure/views/commands/ui/quantize.ui:75
+msgid "HCL"
+msgstr "HCL"
+
+#: conjure/views/commands/ui/quantize.ui:76
+msgid "LCH"
+msgstr "LCH"
+
+#: conjure/views/commands/ui/quantize.ui:77
+msgid "LMS"
+msgstr "LMS"
+
+#: conjure/views/commands/ui/quantize.ui:78
+msgid "LCHab"
+msgstr "LCHab"
+
+#: conjure/views/commands/ui/quantize.ui:79
+msgid "LCHuv"
+msgstr "LCHuv"
+
+#: conjure/views/commands/ui/quantize.ui:80
+msgid "scRGB"
+msgstr "scRGB"
+
+#: conjure/views/commands/ui/quantize.ui:81
+msgid "HSI"
+msgstr "HSI"
+
+#: conjure/views/commands/ui/quantize.ui:82
+msgid "HSV"
+msgstr "HSV"
+
+#: conjure/views/commands/ui/quantize.ui:83
+msgid "HCLp"
+msgstr "HCLp"
+
+#: conjure/views/commands/ui/quantize.ui:84
+msgid "xyY"
+msgstr "xyY"
+
+#: conjure/views/commands/ui/quantize.ui:85
+msgid "YDbDr"
+msgstr "YDbDr"
+
+#: conjure/views/commands/ui/quantize.ui:107
+msgid "The target number of colors to reduce the image to."
+msgstr "Görüntünün küçültüleceği hedef renk sayısı."
+
+#: conjure/views/commands/ui/quantize.ui:127
+msgid "Tree Depth"
+msgstr "Ağaç Derinliği"
+
+#: conjure/views/commands/ui/quantize.ui:128
+msgid ""
+"A value between 0 and 8 where 0 will allow ImageMagick to calculate the "
+"optimal depth with Log4(number_colors)"
+msgstr ""
+"0 ile 8 arasında bir değer; burada 0, ImageMagick'in Log4(number_colors) ile "
+"en iyilenmiş derinliği hesaplamasını sağlar"
+
+#: conjure/views/commands/ui/wave.ui:14
+msgid "Amplitude"
+msgstr "Boyut"
+
+#: conjure/views/commands/ui/wave.ui:15
+msgid "Height of wave form."
+msgstr "Dalga formunun yüksekliği."
+
+#: conjure/views/commands/ui/wave.ui:34
+msgid "Wave Length"
+msgstr "Dalga Uzunluğu"
+
+#: conjure/views/commands/ui/wave.ui:35
+msgid "Width of wave form."
+msgstr "Dalga formunun genişliği."
+
+#: conjure/views/commands/ui/width_height_offset.ui:13
+msgid "Size of neighboring pixels on the X-axis."
+msgstr "X eksenindeki komşu piksellerin boyutu."
+
+#: conjure/views/commands/ui/width_height_offset.ui:33
+msgid "Size of neighboring pixels on the Y-axis."
+msgstr "Y eksenindeki komşu piksellerin boyutu."
+
+#: conjure/views/commands/ui/width_height_offset.ui:52
+msgid "Offset"
+msgstr "Konum"
+
+#: conjure/views/commands/ui/width_height_offset.ui:53
+msgid "Forces the pixels to black if values are below offset."
+msgstr "Değerler konumun altındaysa pikselleri siyaha zorlar."
 
 #: conjure/views/ui/command_panel.ui:47
 msgid "Select Command"
@@ -1038,183 +1015,186 @@ msgstr "Yeniden Boyutlandır"
 #. 1
 #: conjure/views/ui/command_panel.ui:49
 msgid "Crop"
-msgstr ""
+msgstr "Kırp"
 
+# Algoritma
 #. 2
 #. <item translatable="yes">Transform</item>
 #. Commented Out
-#: conjure/views/ui/command_panel.ui:51
+#: conjure/views/ui/command_panel.ui:52
 msgid "Seam Carving"
-msgstr ""
+msgstr "Seam Carving"
 
 #. 3
-#: conjure/views/ui/command_panel.ui:52
+#: conjure/views/ui/command_panel.ui:53
 msgid "Blur"
-msgstr ""
+msgstr "Bulanıklık"
 
 #. 4
-#: conjure/views/ui/command_panel.ui:53
+#: conjure/views/ui/command_panel.ui:54
 msgid "Despeckle"
-msgstr ""
+msgstr "Beneksizleştir"
 
 #. 5
-#: conjure/views/ui/command_panel.ui:54
+#: conjure/views/ui/command_panel.ui:55
 msgid "Edge"
-msgstr ""
+msgstr "Kenar"
 
 #. 6
-#: conjure/views/ui/command_panel.ui:55
+#: conjure/views/ui/command_panel.ui:56
 msgid "Emboss"
-msgstr ""
+msgstr "Kabartma"
 
 #. 7
-#: conjure/views/ui/command_panel.ui:56
+#: conjure/views/ui/command_panel.ui:57
 msgid "Kuwahara"
-msgstr ""
+msgstr "Kuwahara"
 
 #. 8
-#: conjure/views/ui/command_panel.ui:57
+#: conjure/views/ui/command_panel.ui:58
 msgid "Shade"
-msgstr ""
+msgstr "Gölge"
 
 #. 9
-#: conjure/views/ui/command_panel.ui:58
+#: conjure/views/ui/command_panel.ui:59
 msgid "Sharpen"
-msgstr ""
+msgstr "Keskinleştir"
 
 #. 10
-#: conjure/views/ui/command_panel.ui:59
+#: conjure/views/ui/command_panel.ui:60
 msgid "Spread"
-msgstr ""
+msgstr "Etrafa saç"
 
 #. 11
-#: conjure/views/ui/command_panel.ui:60
-#, fuzzy
-#| msgid "Noise"
+#: conjure/views/ui/command_panel.ui:61
 msgid "Add Noise"
-msgstr "Gürültü"
+msgstr "Gürültü Ekle"
 
 #. 12
-#: conjure/views/ui/command_panel.ui:61
+#: conjure/views/ui/command_panel.ui:62
 msgid "Blueshift"
-msgstr ""
+msgstr "Mavi kayma"
 
 #. 13
-#: conjure/views/ui/command_panel.ui:62
+#: conjure/views/ui/command_panel.ui:63
 msgid "Charcoal"
-msgstr ""
+msgstr "Kara kalem"
 
 #. 14
 #. <item translatable="yes">Color Matrix</item>
 #. Commented Out
-#: conjure/views/ui/command_panel.ui:64
-#, fuzzy
-#| msgid "Color"
+#: conjure/views/ui/command_panel.ui:66
 msgid "Colorize"
-msgstr "Renk"
+msgstr "Renklendir"
 
 #. 15
-#: conjure/views/ui/command_panel.ui:65
-#, fuzzy
-#| msgid "X"
+#: conjure/views/ui/command_panel.ui:67
 msgid "FX"
-msgstr "X"
+msgstr "FX"
 
 #. 16
-#: conjure/views/ui/command_panel.ui:66
+#: conjure/views/ui/command_panel.ui:68
 msgid "Implode"
-msgstr ""
+msgstr "Ayrıştır"
 
 #. 17
-#: conjure/views/ui/command_panel.ui:67
+#: conjure/views/ui/command_panel.ui:69
 msgid "Polaroid"
-msgstr ""
+msgstr "Polaroid"
 
 #. 18
-#: conjure/views/ui/command_panel.ui:68
+#: conjure/views/ui/command_panel.ui:70
 msgid "Sepia Tone"
-msgstr ""
+msgstr "Sepya Tonu"
 
 #. 19
-#: conjure/views/ui/command_panel.ui:69
+#: conjure/views/ui/command_panel.ui:71
 msgid "Sketch"
-msgstr ""
+msgstr "Kara kalem"
 
 #. 20
-#: conjure/views/ui/command_panel.ui:70
+#: conjure/views/ui/command_panel.ui:72
 msgid "Solarize"
-msgstr ""
+msgstr "Güneşte bırakılmış"
 
 #. 21
 #. <item translatable="yes">Stereogram</item>
 #. Commented Out
-#: conjure/views/ui/command_panel.ui:72
+#: conjure/views/ui/command_panel.ui:75
 msgid "Swirl"
-msgstr ""
+msgstr "Girdap"
 
 #. 22
-#: conjure/views/ui/command_panel.ui:73
+#: conjure/views/ui/command_panel.ui:76
 msgid "Tint"
-msgstr ""
+msgstr "Renk tonu"
 
 #. 23
-#: conjure/views/ui/command_panel.ui:74
+#: conjure/views/ui/command_panel.ui:77
 msgid "Vignette"
-msgstr ""
+msgstr "Etrafını sil"
 
 #. 24
-#: conjure/views/ui/command_panel.ui:75
+#: conjure/views/ui/command_panel.ui:78
 msgid "Wave"
-msgstr ""
+msgstr "Dalga"
 
 #. 25
-#: conjure/views/ui/command_panel.ui:76
+#: conjure/views/ui/command_panel.ui:79
 msgid "Wavelet Denoise"
-msgstr ""
+msgstr "Wavelet Gürültü Kaldırma"
 
 #. 26
-#: conjure/views/ui/command_panel.ui:77
+#: conjure/views/ui/command_panel.ui:80
 msgid "Enhance"
-msgstr ""
+msgstr "İyileştir"
 
 #. 27
-#: conjure/views/ui/command_panel.ui:78
+#: conjure/views/ui/command_panel.ui:81
 msgid "Flip"
-msgstr ""
+msgstr "Çevir"
 
 #. 28
-#: conjure/views/ui/command_panel.ui:79
+#: conjure/views/ui/command_panel.ui:82
 msgid "Flop"
-msgstr ""
+msgstr "Çökme"
 
 #. 29
-#: conjure/views/ui/command_panel.ui:80
-#, fuzzy
-#| msgid "Caption"
+#: conjure/views/ui/command_panel.ui:83
 msgid "Rotation"
-msgstr "Başlık"
+msgstr "Döndürme"
 
 #. 31
-#: conjure/views/ui/command_panel.ui:82
+#: conjure/views/ui/command_panel.ui:85
 msgid "KMeans"
-msgstr ""
+msgstr "KMeans"
 
 #. 32
-#: conjure/views/ui/command_panel.ui:83
+#: conjure/views/ui/command_panel.ui:86
 msgid "Posterize"
-msgstr ""
+msgstr "Posterleştir"
 
 #. 33
-#: conjure/views/ui/command_panel.ui:84
+#: conjure/views/ui/command_panel.ui:87
 msgid "Quantize"
-msgstr ""
+msgstr "Niceleme"
 
 #. 34
-#: conjure/views/ui/command_panel.ui:85
-#, fuzzy
-#| msgid "Dither"
+#: conjure/views/ui/command_panel.ui:88
 msgid "Ordered Dither"
-msgstr "Titreme"
+msgstr "Sıralı Titret"
+
+#: conjure/views/ui/image_drop_page.ui:14
+msgid "Drop Image"
+msgstr "Görüntü Bırak"
+
+#: conjure/views/ui/image_drop_page.ui:15
+msgid "Drag an image here or click the button below."
+msgstr "Buraya bir görüntü sürükleyin ya da aşağıdaki düğmeye tıklayın."
+
+#: conjure/views/ui/image_drop_page.ui:84
+msgid "Apply"
+msgstr "Uygula"
 
 #: conjure/views/ui/save_dialog.ui:6
 msgid "Save Image?"
