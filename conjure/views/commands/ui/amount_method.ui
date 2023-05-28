@@ -20,19 +20,19 @@
                 <property name="model">
                   <object class="GtkStringList">
                     <items>
-                      <item>Undefined</item>
-                      <item>Average</item>
-                      <item>Average9</item>
-                      <item>Average16</item>
-                      <item>Background</item>
-                      <item>Bilinear</item>
-                      <item>Blend</item>
-                      <item>Catrom</item>
-                      <item>Integer</item>
-                      <item>Mesh</item>
-                      <item>Nearest</item>
-                      <item>Spline</item>
             
+                      <item translatable="yes">Undefined</item>
+                      <item translatable="yes">Average</item>
+                      <item translatable="yes">Average9</item>
+                      <item translatable="yes">Average16</item>
+                      <item translatable="yes">Background</item>
+                      <item translatable="yes">Bilinear</item>
+                      <item translatable="yes">Blend</item>
+                      <item translatable="yes">Catrom</item>
+                      <item translatable="yes">Integer</item>
+                      <item translatable="yes">Mesh</item>
+                      <item translatable="yes">Nearest</item>
+                      <item translatable="yes">Spline</item>
                     </items>
                   </object>
                 </property>
