@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: conjure\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-24 01:21-0500\n"
-"PO-Revision-Date: 2023-02-28 15:19+0100\n"
+"POT-Creation-Date: 2023-04-13 01:57+0300\n"
+"PO-Revision-Date: 2023-05-13 13:58+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: data/io.github.nate_xyz.Conjure.desktop.in:3
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:6
@@ -51,15 +51,15 @@ msgstr ""
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:24
 msgid "Add Italian, Dutch, and Turkish Translations"
-msgstr ""
+msgstr "Nieuw: Italiaanse, Nederlandse en Turkse vertalingen"
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:25
 msgid "UI improvements"
-msgstr ""
+msgstr "Verbeterd: vormgeving"
 
 #: data/io.github.nate_xyz.Conjure.appdata.xml.in:32
 msgid "UI changes"
-msgstr ""
+msgstr "Gewijzigd: vormgeving"
 
 #: conjure/window.py:52
 msgid "Select an Image File"
@@ -271,29 +271,27 @@ msgstr "Verticale beginpositie"
 
 #: conjure/views/commands/ui/blur.ui:17 conjure/views/commands/ui/sharpen.ui:17
 msgid "Normal"
-msgstr ""
+msgstr "Normaal"
 
 #: conjure/views/commands/ui/blur.ui:18 conjure/views/commands/ui/sharpen.ui:18
 msgid "Adaptive"
-msgstr ""
+msgstr "Aanpasbaar"
 
 #: conjure/views/commands/ui/blur.ui:19 conjure/views/commands/ui/noise.ui:27
 msgid "Gaussian"
-msgstr ""
+msgstr "Gaussiaans"
 
 #: conjure/views/commands/ui/blur.ui:20
-#, fuzzy
-#| msgid "Caption"
 msgid "Motion"
-msgstr "Bijschrift"
+msgstr "Beweging"
 
 #: conjure/views/commands/ui/blur.ui:21
 msgid "Rotational"
-msgstr ""
+msgstr "Draaibaar"
 
 #: conjure/views/commands/ui/blur.ui:22
 msgid "Selective"
-msgstr ""
+msgstr "Selectief"
 
 #: conjure/views/commands/ui/radius_sigma_angle.ui:54
 #: conjure/views/commands/ui/angle.ui:10
@@ -314,7 +312,7 @@ msgstr "Drempelwaarde"
 
 #: conjure/views/commands/ui/sharpen.ui:19
 msgid "Unsharp Mask"
-msgstr ""
+msgstr "Maskering minder scherp maken"
 
 #: conjure/views/commands/ui/shade.ui:16
 msgid "Gray"
@@ -412,62 +410,62 @@ msgstr "Interpolatiemethode"
 #: conjure/views/commands/ui/quantize.ui:53
 #: conjure/views/commands/ui/auto_threshold.ui:23
 msgid "Undefined"
-msgstr ""
+msgstr "Niet ingesteld"
 
 #: conjure/views/commands/ui/polaroid.ui:65
 #: conjure/views/commands/ui/wave.ui:65
 msgid "Average"
-msgstr ""
+msgstr "Gemiddeld"
 
 #: conjure/views/commands/ui/polaroid.ui:66
 #: conjure/views/commands/ui/wave.ui:66
 msgid "Average9"
-msgstr ""
+msgstr "Gemiddeld9"
 
 #: conjure/views/commands/ui/polaroid.ui:67
 #: conjure/views/commands/ui/wave.ui:67
 msgid "Average16"
-msgstr ""
+msgstr "Gemiddeld16"
 
 #: conjure/views/commands/ui/polaroid.ui:68
 #: conjure/views/commands/ui/wave.ui:68
 msgid "Background"
-msgstr ""
+msgstr "Achtergrond"
 
 #: conjure/views/commands/ui/polaroid.ui:69
 #: conjure/views/commands/ui/wave.ui:69
 msgid "Bilinear"
-msgstr ""
+msgstr "Bilineair"
 
 #: conjure/views/commands/ui/polaroid.ui:70
 #: conjure/views/commands/ui/wave.ui:70
 msgid "Blend"
-msgstr ""
+msgstr "Mengen"
 
 #: conjure/views/commands/ui/polaroid.ui:71
 #: conjure/views/commands/ui/wave.ui:71
 msgid "Catrom"
-msgstr ""
+msgstr "Kubisch"
 
 #: conjure/views/commands/ui/polaroid.ui:72
 #: conjure/views/commands/ui/wave.ui:72
 msgid "Integer"
-msgstr ""
+msgstr "Geheel getal"
 
 #: conjure/views/commands/ui/polaroid.ui:73
 #: conjure/views/commands/ui/wave.ui:73
 msgid "Mesh"
-msgstr ""
+msgstr "Gaas"
 
 #: conjure/views/commands/ui/polaroid.ui:74
 #: conjure/views/commands/ui/wave.ui:74
 msgid "Nearest"
-msgstr ""
+msgstr "Dichtstbijzijnd"
 
 #: conjure/views/commands/ui/polaroid.ui:75
 #: conjure/views/commands/ui/wave.ui:75
 msgid "Spline"
-msgstr ""
+msgstr "Spie"
 
 #: conjure/views/commands/ui/noise.ui:14
 msgid "Noise"
@@ -479,27 +477,27 @@ msgstr "Het soort toe te passen ruis"
 
 #: conjure/views/commands/ui/noise.ui:26
 msgid "Uniform"
-msgstr ""
+msgstr "Gelijk"
 
 #: conjure/views/commands/ui/noise.ui:28
 msgid "Multiplicative Gaussian"
-msgstr ""
+msgstr "Meervoudig gaussiaans"
 
 #: conjure/views/commands/ui/noise.ui:29
 msgid "Impulse"
-msgstr ""
+msgstr "Impuls"
 
 #: conjure/views/commands/ui/noise.ui:30
 msgid "Laplacian"
-msgstr ""
+msgstr "Laplaciaans"
 
 #: conjure/views/commands/ui/noise.ui:31
 msgid "Poisson"
-msgstr ""
+msgstr "Poissoniaans"
 
 #: conjure/views/commands/ui/noise.ui:32
 msgid "Random"
-msgstr ""
+msgstr "Willekeurig"
 
 #: conjure/views/commands/ui/noise.ui:45
 msgid "Attenuate"
@@ -585,39 +583,39 @@ msgstr "Het soort te berekenen statistiek."
 
 #: conjure/views/commands/ui/statistic.ui:24
 msgid "Gradient"
-msgstr ""
+msgstr "Kleurverloop"
 
 #: conjure/views/commands/ui/statistic.ui:25
 msgid "Maximum"
-msgstr ""
+msgstr "Maximaal"
 
 #: conjure/views/commands/ui/statistic.ui:26
 msgid "Mean"
-msgstr ""
+msgstr "Gemiddelde"
 
 #: conjure/views/commands/ui/statistic.ui:27
 msgid "Median"
-msgstr ""
+msgstr "Mediaan"
 
 #: conjure/views/commands/ui/statistic.ui:28
 msgid "Minimum"
-msgstr ""
+msgstr "Minimaal"
 
 #: conjure/views/commands/ui/statistic.ui:29
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: conjure/views/commands/ui/statistic.ui:30
 msgid "Nonpeak"
-msgstr ""
+msgstr "Zonder pieken"
 
 #: conjure/views/commands/ui/statistic.ui:31
 msgid "Root Mean Square"
-msgstr ""
+msgstr "Vierkantswortel"
 
 #: conjure/views/commands/ui/statistic.ui:32
 msgid "Standard Deviation"
-msgstr ""
+msgstr "Standaard afgeleide"
 
 #: conjure/views/commands/ui/kmeans.ui:14
 #: conjure/views/commands/ui/quantize.ui:106
@@ -656,17 +654,17 @@ msgstr "De te gebruiken dithermethode."
 #: conjure/views/commands/ui/posterize.ui:25
 #: conjure/views/commands/ui/quantize.ui:28
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: conjure/views/commands/ui/posterize.ui:26
 #: conjure/views/commands/ui/quantize.ui:29
 msgid "Riemersma"
-msgstr ""
+msgstr "Riemersma"
 
 #: conjure/views/commands/ui/posterize.ui:27
 #: conjure/views/commands/ui/quantize.ui:30
 msgid "Floyd Steinberg"
-msgstr ""
+msgstr "Floyd Steinberg"
 
 #: conjure/views/commands/ui/posterize.ui:40
 msgid "Levels"
@@ -682,135 +680,131 @@ msgstr "Kleurruimte"
 
 #: conjure/views/commands/ui/quantize.ui:54
 msgid "RGB"
-msgstr ""
+msgstr "Rgb"
 
 #: conjure/views/commands/ui/quantize.ui:55
-#, fuzzy
-#| msgid "Gray"
 msgid "Grayscale"
-msgstr "Grijs"
+msgstr "Grijswaarden"
 
 #: conjure/views/commands/ui/quantize.ui:56
 msgid "Transparent"
-msgstr ""
+msgstr "Doorzichtig"
 
 #: conjure/views/commands/ui/quantize.ui:57
 msgid "Ohta"
-msgstr ""
+msgstr "Ohta"
 
 #: conjure/views/commands/ui/quantize.ui:58
 msgid "LAB"
-msgstr ""
+msgstr "LAB"
 
 #: conjure/views/commands/ui/quantize.ui:59
 msgid "XYZ"
-msgstr ""
+msgstr "XYZ"
 
 #: conjure/views/commands/ui/quantize.ui:60
 msgid "YCbCr"
-msgstr ""
+msgstr "YCbCr"
 
 #: conjure/views/commands/ui/quantize.ui:61
 msgid "YCC"
-msgstr ""
+msgstr "YCC"
 
 #: conjure/views/commands/ui/quantize.ui:62
 msgid "YIQ"
-msgstr ""
+msgstr "YIQ"
 
 #: conjure/views/commands/ui/quantize.ui:63
 msgid "YPbPr"
-msgstr ""
+msgstr "YPbPr"
 
 #: conjure/views/commands/ui/quantize.ui:64
 msgid "YUV"
-msgstr ""
+msgstr "YUV"
 
 #: conjure/views/commands/ui/quantize.ui:65
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: conjure/views/commands/ui/quantize.ui:66
 msgid "sRGB"
-msgstr ""
+msgstr "sRGB"
 
 #: conjure/views/commands/ui/quantize.ui:67
 msgid "HSB"
-msgstr ""
+msgstr "HSB"
 
 #: conjure/views/commands/ui/quantize.ui:68
 msgid "HSL"
-msgstr ""
+msgstr "HSL"
 
 #: conjure/views/commands/ui/quantize.ui:69
 msgid "HWB"
-msgstr ""
+msgstr "HWB"
 
 #: conjure/views/commands/ui/quantize.ui:70
 msgid "Rec.601 YCbCr"
-msgstr ""
+msgstr "Rec.601 YCbCr"
 
 #: conjure/views/commands/ui/quantize.ui:71
 msgid "Rec.709 YCbCr"
-msgstr ""
+msgstr "Rec.709 YCbCr"
 
 #: conjure/views/commands/ui/quantize.ui:72
-#, fuzzy
-#| msgid "Low"
 msgid "Log"
-msgstr "Weinig"
+msgstr "Log"
 
 #: conjure/views/commands/ui/quantize.ui:73
 msgid "CMY"
-msgstr ""
+msgstr "CMY"
 
 #: conjure/views/commands/ui/quantize.ui:74
 msgid "Luv"
-msgstr ""
+msgstr "Luv"
 
 #: conjure/views/commands/ui/quantize.ui:75
 msgid "HCL"
-msgstr ""
+msgstr "HCL"
 
 #: conjure/views/commands/ui/quantize.ui:76
 msgid "LCH"
-msgstr ""
+msgstr "LCH"
 
 #: conjure/views/commands/ui/quantize.ui:77
 msgid "LMS"
-msgstr ""
+msgstr "LMS"
 
 #: conjure/views/commands/ui/quantize.ui:78
 msgid "LCHab"
-msgstr ""
+msgstr "LCHab"
 
 #: conjure/views/commands/ui/quantize.ui:79
 msgid "LCHuv"
-msgstr ""
+msgstr "LCHuv"
 
 #: conjure/views/commands/ui/quantize.ui:80
 msgid "scRGB"
-msgstr ""
+msgstr "scRGB"
 
 #: conjure/views/commands/ui/quantize.ui:81
 msgid "HSI"
-msgstr ""
+msgstr "HSI"
 
 #: conjure/views/commands/ui/quantize.ui:82
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: conjure/views/commands/ui/quantize.ui:83
 msgid "HCLp"
-msgstr ""
+msgstr "HCLp"
 
 #: conjure/views/commands/ui/quantize.ui:84
 msgid "xyY"
-msgstr ""
+msgstr "xyY"
 
 #: conjure/views/commands/ui/quantize.ui:85
 msgid "YDbDr"
-msgstr ""
+msgstr "YDbDr"
 
 #: conjure/views/commands/ui/quantize.ui:107
 msgid "The target number of colors to reduce the image to."
@@ -852,35 +846,27 @@ msgstr "Drempelwaardemethode"
 
 #: conjure/views/commands/ui/auto_threshold.ui:24
 msgid "Kapur"
-msgstr ""
+msgstr "Kapur"
 
 #: conjure/views/commands/ui/auto_threshold.ui:25
 msgid "Otsu"
-msgstr ""
+msgstr "Otsu"
 
 #: conjure/views/commands/ui/auto_threshold.ui:26
-#, fuzzy
-#| msgid "Angle"
 msgid "Triangle"
-msgstr "Hoek"
+msgstr "Driehoek"
 
 #: conjure/views/commands/ui/thresholds.ui:16
-#, fuzzy
-#| msgid "Threshold"
 msgid "Adaptive Threshold"
-msgstr "Drempelwaarde"
+msgstr "Aanpasbare drempelwaarde"
 
 #: conjure/views/commands/ui/thresholds.ui:17
-#, fuzzy
-#| msgid "Threshold"
 msgid "Auto Threshold"
-msgstr "Drempelwaarde"
+msgstr "Automatische drempelwaarde"
 
 #: conjure/views/commands/ui/thresholds.ui:18
-#, fuzzy
-#| msgid "Threshold"
 msgid "Black Threshold"
-msgstr "Drempelwaarde"
+msgstr "Zwarte drempelwaarde"
 
 #: conjure/views/commands/ui/thresholds.ui:19
 #: conjure/views/commands/ui/color_threshold.ui:13
@@ -889,22 +875,16 @@ msgstr "Kleurdrempelwaarde"
 
 #. <item translatable="yes">Ordered Threshold</item>
 #: conjure/views/commands/ui/thresholds.ui:21
-#, fuzzy
-#| msgid "Threshold"
 msgid "Random Threshold"
-msgstr "Drempelwaarde"
+msgstr "Willekeurige drempelwaarde"
 
 #: conjure/views/commands/ui/thresholds.ui:22
-#, fuzzy
-#| msgid "Threshold"
 msgid "Range Threshold"
-msgstr "Drempelwaarde"
+msgstr "Drempelwaardebereik"
 
 #: conjure/views/commands/ui/thresholds.ui:23
-#, fuzzy
-#| msgid "Threshold"
 msgid "White Threshold"
-msgstr "Drempelwaarde"
+msgstr "Witte drempelwaarde"
 
 #: conjure/views/commands/ui/color_threshold_start_stop.ui:13
 msgid "Start Color"
@@ -1032,193 +1012,183 @@ msgstr "Toepassen"
 
 #: conjure/views/ui/command_panel.ui:47
 msgid "Select Command"
-msgstr ""
+msgstr "Kies een opdracht"
 
 #. 0
 #: conjure/views/ui/command_panel.ui:48
 msgid "Resize"
-msgstr ""
+msgstr "Grootte aanpassen"
 
 #. 1
 #: conjure/views/ui/command_panel.ui:49
 msgid "Crop"
-msgstr ""
+msgstr "Bijsnijden"
 
 #. 2
 #. <item translatable="yes">Transform</item>
 #. Commented Out
 #: conjure/views/ui/command_panel.ui:51
 msgid "Seam Carving"
-msgstr ""
+msgstr "Naadloos bijsnijden"
 
 #. 3
 #: conjure/views/ui/command_panel.ui:52
 msgid "Blur"
-msgstr ""
+msgstr "Vervagen"
 
 #. 4
 #: conjure/views/ui/command_panel.ui:53
 msgid "Despeckle"
-msgstr ""
+msgstr "Ontspikkelen"
 
 #. 5
 #: conjure/views/ui/command_panel.ui:54
 msgid "Edge"
-msgstr ""
+msgstr "Rand"
 
 #. 6
 #: conjure/views/ui/command_panel.ui:55
 msgid "Emboss"
-msgstr ""
+msgstr "Reliëf"
 
 #. 7
 #: conjure/views/ui/command_panel.ui:56
 msgid "Kuwahara"
-msgstr ""
+msgstr "Kuwahara"
 
 #. 8
 #: conjure/views/ui/command_panel.ui:57
 msgid "Shade"
-msgstr ""
+msgstr "Schaduw"
 
 #. 9
 #: conjure/views/ui/command_panel.ui:58
 msgid "Sharpen"
-msgstr ""
+msgstr "Verscherpen"
 
 #. 10
 #: conjure/views/ui/command_panel.ui:59
 msgid "Spread"
-msgstr ""
+msgstr "Verspreiden"
 
 #. 11
 #: conjure/views/ui/command_panel.ui:60
-#, fuzzy
-#| msgid "Noise"
 msgid "Add Noise"
-msgstr "Ruis"
+msgstr "Ruis toevoegen"
 
 #. 12
 #: conjure/views/ui/command_panel.ui:61
 msgid "Blueshift"
-msgstr ""
+msgstr "Blauwverschuiving"
 
 #. 13
 #: conjure/views/ui/command_panel.ui:62
 msgid "Charcoal"
-msgstr ""
+msgstr "Houtskool"
 
 #. 14
 #. <item translatable="yes">Color Matrix</item>
 #. Commented Out
 #: conjure/views/ui/command_panel.ui:64
-#, fuzzy
-#| msgid "Color"
 msgid "Colorize"
-msgstr "Kleur"
+msgstr "Inkleuren"
 
 #. 15
 #: conjure/views/ui/command_panel.ui:65
-#, fuzzy
-#| msgid "X"
 msgid "FX"
-msgstr "X"
+msgstr "FX"
 
 #. 16
 #: conjure/views/ui/command_panel.ui:66
 msgid "Implode"
-msgstr ""
+msgstr "Imploderen"
 
 #. 17
 #: conjure/views/ui/command_panel.ui:67
 msgid "Polaroid"
-msgstr ""
+msgstr "Polaroid"
 
 #. 18
 #: conjure/views/ui/command_panel.ui:68
 msgid "Sepia Tone"
-msgstr ""
+msgstr "Sepia"
 
 #. 19
 #: conjure/views/ui/command_panel.ui:69
 msgid "Sketch"
-msgstr ""
+msgstr "Schets"
 
 #. 20
 #: conjure/views/ui/command_panel.ui:70
 msgid "Solarize"
-msgstr ""
+msgstr "Solariseren"
 
 #. 21
 #. <item translatable="yes">Stereogram</item>
 #. Commented Out
 #: conjure/views/ui/command_panel.ui:72
 msgid "Swirl"
-msgstr ""
+msgstr "Werveling"
 
 #. 22
 #: conjure/views/ui/command_panel.ui:73
 msgid "Tint"
-msgstr ""
+msgstr "Tint"
 
 #. 23
 #: conjure/views/ui/command_panel.ui:74
 msgid "Vignette"
-msgstr ""
+msgstr "Vignettering"
 
 #. 24
 #: conjure/views/ui/command_panel.ui:75
 msgid "Wave"
-msgstr ""
+msgstr "Golf"
 
 #. 25
 #: conjure/views/ui/command_panel.ui:76
 msgid "Wavelet Denoise"
-msgstr ""
+msgstr "Golf ontspikkelen"
 
 #. 26
 #: conjure/views/ui/command_panel.ui:77
 msgid "Enhance"
-msgstr ""
+msgstr "Verbeteren"
 
 #. 27
 #: conjure/views/ui/command_panel.ui:78
 msgid "Flip"
-msgstr ""
+msgstr "Spiegelen"
 
 #. 28
 #: conjure/views/ui/command_panel.ui:79
 msgid "Flop"
-msgstr ""
+msgstr "Flop"
 
 #. 29
 #: conjure/views/ui/command_panel.ui:80
-#, fuzzy
-#| msgid "Caption"
 msgid "Rotation"
-msgstr "Bijschrift"
+msgstr "Draaien"
 
 #. 31
 #: conjure/views/ui/command_panel.ui:82
 msgid "KMeans"
-msgstr ""
+msgstr "KMeans"
 
 #. 32
 #: conjure/views/ui/command_panel.ui:83
 msgid "Posterize"
-msgstr ""
+msgstr "Postereffect"
 
 #. 33
 #: conjure/views/ui/command_panel.ui:84
 msgid "Quantize"
-msgstr ""
+msgstr "Kwantiseren"
 
 #. 34
 #: conjure/views/ui/command_panel.ui:85
-#, fuzzy
-#| msgid "Dither"
 msgid "Ordered Dither"
-msgstr "Dither"
+msgstr "Dotteren"
 
 #: conjure/views/ui/save_dialog.ui:6
 msgid "Save Image?"
