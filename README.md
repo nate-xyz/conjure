@@ -24,6 +24,30 @@ by using this command:
 
 <a href="https://flathub.org/apps/details/io.github.nate_xyz.Conjure"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" width="200"/></a>
 
+## Nix
+### The easiest way to install package
+
+Install `nix` package manager:
+```bash
+sh <(curl -L https://nixos.org/nix/install) --daemon
+```
+
+Add `unstable` channel:
+```bash
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable unstable
+nix-channel --update
+```
+Install `conjure` package:
+```bash
+nix-env -iA unstable.conjure
+```
+Run:
+```bash
+conjure
+```
+### The best way to install package
+
+If you want the best experience and all the features of nix, you need to follow a few steps described in [this](https://github.com/sund3RRR/nix-on-generic-linux) repository.
 
 Screenshots
 --------------
